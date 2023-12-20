@@ -15,9 +15,15 @@ if response.status_code == 200:
     # Specify the key you want to display
     target_key = "text"  # Replace with your specific key
 
+    # Get the value for the specified key
+    value = data.get(target_key, 'Key not found')
+
+    # Replace single quotes with double single quotes
+    value_without_backticks = value.replace("`", "'")
+
     # Display the value for the specified key
     # st.write(f"## Displaying Data from a URL")
-    st.write(f"{data.get(target_key, 'Key not found')}")
+    st.text(f"{value_without_backticks}")
 
 else:
     st.write(f"Failed to fetch data from the URL. Status code: {response.status_code}")
