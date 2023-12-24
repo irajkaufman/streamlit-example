@@ -3,5 +3,5 @@ pandas
 streamlit
 gspread
 oauth2client
-psycopg2
+psycopg2-binary
 toml
