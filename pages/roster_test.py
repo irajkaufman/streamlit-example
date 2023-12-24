@@ -1,5 +1,6 @@
 import streamlit as st
 import psycopg2
+import sqlalchemy
 import toml
 
 # Read database connection details from the .toml file
