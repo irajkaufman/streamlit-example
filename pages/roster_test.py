@@ -1,3 +1,15 @@
+import streamlit as st
+from sqlalchemy import create_engine, text
+
+conn = st.connection("postgresql", type="sql")
+player = "11 - Micah Moo"
+points_scored = 3
+insert_query = text(f"INSERT INTO scoring (player, points_scored) VALUES (:player, :points_scored);")
+if st.button("Triple!"):
+    with conn.session as session:
+        session.execute(insert_query, {"player": player, "points_scored": points_scored})
+        session.commit()
+
 # import streamlit as st
 # import psycopg2
 # import sqlalchemy
