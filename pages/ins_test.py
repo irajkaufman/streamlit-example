@@ -23,9 +23,10 @@ def main():
     if 'score' not in st.session_state:
         st.session_state.score = 0
 
-    # st.write(st.session_state.score)
-    st.write('')
-    st.write('')
+    # Store the initial value of widgets in session state
+    if "visibility" not in st.session_state:
+        st.session_state.visibility = "collapsed"
+        st.session_state.disabled = False
 
     free_throw = 1
     jumper = 2
@@ -37,26 +38,58 @@ def main():
 
     st.title("Roster Dropdowns from Hoops DB")
 
-    col4, col5 = st.columns(2)
-    col6, col7 = st.columns(2)
-    col8, col9 = st.columns(2)
-    col10, col11 = st.columns(2)
-    col12, col13 = st.columns(2)
+    col4, col5, col3a = st.columns(3)
+    col6, col7, col3b = st.columns(3)
+    col8, col9, col3c = st.columns(3)
+    col10, col11, col3d = st.columns(3)
+    col12, col13, col3e = st.columns(3)
 
     # Perform query.
     df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster;", ttl="10m")
 
     # Create a Streamlit dropdown with the read data
-    selected_option1 = col4.selectbox("Select 5 Players:", df)
-    scorer1 = col5.checkbox('Scored')
-    selected_option2 = col6.selectbox("", df)
-    scorer2 = col7.checkbox('')
-    selected_option3 = col8.selectbox(" ", df)
-    scorer3 = col9.checkbox(' ')
-    selected_option4 = col10.selectbox("  ", df)
-    scorer4 = col11.checkbox('  ')
-    selected_option5 = col12.selectbox("   ", df)
-    scorer5 = col13.checkbox('   ')
+    with col4:
+        st.write("Select 5 Players:")
+        selected_option1 = st.selectbox("Player 1:", df,
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+    with col5:
+        st.write("Scored:")
+        scorer1 = st.checkbox("Scored 1",
+                              label_visibility=st.session_state.visibility,
+                              disabled=st.session_state.disabled,)
+    with col6:
+        selected_option2 = st.selectbox("Player 2:", df,
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+    with col7:
+        scorer2 = st.checkbox("Scored 2",
+                              label_visibility=st.session_state.visibility,
+                              disabled=st.session_state.disabled,)
+    with col8:
+        selected_option3 = st.selectbox("Player 3:", df,
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+    with col9:
+        scorer3 = st.checkbox("Scored 3",
+                              label_visibility=st.session_state.visibility,
+                              disabled=st.session_state.disabled,)
+    with col10:
+        selected_option4 = st.selectbox("Player 4:", df,
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+    with col11:
+        scorer4 = st.checkbox("Scored 4",
+                              label_visibility=st.session_state.visibility,
+                              disabled=st.session_state.disabled,)
+    with col12:
+        selected_option5 = st.selectbox("Player 5:", df,
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+    with col13:
+        scorer5 = st.checkbox("Scored 5",
+                              label_visibility=st.session_state.visibility,
+                              disabled=st.session_state.disabled,)
 
     insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
                          f"VALUES (:selected_option1, :current_shot, :team, :scorer1);")
@@ -72,11 +105,19 @@ def main():
     if col1.button('Free Throw'):
         current_shot = free_throw
         st.session_state.score += free_throw
+        if "scorer1" in st.session_state:
+            st.session_state.scorer1 = False
+        if "scorer2" in st.session_state:
+            st.session_state.scorer2 = False
+        if "scorer3" in st.session_state:
+            st.session_state.scorer3 = False
+        if "scorer4" in st.session_state:
+            st.session_state.scorer4 = False
+        if "scorer5" in st.session_state:
+            st.session_state.scorer5 = False
         with conn.session as session:
-            import ipdb
-            ipdb.set_trace()
-            # session.execute(insert_query1, {"player": selected_option1, "points_scored": current_shot,
-            #                                 "team": team, "scorer": scorer1})
+            # import ipdb
+            # ipdb.set_trace()
             session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
                                             "team": team, "scorer1": scorer1})
             session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
