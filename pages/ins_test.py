@@ -47,6 +47,13 @@ def main():
     # Perform query.
     df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster;", ttl="10m")
 
+    # Establish the Time Elapsed text box input
+    with col3a:
+        st.write("Enter Time Elapsed (min : sec)")
+        vid_time = st.text_input("(per Hudl min|sec)",
+                                        label_visibility=st.session_state.visibility,
+                                        disabled=st.session_state.disabled,)
+        
     # Create a Streamlit dropdown with the read data
     with col4:
         st.write("Select 5 Players:")
@@ -91,16 +98,16 @@ def main():
                               label_visibility=st.session_state.visibility,
                               disabled=st.session_state.disabled,)
 
-    insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
-                         f"VALUES (:selected_option1, :current_shot, :team, :scorer1);")
-    insert_query2 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
-                         f"VALUES (:selected_option2, :current_shot, :team, :scorer2);")
-    insert_query3 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
-                         f"VALUES (:selected_option3, :current_shot, :team, :scorer3);")
-    insert_query4 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
-                         f"VALUES (:selected_option4, :current_shot, :team, :scorer4);")
-    insert_query5 = text(f"INSERT INTO scoring (player, points_scored, team, scorer) "
-                         f"VALUES (:selected_option5, :current_shot, :team, :scorer5);")
+    insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time) "
+                         f"VALUES (:selected_option1, :current_shot, :team, :scorer1, :vid_time);")
+    insert_query2 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time) "
+                         f"VALUES (:selected_option2, :current_shot, :team, :scorer2, :vid_time);")
+    insert_query3 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time) "
+                         f"VALUES (:selected_option3, :current_shot, :team, :scorer3, :vid_time);")
+    insert_query4 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time) "
+                         f"VALUES (:selected_option4, :current_shot, :team, :scorer4, :vid_time);")
+    insert_query5 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time) "
+                         f"VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time);")
 
     if col1.button('Free Throw'):
         current_shot = free_throw
@@ -119,15 +126,15 @@ def main():
             # import ipdb
             # ipdb.set_trace()
             session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
-                                            "team": team, "scorer1": scorer1})
+                                            "team": team, "scorer1": scorer1, "vid_time": vid_time})
             session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
-                                            "team": team, "scorer2": scorer2})
+                                            "team": team, "scorer2": scorer2, "vid_time": vid_time})
             session.execute(insert_query3, {"selected_option3": selected_option3, "current_shot": current_shot,
-                                            "team": team, "scorer3": scorer3})
+                                            "team": team, "scorer3": scorer3, "vid_time": vid_time})
             session.execute(insert_query4, {"selected_option4": selected_option4, "current_shot": current_shot,
-                                            "team": team, "scorer4": scorer4})
+                                            "team": team, "scorer4": scorer4, "vid_time": vid_time})
             session.execute(insert_query5, {"selected_option5": selected_option5, "current_shot": current_shot,
-                                            "team": team, "scorer5": scorer5})
+                                            "team": team, "scorer5": scorer5, "vid_time": vid_time})
             session.commit()
 
     if col2.button('Jumper'):
@@ -135,15 +142,15 @@ def main():
         st.session_state.score += jumper
         with conn.session as session:
             session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
-                                            "team": team, "scorer1": scorer1})
+                                            "team": team, "scorer1": scorer1, "vid_time": vid_time})
             session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
-                                            "team": team, "scorer2": scorer2})
+                                            "team": team, "scorer2": scorer2, "vid_time": vid_time})
             session.execute(insert_query3, {"selected_option3": selected_option3, "current_shot": current_shot,
-                                            "team": team, "scorer3": scorer3})
+                                            "team": team, "scorer3": scorer3, "vid_time": vid_time})
             session.execute(insert_query4, {"selected_option4": selected_option4, "current_shot": current_shot,
-                                            "team": team, "scorer4": scorer4})
+                                            "team": team, "scorer4": scorer4, "vid_time": vid_time})
             session.execute(insert_query5, {"selected_option5": selected_option5, "current_shot": current_shot,
-                                            "team": team, "scorer5": scorer5})
+                                            "team": team, "scorer5": scorer5, "vid_time": vid_time})
             session.commit()
 
     if col3.button('Triple!'):
@@ -151,15 +158,15 @@ def main():
         st.session_state.score += triple
         with conn.session as session:
             session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
-                                            "team": team, "scorer1": scorer1})
+                                            "team": team, "scorer1": scorer1, "vid_time": vid_time})
             session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
-                                            "team": team, "scorer2": scorer2})
+                                            "team": team, "scorer2": scorer2, "vid_time": vid_time})
             session.execute(insert_query3, {"selected_option3": selected_option3, "current_shot": current_shot,
-                                            "team": team, "scorer3": scorer3})
+                                            "team": team, "scorer3": scorer3, "vid_time": vid_time})
             session.execute(insert_query4, {"selected_option4": selected_option4, "current_shot": current_shot,
-                                            "team": team, "scorer4": scorer4})
+                                            "team": team, "scorer4": scorer4, "vid_time": vid_time})
             session.execute(insert_query5, {"selected_option5": selected_option5, "current_shot": current_shot,
-                                            "team": team, "scorer5": scorer5})
+                                            "team": team, "scorer5": scorer5, "vid_time": vid_time})
             session.commit()
 
 
