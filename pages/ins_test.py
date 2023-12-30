@@ -171,7 +171,9 @@ def main():
                                            label_visibility=st.session_state.visibility,
                                            disabled=st.session_state.disabled,)
 
-
+    st.write("")
+    st.write("NOTE: 'Time Elapsed' and 'Opponent' are required fields")
+    
     insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
                          f"VALUES (:selected_option1, :current_shot, :team, :scorer1, :vid_time, "
                          f":selected_option_opp);")
