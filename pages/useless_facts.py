@@ -7,6 +7,10 @@ url = "https://uselessfacts.jsph.pl/api/v2/facts/random"
 # Fetch data from the URL
 response = requests.get(url)
 
+# Create button to request a new fact
+if st.button('Refresh Fact'):
+    response = requests.get(url)
+
 # Check if the request was successful
 if response.status_code == 200:
     # Parse JSON data
