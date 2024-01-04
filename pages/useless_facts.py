@@ -27,7 +27,7 @@ if response.status_code == 200:
 
     # Display the value for the specified key
     # st.write(f"## Displaying Data from a URL")
-    st.text(f"{value_without_backticks}")
+    st.markdown(f"{value_without_backticks}")
 
 else:
     st.write(f"Failed to fetch data from the URL. Status code: {response.status_code}")
