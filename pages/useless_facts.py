@@ -8,7 +8,7 @@ url = "https://uselessfacts.jsph.pl/api/v2/facts/random"
 response = requests.get(url)
 
 # Create button to request a new fact
-if st.button('Refresh Fact'):
+if st.button('Display NEW Fact'):
     response = requests.get(url)
 
 # Check if the request was successful
