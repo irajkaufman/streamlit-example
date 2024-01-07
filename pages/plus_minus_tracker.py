@@ -1,4 +1,3 @@
-import datetime
 import streamlit as st
 from sqlalchemy import create_engine, text
 
@@ -36,6 +35,7 @@ def main():
                  selected_option4,
                  selected_option5,
                  selected_option_opp,
+                 schedule_id,
                  vid_time,
                  button_clicked)
         print("Re-setting checkboxes, BEFORE")
@@ -62,7 +62,20 @@ def main():
     team = 'Campolindo'
     button_clicked = False
 
+    col_a, col_b, col_c = st.columns(3)
+
+    st.write("")
+
     col1, col2, col3 = st.columns(3)
+
+    if col1.button("Free Throw", key='ft', on_click=log_shot_then_clear_selection, args=[free_throw, True]):
+        pass
+
+    if col2.button("Jumper", key='jmp', on_click=log_shot_then_clear_selection, args=[jumper, True]):
+        pass
+
+    if col3.button("Triple!", key='tri', on_click=log_shot_then_clear_selection, args=[triple, True]):
+        pass
 
     # st.title("Roster Dropdowns from Hoops DB")
 
@@ -95,17 +108,47 @@ def main():
     #     scorer5 = st.session_state.scorer5
     #     scorer_opp = st.session_state.scorer_opp
 
-    # Perform query.
+    # Perform queries.
+
+    # My Team
+    mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
+
+    # My Team's Players
     df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
 
-    # opponent_team = ""
+    # Opponent Team
+    ot = conn.query("SELECT DISTINCT opponent FROM schedule s;", ttl="10m")
 
-    df_opp = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster "
-                        "where team = 'De La Salle';", ttl="10m")
+    with col_a:
+        my_team = st.selectbox("My Team", mt)
+
+    with col_b:
+        opponent_team = st.selectbox("Opponent Team", ot)
+
+    gd = conn.query(f"SELECT DISTINCT game_date FROM schedule s where team = '{my_team}' "
+                    f"and opponent = '{opponent_team}';", ttl="10m")
+
+    # Opponent's Team's Players
+    df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player FROM roster "
+                        f"where team = '{opponent_team}';", ttl="10m")
+
+    with col_c:
+        game_date = st.selectbox("Game Date", gd)
+
+# --->>> NEED TO ADD THIS FIELD TO THE SCORING INSERT STATEMENT: <<<---
+    sid = conn.query(f"SELECT schedule_id FROM schedule WHERE team = '{my_team}' "
+                     f"and opponent = '{opponent_team}' and game_date = '{game_date}';", ttl="10m")
+
+    if not sid.empty:
+        # Extract the 'schedule_id' column
+        schedule_id = int(sid['schedule_id'].iloc[0])
+
+        # Display the extracted values
+        # st.write(f"Captured schedule_ids: {schedule_id}")
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
-        st.write("Select 5 Players:")
+        st.write("My Team's 5 Players:")
         selected_option1 = st.selectbox("Player 1:", df,
                                         label_visibility=st.session_state.visibility,
                                         disabled=st.session_state.disabled,)
@@ -120,7 +163,7 @@ def main():
                     value=False)
 
     # Time Elapsed text box input and align with Player 1
-    with col4a:
+    with col3a:
         st.write("Time Elapsed (min : sec)")
         vid_time = st.text_input("(per Hudl min|sec)",
                                  label_visibility=st.session_state.visibility,
@@ -138,9 +181,9 @@ def main():
                     key="scorer2",
                     value=False)
 
-    # Opponent Team Label and align with Players 2
-    with col4b:
-        st.write("Opponent:")
+    # Opponent Team Label and align with Players 2 (Moved to TOP of Page)
+    # with col4b:
+    #     st.write("Opponent:")
 
     with col8:
         selected_option3 = st.selectbox("Player 3:", df,
@@ -153,12 +196,12 @@ def main():
                     key="scorer3",
                     value=False)
 
-    # Opponent Team text box input and align with Player 3
-    with col4c:
-        opponent_team = st.text_input("Enter Opponent Team Name",
-                                      label_visibility=st.session_state.visibility,
-                                      disabled=st.session_state.disabled,
-                                      value='De La Salle')
+    # Opponent Team text box input and align with Player 3 (Moved to TOP of Page)
+    # with col4c:
+    #     opponent_team = st.text_input("Enter Opponent Team Name",
+    #                                   label_visibility=st.session_state.visibility,
+    #                                   disabled=st.session_state.disabled,
+    #                                   value='De La Salle')
 
     with col10:
         selected_option4 = st.selectbox("Player 4:", df,
@@ -171,13 +214,13 @@ def main():
                     key="scorer4",
                     value=False)
 
-    # Opponent Scorer Label and align with Players 4
-    with col3d:
-        st.write("Scored:")
-
     # Opponent Player Label and align with Players 4
-    with col4d:
+    with col3d:
         st.write("Opponent Player #:")
+
+    # Opponent Scorer Label and align with Players 4
+    with col4d:
+        st.write("Scored:")
 
     with col12:
         selected_option5 = st.selectbox("Player 5:", df,
@@ -190,49 +233,40 @@ def main():
                     key="scorer5",
                     value=False)
 
-    # Opponent Player checkbox and align with Player 5
+    # Opponent Player dropdown and align with Player 5
     with col3e:
+        selected_option_opp = st.selectbox("Opponent Player:", df_opp,
+                                           label_visibility=st.session_state.visibility,
+                                           disabled=st.session_state.disabled)
+
+    # Opponent Player checkbox and align with Player 5
+    with col4e:
         st.checkbox("Opponent Scored",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="scorer_opp",
                     value=False)
 
-    # Opponent Player dropdown and align with Player 5
-    with col4e:
-        selected_option_opp = st.selectbox("Opponent Player:", df_opp,
-                                           label_visibility=st.session_state.visibility,
-                                           disabled=st.session_state.disabled)
+    # st.write("")
+    # st.write("NOTE: 'Time Elapsed' and 'Opponent' are required fields")
 
-    st.write("")
-    st.write("NOTE: 'Time Elapsed' and 'Opponent' are required fields")
+    insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
+                         f"schedule_id) VALUES (:selected_option1, :current_shot, :team, :scorer1, :vid_time, "
+                         f":selected_option_opp, :schedule_id);")
+    insert_query2 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
+                         f"schedule_id) VALUES (:selected_option2, :current_shot, :team, :scorer2, :vid_time, "
+                         f":selected_option_opp, :schedule_id);")
+    insert_query3 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
+                         f"schedule_id) VALUES (:selected_option3, :current_shot, :team, :scorer3, :vid_time, "
+                         f":selected_option_opp, :schedule_id);")
+    insert_query4 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
+                         f"schedule_id) VALUES (:selected_option4, :current_shot, :team, :scorer4, :vid_time, "
+                         f":selected_option_opp, :schedule_id);")
+    insert_query5 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
+                         f"schedule_id) VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
+                         f":selected_option_opp, :schedule_id);")
 
-    insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
-                         f"VALUES (:selected_option1, :current_shot, :team, :scorer1, :vid_time, "
-                         f":selected_option_opp);")
-    insert_query2 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
-                         f"VALUES (:selected_option2, :current_shot, :team, :scorer2, :vid_time, "
-                         f":selected_option_opp);")
-    insert_query3 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
-                         f"VALUES (:selected_option3, :current_shot, :team, :scorer3, :vid_time, "
-                         f":selected_option_opp);")
-    insert_query4 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
-                         f"VALUES (:selected_option4, :current_shot, :team, :scorer4, :vid_time, "
-                         f":selected_option_opp);")
-    insert_query5 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player) "
-                         f"VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
-                         f":selected_option_opp);")
-
-    if col1.button("Free Throw", key='ft', on_click=log_shot_then_clear_selection, args=[free_throw, True]):
-        pass
-
-    if col2.button("Jumper", key='jmp', on_click=log_shot_then_clear_selection, args=[jumper, True]):
-        pass
-
-    if col3.button("Triple!", key='tri', on_click=log_shot_then_clear_selection, args=[triple, True]):
-        pass
-
-    st.write(st.session_state)
+    # st.write(st.session_state)
 
 
 def log_shot(current_shot,
@@ -249,6 +283,7 @@ def log_shot(current_shot,
              selected_option4,
              selected_option5,
              selected_option_opp,
+             schedule_id,
              vid_time,
              button_clicked):
     print(f"In the callback function {current_shot}")
@@ -268,19 +303,19 @@ def log_shot(current_shot,
                 # ipdb.set_trace()
                 session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
                                                 "team": team, "scorer1": st.session_state.scorer1, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp})
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
                                                 "team": team, "scorer2": st.session_state.scorer2, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp})
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.execute(insert_query3, {"selected_option3": selected_option3, "current_shot": current_shot,
                                                 "team": team, "scorer3": st.session_state.scorer3, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp})
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.execute(insert_query4, {"selected_option4": selected_option4, "current_shot": current_shot,
                                                 "team": team, "scorer4": st.session_state.scorer4, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp})
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.execute(insert_query5, {"selected_option5": selected_option5, "current_shot": current_shot,
                                                 "team": team, "scorer5": st.session_state.scorer5, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp})
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.commit()
             # st.rerun()
             # st.session_state.k1.value = False
