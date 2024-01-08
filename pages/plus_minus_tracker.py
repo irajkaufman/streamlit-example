@@ -117,20 +117,26 @@ def main():
     df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
 
     # Opponent Team
-    ot = conn.query("SELECT DISTINCT opponent FROM schedule s;", ttl="10m")
+    ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM schedule;", ttl="10m")
 
     with col_a:
         my_team = st.selectbox("My Team", mt)
 
     with col_b:
         opponent_team = st.selectbox("Opponent Team", ot)
+        # st.write(opponent_team)
 
-    gd = conn.query(f"SELECT DISTINCT game_date FROM schedule s where team = '{my_team}' "
+    gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
                     f"and opponent = '{opponent_team}';", ttl="10m")
+                    # f"and opponent = 'Bishop O''Dowd';", ttl="10m")
 
     # Opponent's Team's Players
-    df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player FROM roster "
-                        f"where team = '{opponent_team}';", ttl="10m")
+    df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player "
+                        f"FROM roster "
+                        f"where team = '{opponent_team}' "
+                        f"order by jersey_number;", ttl="10m")
+                        # f"where team = 'Bishop O''''Dowd';", ttl="10m")
+    # st.write(df_opp)
 
     with col_c:
         game_date = st.selectbox("Game Date", gd)
@@ -169,6 +175,7 @@ def main():
                                  label_visibility=st.session_state.visibility,
                                  disabled=st.session_state.disabled,
                                  value='00:00')
+        vid_time = '00:'+vid_time
 
     with col6:
         selected_option2 = st.selectbox("Player 2:", df,
@@ -238,6 +245,7 @@ def main():
         selected_option_opp = st.selectbox("Opponent Player:", df_opp,
                                            label_visibility=st.session_state.visibility,
                                            disabled=st.session_state.disabled)
+        # st.write(selected_option_opp)
 
     # Opponent Player checkbox and align with Player 5
     with col4e:
