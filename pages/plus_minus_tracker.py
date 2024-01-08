@@ -154,7 +154,7 @@ def main():
 
     mp = conn.query(f"select sum(points_scored) as my_team_points"
                     f"  from ("
-                    f"select distinct p.created_date, p.points_scored"
+                    f"select distinct p.video_time, p.points_scored"
                     f"  from scoring p"
                     f"  join schedule s"
                     f"    on p.schedule_id = s.schedule_id"
@@ -162,13 +162,16 @@ def main():
                     f"   and s.team = '{my_team}'"
                     f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
 
-    with col_m:
-        my_points = int(mp['my_team_points'].iloc[0])
-        st.write('### ', my_points)
+    if not mp.empty:
+        with col_m:
+            my_points = mp['my_team_points'].iloc[0]
+            st.write('### ', my_points)
+    else:
+        st.write('###')
 
     op = conn.query(f"select sum(points_scored)*-1 as opponent_team_points"
                     f"  from ("
-                    f"select distinct p.created_date, p.points_scored"
+                    f"select distinct p.video_time, p.points_scored"
                     f"  from scoring p"
                     f"  join schedule s"
                     f"    on p.schedule_id = s.schedule_id"
@@ -176,9 +179,12 @@ def main():
                     f"   and s.team = '{my_team}'"
                     f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
 
-    with col_o:
-        opponent_points = int(op['opponent_team_points'].iloc[0])
-        st.write('### ', opponent_points)
+    if not op.empty:
+        with col_o:
+            opponent_points = op['opponent_team_points'].iloc[0]
+            st.write('### ', opponent_points)
+    else:
+        st.write('###')
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
