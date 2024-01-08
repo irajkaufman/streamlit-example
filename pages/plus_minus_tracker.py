@@ -160,7 +160,7 @@ def main():
                     f"    on p.schedule_id = s.schedule_id"
                     f" where points_scored > 0"
                     f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
+                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
 
     if not mp.empty:
         with col_m:
@@ -177,7 +177,7 @@ def main():
                     f"    on p.schedule_id = s.schedule_id"
                     f" where points_scored < 0"
                     f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
+                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
 
     if not op.empty:
         with col_o:
