@@ -44,6 +44,7 @@ def main():
                 print("key = ", key)
                 print("st.session_state[key] =", st.session_state[key])
                 st.session_state[key] = False
+                # st.rerun
         print("Re-seting checkboxes, AFTER")
 
     print("Entering Main")
@@ -210,6 +211,7 @@ def main():
                                  disabled=st.session_state.disabled,
                                  value='00:00')
         vid_time = '00:'+vid_time
+        # st.rerun
 
     with col6:
         selected_option2 = st.selectbox("Player 2:", df,
@@ -308,6 +310,26 @@ def main():
                          f"schedule_id) VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
                          f":selected_option_opp, :schedule_id);")
 
+    ts = conn.query(f"select player, p1.team, video_time, points_scored"
+                    f"  from scoring p1"
+                    f"  join schedule s1"
+                    f"  	on p1.schedule_id = s1.schedule_id"
+                    f" where s1.team = '{my_team}' "
+                    f"   and s1.opponent = '{opponent_team}'"
+                    f"   and scorer = true "
+                    f"UNION "
+                    f"select distinct opponent_player, p2.team, video_time, points_scored"
+                    f"  from scoring p2"
+                    f"  join schedule s2"
+                    f"  	on p2.schedule_id = s2.schedule_id"
+                    f" where s2.team = '{my_team}' "
+                    f"   and s2.opponent = '{opponent_team}'"
+                    f"   and opponent_player != ''"
+                    f"  order by video_time;", ttl="5")
+
+    st.write("")
+    st.write("")
+    st.dataframe(ts)
     # st.write(st.session_state)
 
 
