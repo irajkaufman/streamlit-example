@@ -63,6 +63,7 @@ def main():
     button_clicked = False
 
     col_a, col_b, col_c = st.columns(3)
+    col_m, col_o, col_z = st.columns(3)
 
     st.write("")
 
@@ -141,7 +142,6 @@ def main():
     with col_c:
         game_date = st.selectbox("Game Date", gd)
 
-# --->>> NEED TO ADD THIS FIELD TO THE SCORING INSERT STATEMENT: <<<---
     sid = conn.query(f"SELECT schedule_id FROM schedule WHERE team = '{my_team}' "
                      f"and opponent = '{opponent_team}' and game_date = '{game_date}';", ttl="10m")
 
@@ -151,6 +151,34 @@ def main():
 
         # Display the extracted values
         # st.write(f"Captured schedule_ids: {schedule_id}")
+
+    mp = conn.query(f"select sum(points_scored) as my_team_points"
+                    f"  from ("
+                    f"select distinct p.created_date, p.points_scored"
+                    f"  from scoring p"
+                    f"  join schedule s"
+                    f"    on p.schedule_id = s.schedule_id"
+                    f" where points_scored > 0"
+                    f"   and s.team = '{my_team}'"
+                    f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
+
+    with col_m:
+        my_points = int(mp['my_team_points'].iloc[0])
+        st.write('### ', my_points)
+
+    op = conn.query(f"select sum(points_scored)*-1 as opponent_team_points"
+                    f"  from ("
+                    f"select distinct p.created_date, p.points_scored"
+                    f"  from scoring p"
+                    f"  join schedule s"
+                    f"    on p.schedule_id = s.schedule_id"
+                    f" where points_scored < 0"
+                    f"   and s.team = '{my_team}'"
+                    f"   and s.opponent = '{opponent_team}') m;", ttl="10m")
+
+    with col_o:
+        opponent_points = int(op['opponent_team_points'].iloc[0])
+        st.write('### ', opponent_points)
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
