@@ -136,6 +136,7 @@ def main():
     df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player "
                         f"FROM roster "
                         f"where team = '{opponent_team}' "
+                        f"and active = True "
                         f"order by jersey_number;", ttl="10m")
                         # f"where team = 'Bishop O''''Dowd';", ttl="10m")
     # st.write(df_opp)
@@ -205,13 +206,17 @@ def main():
 
     # Time Elapsed text box input and align with Player 1
     with col3a:
-        st.write("Time Elapsed (min : sec)")
+        st.write("Time Elapsed (hr: mi: ss)")
         vid_time = st.text_input("(per Hudl min|sec)",
                                  label_visibility=st.session_state.visibility,
                                  disabled=st.session_state.disabled,
-                                 value='00:00')
-        vid_time = '00:'+vid_time
-        # st.rerun
+                                 value='0:00:00')
+        # vid_time = '00:'+vid_time
+        if len(vid_time) == 7:
+            vid_time = '0' + vid_time
+
+        if len(vid_time) == 5:
+            vid_time = '00:'+vid_time
 
     with col6:
         selected_option2 = st.selectbox("Player 2:", df,
@@ -310,7 +315,10 @@ def main():
                          f"schedule_id) VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
                          f":selected_option_opp, :schedule_id);")
 
-    ts = conn.query(f"select player, p1.team, video_time, points_scored"
+    ts = conn.query(f"SELECT player, team, video_time, points_scored "
+                    f"  FROM ("
+                    f"select player, p1.team, right(to_char(video_time,'HH24:MI:SS'), 7) "
+                    f"       as video_time, points_scored"
                     f"  from scoring p1"
                     f"  join schedule s1"
                     f"  	on p1.schedule_id = s1.schedule_id"
@@ -318,14 +326,15 @@ def main():
                     f"   and s1.opponent = '{opponent_team}'"
                     f"   and scorer = true "
                     f"UNION "
-                    f"select distinct opponent_player, p2.team, video_time, points_scored"
+                    f"select distinct opponent_player, p2.team, right(to_char(video_time,'HH24:MI:SS'), 7) "
+                    f"       as video_time, points_scored"
                     f"  from scoring p2"
                     f"  join schedule s2"
                     f"  	on p2.schedule_id = s2.schedule_id"
                     f" where s2.team = '{my_team}' "
                     f"   and s2.opponent = '{opponent_team}'"
-                    f"   and opponent_player != ''"
-                    f"  order by video_time;", ttl="5")
+                    f"   and opponent_player != '') as x"
+                    f"  order by video_time desc;", ttl="5")
 
     st.write("")
     st.write("")
