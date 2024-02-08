@@ -2,7 +2,7 @@ import streamlit as st
 from sqlalchemy import create_engine, text
 
 # Initialize connection.
-conn = st.connection("postgresql", type="sql")
+conn = st.connection('postgresql', type='sql')
 
 # def score_insert(points_scored: int, team: str = 'Campo'):
 #     """
