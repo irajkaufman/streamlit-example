@@ -5,3 +5,4 @@ gspread
 oauth2client
 toml
 sqlalchemy
+psycopg2-binary
