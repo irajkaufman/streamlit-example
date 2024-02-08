@@ -1,6 +1,6 @@
 import streamlit as st
 from sqlalchemy import create_engine, text
-import psycopg2-binary
+import psycopg2
 
 # Initialize connection.
 conn = st.connection("postgresql", type="sql")
