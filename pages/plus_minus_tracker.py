@@ -342,6 +342,7 @@ def main():
 
     st.write("")
     st.write("")
+    st.write("Scoring Log")
     st.dataframe(ts)
     # st.write(st.session_state)
 
