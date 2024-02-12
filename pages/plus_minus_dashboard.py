@@ -114,8 +114,10 @@ def main():
     else:
         st.write('###')
 
-    ispm = conn.query(f"SELECT player, points_scored, plus_minus, made_fts, made_2s, made_3s, "
-                      f"       points_for, points_against "
+    ispm = conn.query(f"SELECT player as \"   Player\", points_scored as \"Individual Points\", "
+                      f"       plus_minus as \"   +/-\", made_fts as \"Free Throws\", "
+                      f"       made_2s as \"   2s\", made_3s as \"   3s\", "
+                      f"       points_for as \"Team Points\", points_against as \"Opponent Points\" "
                       f"  FROM v_individual_scoring"
                       f" WHERE opponent = '{opponent_team}' "
                       f" ORDER BY points_scored desc, plus_minus", ttl="5")
@@ -133,16 +135,16 @@ def main():
 
     if len(player_checkbox) > 0:
         chk_result = '%'+'%'.join(player_checkbox)+'%'
-        lspm = conn.query(f"SELECT * "
+        lspm = conn.query(f"SELECT on_floor, plus_minus, pts_for,  "
                           f"  FROM v_lineup_scoring"
-                          f" WHERE opponent = '{opponent_team}' "
-                          f"   AND on_floor like '{chk_result}'", ttl="5")
+                          f" WHERE \"Opponent\" = '{opponent_team}' "
+                          f"   AND \"Lineup\" like '{chk_result}'", ttl="5")
         st.dataframe(lspm)
     else:
 
         lspm = conn.query(f"SELECT * "
                           f"  FROM v_lineup_scoring"
-                          f" WHERE opponent = '{opponent_team}' ", ttl="5")
+                          f" WHERE \"Opponent\" = '{opponent_team}' ", ttl="5")
         st.dataframe(lspm)
 
 
