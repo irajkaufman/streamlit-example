@@ -318,7 +318,8 @@ def main():
                          f"schedule_id) VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
                          f":selected_option_opp, :schedule_id);")
 
-    ts = conn.query(f"SELECT player, team, video_time, points_scored "
+    ts = conn.query(f"SELECT player as \"Player\", team as \"Team\", video_time as \"Video Time\", "
+                    f"points_scored as \"Points\" "
                     f"  FROM ("
                     f"select player, p1.team, right(to_char(video_time,'HH24:MI:SS'), 7) "
                     f"       as video_time, points_scored"
