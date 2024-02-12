@@ -2,7 +2,7 @@ import streamlit as st
 from sqlalchemy import create_engine, text
 
 # Initialize connection.
-conn = st.connection('postgresql', type='sql')
+conn = st.connection("postgresql", type="sql")
 
 # def score_insert(points_scored: int, team: str = 'Campo'):
 #     """
@@ -119,13 +119,16 @@ def main():
     df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
 
     # Opponent Team
-    ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM schedule;", ttl="10m")
-
+    # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM schedule;", ttl="10m")
+    ot = conn.query(f"select distinct opponent "
+                    f"  from public.schedule;", ttl="10m")
     with col_a:
         my_team = st.selectbox("My Team", mt)
 
     with col_b:
-        opponent_team = st.selectbox("Opponent Team", ot)
+        # opponent_team = st.selectbox("Opponent Team", ot)
+        opp_team = st.selectbox("Opponent Team", ot)
+        opponent_team = opp_team.replace("'", "''")
         # st.write(opponent_team)
 
     gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
