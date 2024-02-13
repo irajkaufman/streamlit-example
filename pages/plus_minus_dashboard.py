@@ -135,7 +135,7 @@ def main():
 
     if len(player_checkbox) > 0:
         chk_result = '%'+'%'.join(player_checkbox)+'%'
-        lspm = conn.query(f"SELECT on_floor, plus_minus, pts_for,  "
+        lspm = conn.query(f"SELECT * "
                           f"  FROM v_lineup_scoring"
                           f" WHERE \"Opponent\" = '{opponent_team}' "
                           f"   AND \"Lineup\" like '{chk_result}'", ttl="5")
