@@ -36,7 +36,9 @@ def main():
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
     # My Team's Players
-    df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
+# df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
+    df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
+                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = 'Campo';", ttl="10m")
 
     # Opponent Team
     # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM scoring;", ttl="10m")
