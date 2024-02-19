@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, text
 conn = st.connection("postgresql", type="sql")
 
 
-# def score_insert(points_scored: int, team: str = 'Campo'):
+# def score_insert(points_scored: int, team: str = 'Campolindo'):
 #     """
 #     Inserts 5 new records into the scoring table, per the points button that is clicked.
 #
@@ -35,11 +35,6 @@ def main():
     # My Team
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
-    # My Team's Players
-# df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
-    df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
-                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = 'Campo';", ttl="10m")
-
     # Opponent Team
     # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM scoring;", ttl="10m")
     ot = conn.query(f"select distinct sched.opponent "
@@ -55,6 +50,12 @@ def main():
         opp_team = st.selectbox("Opponent Team", ot)
         opponent_team = opp_team.replace("'", "''")
         # st.write(opponent_team)
+
+    # My Team's Players
+    # df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
+    #                 f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = 'Campolindo';", ttl="10m")
+    df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
+                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
 
     gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
                     f"and opponent = '{opponent_team}';", ttl="10m")
@@ -116,13 +117,14 @@ def main():
     else:
         st.write('###')
 
-    ispm = conn.query(f"SELECT player as \"   Player\", points_scored as \"Individual Points\", "
+    ispm = conn.query(f"SELECT left(player,length(array_to_string((string_to_array(player, ' '))[1:3], ' ')) + 2)"
+                      f"       as \"   Player\", points_scored as \"Points\", "
                       f"       plus_minus as \"   +/-\", made_fts as \"Free Throws\", "
                       f"       made_2s as \"   2s\", made_3s as \"   3s\", "
                       f"       points_for as \"Team Points\", points_against as \"Opponent Points\" "
                       f"  FROM v_individual_scoring"
                       f" WHERE opponent = '{opponent_team}' "
-                      f" ORDER BY points_scored desc, plus_minus", ttl="5")
+                      f" ORDER BY points_scored desc, plus_minus desc", ttl="5")
 
     st.write("")
     st.write("Individual Scoring / Plus Minus")
@@ -132,25 +134,35 @@ def main():
     st.write("")
     st.write("Lineup Scoring / Plus Minus")
 
-    player_checkbox = st.multiselect("Filter on Player(s)", df)
+    fop = conn.query(f"SELECT left(player,length(array_to_string((string_to_array(player, ' '))[1:3], ' ')) + 2)"
+                     f"       as \"   Player\" "
+                     f"  FROM v_individual_scoring"
+                     f" WHERE opponent = '{opponent_team}' "
+                     f" ORDER BY left(player::text, POSITION(('-'::text) IN (player)) - 2)::integer", ttl="5")
+
+    player_checkbox = st.multiselect("Filter on Player(s)", fop)
     player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
 
+    # Define the common part of the query
+    common_query = (
+        f"SELECT \"Lineup\", \"   +/-\", \"Team Points\", \"Free Throws\", \"   2s\", "
+        f"\"   3s\", \"Opponent Points\" "
+        f"FROM v_lineup_scoring "
+        f"WHERE \"Opponent\" = '{opponent_team}'"
+    )
+
+    # Conditionally add the extra AND statement
     if len(player_checkbox) > 0:
-        chk_result = '%'+'%'.join(player_checkbox)+'%'
-        lspm = conn.query(f"SELECT * "
-                          f"  FROM v_lineup_scoring"
-                          f" WHERE \"Opponent\" = '{opponent_team}' "
-                          f"   AND \"Lineup\" like '{chk_result}'", ttl="5")
-        st.dataframe(lspm)
+        chk_result = '%' + '%'.join(player_checkbox) + '%'
+        query = common_query + f" AND \"Lineup\" LIKE '{chk_result}'"
     else:
+        query = common_query
 
-        lspm = conn.query(f"SELECT * "
-                          f"  FROM v_lineup_scoring"
-                          f" WHERE \"Opponent\" = '{opponent_team}' ", ttl="5")
-        st.dataframe(lspm)
+    # Execute the query
+    lspm = conn.query(query, ttl="5")
 
-
-    # st.write(chk_result)
+    # Display the result
+    st.dataframe(lspm)
 
 
 if __name__ == "__main__":
