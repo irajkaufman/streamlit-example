@@ -148,7 +148,7 @@ def main():
         f"SELECT \"Lineup\", \"   +/-\", \"Team Points\", \"Free Throws\", \"   2s\", "
         f"\"   3s\", \"Opponent Points\" "
         f"FROM v_lineup_scoring "
-        f"WHERE \"Opponent\" = '{opponent_team}'"
+        f"WHERE left(\"Opponent\", length(\"Opponent\") - 13) = '{opponent_team}'"
     )
 
     # Conditionally add the extra AND statement
