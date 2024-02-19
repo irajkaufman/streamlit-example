@@ -116,21 +116,21 @@ def main():
     st.write("")
     st.write("Lineup Scoring / Plus Minus")
 
-    col_d, col_e = st.columns(2)
+    # col_d, col_e = st.columns(2)
 
     # Opponent Team for Lineup Summary
     ots = conn.query(f"select team "
                      f"  from v_opponents_list;", ttl="10m")
 
-    with col_d:
-        player_checkbox = st.multiselect("Filter on Player(s)", df)
-        player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
+    # with col_d:
+    player_checkbox = st.multiselect("Filter on Player(s)", df)
+    player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
 
-    with col_e:
-        opp_sum_checkbox = st.multiselect("Opponent(s)", ots)
-        opp_sum_checkbox.sort(key=lambda x: x[1])
-        tchk_sum_result = '|'.join(opp_sum_checkbox)
-        tchk_sum_result_fmt = tchk_sum_result.replace("'", "''").replace("|", "', '")
+    # with col_e:
+    opp_sum_checkbox = st.multiselect("Opponent(s)", ots)
+    opp_sum_checkbox.sort(key=lambda x: x[1])
+    tchk_sum_result = '|'.join(opp_sum_checkbox)
+    tchk_sum_result_fmt = tchk_sum_result.replace("'", "''").replace("|", "', '")
 
     if len(opp_sum_checkbox) > 0:
         ispm_conditional2 = (
