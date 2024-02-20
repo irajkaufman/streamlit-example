@@ -36,7 +36,6 @@ def main():
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
     # Opponent Team
-    # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM scoring;", ttl="10m")
     ot = conn.query(f"select distinct sched.opponent "
                     f"  from public.scoring pts "
                     f"  join public.schedule sched "
@@ -49,17 +48,13 @@ def main():
         # opponent_team = st.selectbox("Opponent Team", ot)
         opp_team = st.selectbox("Opponent Team", ot)
         opponent_team = opp_team.replace("'", "''")
-        # st.write(opponent_team)
 
     # My Team's Players
-    # df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
-    #                 f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = 'Campolindo';", ttl="10m")
     df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
                     f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
 
     gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
                     f"and opponent = '{opponent_team}';", ttl="10m")
-    # f"and opponent = 'Bishop O''Dowd';", ttl="10m")
 
     # Opponent's Team's Players
     df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player "
@@ -67,8 +62,6 @@ def main():
                         f"where team = '{opponent_team}' "
                         f"and active = True "
                         f"order by jersey_number;", ttl="10m")
-    # f"where team = 'Bishop O''''Dowd';", ttl="10m")
-    # st.write(df_opp)
 
     with col_c:
         game_date = st.selectbox("Game Date", gd)
@@ -76,22 +69,23 @@ def main():
     sid = conn.query(f"SELECT schedule_id FROM schedule WHERE team = '{my_team}' "
                      f"and opponent = '{opponent_team}' and game_date = '{game_date}';", ttl="10m")
 
-    if not sid.empty:
-        # Extract the 'schedule_id' column
-        schedule_id = int(sid['schedule_id'].iloc[0])
+    # if not sid.empty:
+    # Extract the 'schedule_id' column
+    schedule_id = int(sid['schedule_id'].iloc[0])
 
-        # Display the extracted values
-        # st.write(f"Captured schedule_ids: {schedule_id}")
+    # Display the extracted values
+    # st.write(f"Captured schedule_ids: {schedule_id}")
 
-    mp = conn.query(f"select sum(points_scored) as my_team_points"
-                    f"  from ("
-                    f"select distinct p.video_time, p.points_scored"
-                    f"  from scoring p"
-                    f"  join schedule s"
-                    f"    on p.schedule_id = s.schedule_id"
-                    f" where points_scored > 0"
-                    f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
+    mp_query = (f"select sum(points_scored) as my_team_points"
+                f"  from ("
+                f"select distinct p.video_time, p.points_scored"
+                f"  from scoring p"
+                f"  join schedule s"
+                f"    on p.schedule_id = s.schedule_id"
+                f" where points_scored > 0"
+                f"   and s.schedule_id = '{schedule_id}') m;")
+
+    mp = conn.query(mp_query, ttl="5")
 
     if not mp.empty:
         with col_m:
@@ -100,15 +94,16 @@ def main():
     else:
         st.write('###')
 
-    op = conn.query(f"select sum(points_scored)*-1 as opponent_team_points"
-                    f"  from ("
-                    f"select distinct p.video_time, p.points_scored"
-                    f"  from scoring p"
-                    f"  join schedule s"
-                    f"    on p.schedule_id = s.schedule_id"
-                    f" where points_scored < 0"
-                    f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
+    op_query = (f"select sum(points_scored)*-1 as opponent_team_points"
+                f"  from ("
+                f"select distinct p.video_time, p.points_scored"
+                f"  from scoring p"
+                f"  join schedule s"
+                f"    on p.schedule_id = s.schedule_id"
+                f" where points_scored < 0"
+                f"   and s.schedule_id = '{schedule_id}') m;")
+
+    op = conn.query(op_query, ttl="5")
 
     if not op.empty:
         with col_o:
@@ -123,7 +118,7 @@ def main():
                       f"       made_2s as \"   2s\", made_3s as \"   3s\", "
                       f"       points_for as \"Team Points\", points_against as \"Opponent Points\" "
                       f"  FROM v_individual_scoring"
-                      f" WHERE opponent = '{opponent_team}' "
+                      f" WHERE schedule_id = '{schedule_id}' "
                       f" ORDER BY points_scored desc, plus_minus desc", ttl="5")
 
     st.write("")
@@ -137,7 +132,7 @@ def main():
     fop = conn.query(f"SELECT left(player,length(array_to_string((string_to_array(player, ' '))[1:3], ' ')) + 2)"
                      f"       as \"   Player\" "
                      f"  FROM v_individual_scoring"
-                     f" WHERE opponent = '{opponent_team}' "
+                     f" WHERE schedule_id = '{schedule_id}' "
                      f" ORDER BY left(player::text, POSITION(('-'::text) IN (player)) - 2)::integer", ttl="5")
 
     player_checkbox = st.multiselect("Filter on Player(s)", fop)
@@ -148,7 +143,7 @@ def main():
         f"SELECT \"Lineup\", \"   +/-\", \"Team Points\", \"Free Throws\", \"   2s\", "
         f"\"   3s\", \"Opponent Points\" "
         f"FROM v_lineup_scoring "
-        f"WHERE left(\"Opponent\", length(\"Opponent\") - 13) = '{opponent_team}'"
+        f"WHERE \"Opponent\" = '{opponent_team}' || ' (' || '{game_date}' || ')'"
     )
 
     # Conditionally add the extra AND statement
