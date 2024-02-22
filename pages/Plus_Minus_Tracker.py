@@ -63,6 +63,7 @@ def main():
     team = 'Campolindo'
     button_clicked = False
 
+    col_blank, col_level, col_season = st.columns(3)
     col_a, col_b, col_c = st.columns(3)
     col_m, col_o, col_z = st.columns(3)
 
@@ -90,53 +91,34 @@ def main():
     # Initialize session state
     if 'clicked_button' not in st.session_state:
         st.session_state.clicked_button = False
-        # st.session_state.k1 = False
-        # st.session_state.k2 = False
-        # st.session_state.k3 = False
-        # st.session_state.k4 = False
-        # st.session_state.k5 = False
-        # st.session_state.ko = False
         st.session_state.scorer1 = False
         st.session_state.scorer2 = False
         st.session_state.scorer3 = False
         st.session_state.scorer4 = False
         st.session_state.scorer5 = False
         st.session_state.scorer_opp = False
-    # else:
-    #     scorer1 = st.session_state.scorer1
-    #     scorer2 = st.session_state.scorer2
-    #     scorer3 = st.session_state.scorer3
-    #     scorer4 = st.session_state.scorer4
-    #     scorer5 = st.session_state.scorer5
-    #     scorer_opp = st.session_state.scorer_opp
-
-    # Perform queries.
 
     # My Team
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
 
     # Opponent Team
-    # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM schedule;", ttl="10m")
     ot = conn.query(f"select distinct opponent "
                     f"  from public.schedule;", ttl="10m")
+
+    # with col_level:
 
     with col_a:
         my_team = st.selectbox("My Team", mt)
 
     with col_b:
-        # opponent_team = st.selectbox("Opponent Team", ot)
         opp_team = st.selectbox("Opponent Team", ot)
         opponent_team = opp_team.replace("'", "''")
-        # st.write(opponent_team)
 
     gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
-                    # f"and opponent = 'Bishop O''Dowd';", ttl="10m")
-                    f"and opponent = '{opponent_team}';", ttl = "10m")
+                    f"and opponent = '{opponent_team}';", ttl="10m")
 
     # My Team's Players
-    # df = conn.query(f"SELECT jersey_number || ' - ' ||
-    # full_name as player FROM roster where team = 'Campolindo';", ttl="10m")
     df = conn.query(f"SELECT jersey_number || ' - ' || full_name as player FROM roster where team = '{my_team}';", ttl="10m")
 
     # Opponent's Team's Players
@@ -145,8 +127,6 @@ def main():
                         f"where team = '{opponent_team}' "
                         f"and active = True "
                         f"order by jersey_number;", ttl="10m")
-                        # f"where team = 'Bishop O''''Dowd';", ttl="10m")
-    # st.write(df_opp)
 
     with col_c:
         game_date = st.selectbox("Game Date", gd)
@@ -161,6 +141,37 @@ def main():
         # Display the extracted values
         # st.write(f"Captured schedule_ids: {schedule_id}")
 
+    with col_level:
+        level = conn.query(f"select team_level from schedule where schedule_id = {schedule_id};", ttl="5")
+        team_level_value = level.iloc[0, 0]
+        team_level = str(team_level_value)
+
+        # Define the label and value with HTML formatting
+        level_label_html = f'<span style="font-size: 15px;">Level</span>'
+        level_value_html = f'<span style="color: yellow; font-weight: 600; font-size: 24px;">{team_level}</span>'
+
+        # Combine the label and value HTML
+        metric_html = f'<div>{level_label_html}</div><div>{level_value_html}</div>'
+
+        # Display the formatted HTML using st.html
+        st.write(metric_html, unsafe_allow_html=True)
+        st.write("")
+
+    with col_season:
+        season = conn.query(f"select season from schedule where schedule_id = {schedule_id};", ttl="5")
+        team_season_value = season.iloc[0, 0]
+        team_season = str(team_season_value)
+
+        # Define the label and value with HTML formatting
+        season_label_html = f'<span style="font-size: 15px;">Season</span>'
+        season_value_html = f'<span style="color: yellow; font-weight: 600; font-size: 24px;">{team_season}</span>'
+
+        # Combine the label and value HTML
+        metric_html = f'<div>{season_label_html}</div><div>{season_value_html}</div>'
+
+        # Display the formatted HTML using st.html
+        st.write(metric_html, unsafe_allow_html=True)
+
     mp = conn.query(f"select sum(points_scored) as my_team_points"
                     f"  from ("
                     f"select distinct p.video_time, p.points_scored"
@@ -168,15 +179,15 @@ def main():
                     f"  join schedule s"
                     f"    on p.schedule_id = s.schedule_id"
                     f" where points_scored > 0"
-                    f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
+                    f"   and p.schedule_id = {schedule_id}) mtp;", ttl="5")
 
     if not mp.empty:
         with col_m:
             my_points = mp['my_team_points'].iloc[0]
-            st.write('### ', my_points)
+            st.write(f'<span style="color: chartreuse; font-weight: 600; font-size: 30px;">{my_points}</span>',
+                     unsafe_allow_html=True)
     else:
-        st.write('###')
+        st.write('##')
 
     op = conn.query(f"select sum(points_scored)*-1 as opponent_team_points"
                     f"  from ("
@@ -185,15 +196,29 @@ def main():
                     f"  join schedule s"
                     f"    on p.schedule_id = s.schedule_id"
                     f" where points_scored < 0"
-                    f"   and s.team = '{my_team}'"
-                    f"   and s.opponent = '{opponent_team}') m;", ttl="5")
+                    f"   and p.schedule_id = {schedule_id}) otp;", ttl="5")
 
     if not op.empty:
         with col_o:
             opponent_points = op['opponent_team_points'].iloc[0]
-            st.write('### ', opponent_points)
+            # st.write('## ', opponent_points)
+            st.write(f'<span style="color: chartreuse; font-weight: 600; font-size: 30px;">{opponent_points}</span>',
+                     unsafe_allow_html=True)
     else:
-        st.write('###')
+        st.write('##')
+
+    if not mp.empty and not op.empty:
+        with col_z:
+            mp_int = my_points or 0
+            op_int = opponent_points or 0
+            if mp_int > op_int:
+                st.write(f'<span style="color: chartreuse; font-weight: 600; font-size: 30px;">Win</span>',
+                         unsafe_allow_html=True)
+            elif mp_int < op_int:
+                st.write(f'<span style="color: chartreuse; font-weight: 600; font-size: 30px;">Loss</span>',
+                         unsafe_allow_html=True)
+            else:
+                st.write('')
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
@@ -399,20 +424,6 @@ def log_shot(current_shot,
                                                 "team": team, "scorer5": st.session_state.scorer5, "vid_time": vid_time,
                                                 "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
                 session.commit()
-            # st.rerun()
-            # st.session_state.k1.value = False
-            # st.session_state.k2.value = False
-            # st.session_state.k3.value = False
-            # st.session_state.k4.value = False
-            # st.session_state.k5.value = False
-            # st.session_state.ko.value = False
-            # st.session_state.scorer1 = False
-            # st.session_state.scorer2 = False
-            # st.session_state.scorer3 = False
-            # st.session_state.scorer4 = False
-            # st.session_state.scorer5 = False
-            # st.session_state.scorer_opp = False
-            # st.rerun()
 
 
 if __name__ == "__main__":
