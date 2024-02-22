@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, text
 # Initialize connection.
 conn = st.connection("postgresql", type="sql")
 
-# def score_insert(points_scored: int, team: str = 'Campo'):
+# def score_insert(points_scored: int, team: str = 'Campolindo'):
 #     """
 #     Inserts 5 new records into the scoring table, per the points button that is clicked.
 #
@@ -115,13 +115,12 @@ def main():
     # My Team
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
-    # My Team's Players
-    df = conn.query("SELECT jersey_number || ' - ' || full_name as player FROM roster where team = 'Campo';", ttl="10m")
 
     # Opponent Team
     # ot = conn.query("SELECT DISTINCT replace(opponent, '''', '''''') FROM schedule;", ttl="10m")
     ot = conn.query(f"select distinct opponent "
                     f"  from public.schedule;", ttl="10m")
+
     with col_a:
         my_team = st.selectbox("My Team", mt)
 
@@ -132,8 +131,13 @@ def main():
         # st.write(opponent_team)
 
     gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
-                    f"and opponent = '{opponent_team}';", ttl="10m")
                     # f"and opponent = 'Bishop O''Dowd';", ttl="10m")
+                    f"and opponent = '{opponent_team}';", ttl = "10m")
+
+    # My Team's Players
+    # df = conn.query(f"SELECT jersey_number || ' - ' ||
+    # full_name as player FROM roster where team = 'Campolindo';", ttl="10m")
+    df = conn.query(f"SELECT jersey_number || ' - ' || full_name as player FROM roster where team = '{my_team}';", ttl="10m")
 
     # Opponent's Team's Players
     df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player "
