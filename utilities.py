@@ -36,3 +36,39 @@ def season_header(schedule_id):
 
     # Display the formatted HTML using st.html
     st.write(metric_html, unsafe_allow_html=True)
+
+
+def my_points_fn(schedule_id):
+    mp = conn.query(f"select sum(points_scored) as my_team_points"
+                    f"  from ("
+                    f"select distinct p.video_time, p.points_scored"
+                    f"  from scoring p"
+                    f"  join schedule s"
+                    f"    on p.schedule_id = s.schedule_id"
+                    f" where points_scored > 0"
+                    f"   and p.schedule_id = {schedule_id}) mtp;", ttl="5")
+
+    if not mp.empty:
+        my_points = mp['my_team_points'].iloc[0]
+        return my_points
+    else:
+        return None
+
+
+def opponent_points_fn(schedule_id):
+    op_query = (f"select sum(points_scored)*-1 as opponent_team_points"
+                f"  from ("
+                f"select distinct p.video_time, p.points_scored"
+                f"  from scoring p"
+                f"  join schedule s"
+                f"    on p.schedule_id = s.schedule_id"
+                f" where points_scored < 0"
+                f"   and s.schedule_id = '{schedule_id}') m;")
+
+    op = conn.query(op_query, ttl="5")
+
+    if not op.empty:
+        opponent_points = op['opponent_team_points'].iloc[0]
+        return opponent_points
+    else:
+        return None
