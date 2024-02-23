@@ -137,62 +137,35 @@ def main():
         # Extract the 'schedule_id' column
         schedule_id = int(sid['schedule_id'].iloc[0])
 
-        # Display the extracted values
-        # st.write(f"Captured schedule_ids: {schedule_id}")
-
     with col_level:
         ut.level_header(schedule_id)
 
     with col_season:
         ut.season_header(schedule_id)
 
-    mp = conn.query(f"select sum(points_scored) as my_team_points"
-                    f"  from ("
-                    f"select distinct p.video_time, p.points_scored"
-                    f"  from scoring p"
-                    f"  join schedule s"
-                    f"    on p.schedule_id = s.schedule_id"
-                    f" where points_scored > 0"
-                    f"   and p.schedule_id = {schedule_id}) mtp;", ttl="5")
+    my_points = ut.my_points_fn(schedule_id)
 
-    if not mp.empty:
-        with col_m:
-            my_points = mp['my_team_points'].iloc[0]
-            st.write(f'<span style="color: deepskyblue; font-weight: 600; font-size: 30px;">{my_points}</span>',
-                     unsafe_allow_html=True)
-    else:
-        st.write('##')
+    with col_m:
+        st.write(f'<span style="color: deepskyblue; font-weight: 600; font-size: 30px;">{my_points}</span>',
+                 unsafe_allow_html=True)
 
-    op = conn.query(f"select sum(points_scored)*-1 as opponent_team_points"
-                    f"  from ("
-                    f"select distinct p.video_time, p.points_scored"
-                    f"  from scoring p"
-                    f"  join schedule s"
-                    f"    on p.schedule_id = s.schedule_id"
-                    f" where points_scored < 0"
-                    f"   and p.schedule_id = {schedule_id}) otp;", ttl="5")
+    opponent_points = ut.opponent_points_fn(schedule_id)
 
-    if not op.empty:
-        with col_o:
-            opponent_points = op['opponent_team_points'].iloc[0]
-            # st.write('## ', opponent_points)
-            st.write(f'<span style="color: deepskyblue; font-weight: 600; '
-                     f'font-size: 30px;">{opponent_points}</span>', unsafe_allow_html=True)
-    else:
-        st.write('##')
+    with col_o:
+        st.write(f'<span style="color: deepskyblue; font-weight: 600; '
+                 f'font-size: 30px;">{opponent_points}</span>', unsafe_allow_html=True)
 
-    if not mp.empty and not op.empty:
-        with col_z:
-            mp_int = my_points or 0
-            op_int = opponent_points or 0
-            if mp_int > op_int:
-                st.write(f'<span style="color: chartreuse; font-weight: 600; '
-                         f'font-size: 30px;">Win</span>', unsafe_allow_html=True)
-            elif mp_int < op_int:
-                st.write(f'<span style="color: crimson; font-weight: 600; '
-                         f'font-size: 30px;">Loss</span>', unsafe_allow_html=True)
-            else:
-                st.write('')
+    with col_z:
+        mp_int = my_points or 0
+        op_int = opponent_points or 0
+        if mp_int > op_int:
+            st.write(f'<span style="color: chartreuse; font-weight: 600; '
+                     f'font-size: 30px;">Win</span>', unsafe_allow_html=True)
+        elif mp_int < op_int:
+            st.write(f'<span style="color: crimson; font-weight: 600; '
+                     f'font-size: 30px;">Loss</span>', unsafe_allow_html=True)
+        else:
+            st.write('')
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
