@@ -38,6 +38,16 @@ def season_header(schedule_id):
     st.write(metric_html, unsafe_allow_html=True)
 
 
+def my_mascot_fn(team_id):
+    m = conn.query(f"SELECT mascot as my_mascot FROM team WHERE team_id = {team_id} ;", ttl="10m")
+
+    if not m.empty:
+        mascot = m['my_mascot'].iloc[0]
+        return mascot
+    else:
+        return None
+
+
 def my_points_fn(schedule_id):
     mp = conn.query(f"select sum(points_scored) as my_team_points"
                     f"  from ("
