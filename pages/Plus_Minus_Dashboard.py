@@ -29,26 +29,72 @@ def main():
         st.session_state.visibility = "collapsed"
         st.session_state.disabled = False
 
-    col_blank, col_level, col_season = st.columns(3)
-    col_a, col_b, col_c = st.columns(3)
-    col_m, col_o, col_z = st.columns(3)
+    col_team, col_level, col_season = st.columns(3)
+    col_a, col_b, col_c = st.columns(3)  # mascot, opponent, date
+    col_m, col_o, col_z = st.columns(3)  # my team's score, opponent team's score, Win/Loss
+
+    # HTML and CSS to draw a horizontal line
+    st.markdown(
+        """
+        <style>
+        .divider {
+            margin-top: 20px; /* Adjust margin as needed */
+            margin-bottom: 20px; /* Adjust margin as needed */
+            border-top: 1px solid #ccc; /* Line color and style */
+        }
+        </style>
+        <hr class="divider">
+        """,
+        unsafe_allow_html=True
+    )
+
+    # st.write("")
 
     # My Team
-    mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
+    mt = conn.query("SELECT DISTINCT team_name FROM team;", ttl="10m")
+
+    with col_team:
+        my_team = st.selectbox("My Team", mt)
+
+    # My Level
+    ml = conn.query(f"SELECT team_level FROM team WHERE team_name = '{my_team}' ;", ttl="10m")
+
+    with col_level:
+        my_level = st.selectbox("Level", ml)
+
+    # My Season
+    ms = conn.query(f"SELECT season FROM team where team_name = '{my_team}' "
+                    f"   AND team_level = '{my_level}' ;", ttl="10m")
+
+    with col_season:
+        my_season = st.selectbox("Season", ms)
+
+    tid = conn.query(f"SELECT team_id FROM team WHERE team_name = '{my_team}' "
+                     f"   AND team_level = '{my_level}'"
+                     f"   AND season = '{my_season}' ;", ttl="10m")
+
+    team_id = int(tid['team_id'].iloc[0])
+
+    mascot = ut.my_mascot_fn(team_id)
 
     # Opponent Team
-    ot = conn.query(f"select distinct sched.opponent "
-                    f"  from public.scoring pts "
-                    f"  join public.schedule sched "
-                    f"    on pts.schedule_id = sched.schedule_id;", ttl="10m")
+    ot = conn.query(f"SELECT distinct sched.opponent "
+                    f"  FROM public.scoring pts "
+                    f"  JOIN public.schedule sched "
+                    f"    ON pts.schedule_id = sched.schedule_id"
+                    f" WHERE team_id = '{team_id}' ;", ttl="10m")  # UPDATE per My Team's Team ID
 
     with col_a:
-        my_team = st.selectbox("My Team", mt)
+        st.write(f'<span style="color: yellow; font-weight: 600; text-align: center; display: block; '
+                 f'font-size: 40px;">{mascot}</span>', unsafe_allow_html=True)
 
     with col_b:
         # opponent_team = st.selectbox("Opponent Team", ot)
         opp_team = st.selectbox("Opponent Team", ot)
-        opponent_team = opp_team.replace("'", "''")
+        if opp_team is not None:
+            opponent_team = opp_team.replace("'", "''")
+        else:
+            opponent_team = None
 
     # My Team's Players
     df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
@@ -67,18 +113,27 @@ def main():
     with col_c:
         game_date = st.selectbox("Game Date", gd)
 
-    sid = conn.query(f"SELECT schedule_id FROM schedule WHERE team = '{my_team}' "
-                     f"and opponent = '{opponent_team}' and game_date = '{game_date}';", ttl="10m")
+
+    if game_date is None:
+        query_str = (f"SELECT schedule_id "
+                     f"  FROM schedule "
+                     f" WHERE 1=2 ")
+    else:
+        query_str = (f"SELECT schedule_id "
+                     f"  FROM schedule "
+                     f" WHERE team_id = '{team_id}' "
+                     f"   AND opponent = '{opponent_team}' "
+                     f"   AND game_date = '{game_date}' ")
+
+
+    sid = conn.query(query_str, ttl="10m")
 
     # if not sid.empty:
     # Extract the 'schedule_id' column
-    schedule_id = int(sid['schedule_id'].iloc[0])
-
-    with col_level:
-        ut.level_header(schedule_id)
-
-    with col_season:
-        ut.season_header(schedule_id)
+    if game_date is None:
+        schedule_id = 0
+    else:
+        schedule_id = int(sid['schedule_id'].iloc[0])
 
     # mp_query = (f"select sum(points_scored) as my_team_points"
     #             f"  from ("
@@ -119,23 +174,24 @@ def main():
     my_points = ut.my_points_fn(schedule_id)
 
     with col_m:
-        st.write(f'<span style="color: deepskyblue; font-weight: 600; font-size: 30px;">{my_points}</span>',
-                 unsafe_allow_html=True)
+        st.write(f'<span style="color: deepskyblue; font-weight: 600; text-align: center; display: block; '
+                 f'font-size: 30px;">{my_points}</span>', unsafe_allow_html=True)
 
     opponent_points = ut.opponent_points_fn(schedule_id)
 
     with col_o:
-        st.write(f'<span style="color: deepskyblue; font-weight: 600; '
+        st.write(f'<span style="color: deepskyblue; font-weight: 600; text-align: center; display: block; '
                  f'font-size: 30px;">{opponent_points}</span>', unsafe_allow_html=True)
+
 
     with col_z:
         mp_int = my_points or 0
         op_int = opponent_points or 0
         if mp_int > op_int:
-            st.write(f'<span style="color: chartreuse; font-weight: 600; '
+            st.write(f'<span style="color: chartreuse; font-weight: 600; text-align: center; display: block; '
                      f'font-size: 30px;">Win</span>', unsafe_allow_html=True)
         elif mp_int < op_int:
-            st.write(f'<span style="color: crimson; font-weight: 600; '
+            st.write(f'<span style="color: crimson; font-weight: 600; text-align: center; display: block; '
                      f'font-size: 30px;">Loss</span>', unsafe_allow_html=True)
         else:
             st.write('')
