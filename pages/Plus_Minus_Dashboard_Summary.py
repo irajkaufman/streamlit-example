@@ -1,5 +1,6 @@
 import streamlit as st
 from sqlalchemy import create_engine, text
+import utilities as ut
 
 # Initialize connection.
 conn = st.connection("postgresql", type="sql")
@@ -29,6 +30,7 @@ def main():
         st.session_state.visibility = "collapsed"
         st.session_state.disabled = False
 
+    # col_blank, col_level, col_season = st.columns(3)
     col_a, col_b, col_c = st.columns(3)
 
     # My Team
@@ -46,9 +48,9 @@ def main():
                     f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
 
     st.write("")
-    st.write("Individual Scoring Summary")
+    st.write("SUMMARY:&nbsp;&nbsp;&nbsp;Individual Scoring / Plus Minus")
 
-    opponent_checkbox = st.multiselect("Filter on Opponent(s)", ot)
+    opponent_checkbox = st.multiselect("Filter Opponent(s)", ot)
     opponent_checkbox.sort(key=lambda x: x[1])
     tchk_result = '|'.join(opponent_checkbox)
     tchk_result_fmt = tchk_result.replace("'", "''").replace("|", "', '")
@@ -114,51 +116,86 @@ def main():
 
     st.write("")
     st.write("")
-    st.write("Lineup Scoring / Plus Minus")
+    st.write(f"SUMMARY:&nbsp;&nbsp;&nbsp;Lineup Scoring / Plus Minus")
 
-    # col_d, col_e = st.columns(2)
+    #########################################
+    # # Opponent Team for Lineup Summary
+    #
+    # ots = conn.query(f"select team "
+    #                  f"  from v_opponents_list;", ttl="10m")
+    #
+    # # Create the initial multiselect widget for players
+    # player_checkbox = []
+    #
+    # # st.write('player_checkbox = ', player_checkbox)
+    #
+    # pc_before = (f"select a.* "
+    #              f"  from ( "
+    #              f"	 SELECT distinct unnest(string_to_array(\"Lineup\", ', ')) as player "
+    #              f"	   FROM v_lineup_scoring_summary ")
+    #
+    # pc_conditional = ""
+    #
+    # pc_after = f") a ORDER BY left(player::text, POSITION(('-'::text) IN (player)) - 2)::integer;"
+    #
+    # # Update the existing multiselect widget with the new options
+    # # player_checkbox = st.multiselect("Filter on Player(s)", dfs)
+    # # player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
+    #
+    # pc_query = pc_before + pc_conditional + pc_after
+    #
+    # # st.write(pc_query)
+    #
+    # pc = conn.query(pc_query, ttl="5")
+    #
+    # player_checkbox = st.multiselect("Filter on Player(s)", pc,
+    #                                  label_visibility=st.session_state.visibility,
+    #                                  disabled=st.session_state.disabled)
+    # player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
+    #
+    # opp_sum_checkbox = st.multiselect("Filter on Opponent(s) ", ots,
+    #                                   label_visibility=st.session_state.visibility,
+    #                                   disabled=st.session_state.disabled)
+    # opp_sum_checkbox.sort(key=lambda x: x[1])
+    # tchk_sum_result = '|'.join(opp_sum_checkbox)
+    # tchk_sum_result_fmt = tchk_sum_result.replace("'", "''").replace("|", "', '")
+    #
+    # # st.write('tchk_sum_result_fmt = ', tchk_sum_result_fmt)
+    #
+    # if len(opp_sum_checkbox) > 0:
+    #     pc_conditional = (
+    #         f" where \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
+    #     )
+    #     # st.write(player_checkbox)
+    #
+    # lspm_before = (f"SELECT * "
+    #                f"  FROM v_lineup_scoring_summary")
+    #
+    # if len(player_checkbox) > 0:
+    #     pchk_result = '%' + '%'.join(player_checkbox) + '%'
+    #     lspm_conditional = f" WHERE \"Lineup\" like '{pchk_result}' "
+    #     if len(opp_sum_checkbox) > 0:
+    #         pc_conditional = (
+    #             f" and \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
+    #         )
+    # else:
+    #     lspm_conditional = ""
+#########################################
 
-    # Opponent Team for Lineup Summary
-    ots = conn.query(f"select team "
-                     f"  from v_opponents_list;", ttl="10m")
+    # lspm_query = lspm_before + lspm_conditional + pc_conditional
+    lspm_query = (f"SELECT * "
+                  f"  FROM v_lineup_scoring_summary")
 
-    # with col_d:
-    player_checkbox = st.multiselect("Filter on Player(s)", df)
-    player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
-
-    # with col_e:
-    opp_sum_checkbox = st.multiselect("Opponent(s)", ots)
-    opp_sum_checkbox.sort(key=lambda x: x[1])
-    tchk_sum_result = '|'.join(opp_sum_checkbox)
-    tchk_sum_result_fmt = tchk_sum_result.replace("'", "''").replace("|", "', '")
-
-    if len(opp_sum_checkbox) > 0:
-        ispm_conditional2 = (
-            f" where \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
-        )
-    else:
-        ispm_conditional2 = ""
-
-    lspm_before = (f"SELECT * "
-                   f"  FROM v_lineup_scoring_summary")
-
-    if len(player_checkbox) > 0:
-        pchk_result = '%' + '%'.join(player_checkbox) + '%'
-        lspm_conditional = f" WHERE \"Lineup\" like '{pchk_result}' "
-        if len(opp_sum_checkbox) > 0:
-            ispm_conditional2 = (
-                f" and \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
-            )
-        else:
-            ispm_conditional2 = ""
-    else:
-        lspm_conditional = ""
-
-    lspm_query = lspm_before + lspm_conditional + ispm_conditional2
+    # st.write(lspm_query)
 
     lspm = conn.query(lspm_query,  ttl="5")
 
-    st.dataframe(lspm)
+    # st.dataframe(lspm)
+
+
+    dynamic_filters = ut.DynamicFilters(df=lspm, filters=['Lineup', 'Opponent(s)'], contains_filter=['Lineup'])
+    dynamic_filters.display_filters(location='columns', num_columns=1, gap='large')
+    dynamic_filters.display_df()
 
 
 if __name__ == "__main__":
