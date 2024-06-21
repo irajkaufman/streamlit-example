@@ -98,17 +98,21 @@ def main():
 
     # My Team's Players
     df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
-                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
+                    # f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
+                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team_id = '{team_id}' ;", ttl="10m")
 
-    gd = conn.query(f"SELECT DISTINCT game_date FROM schedule where team = '{my_team}' "
-                    f"and opponent = '{opponent_team}';", ttl="10m")
+    gd = conn.query(f"SELECT DISTINCT game_date "
+                    f"  FROM schedule "
+                    f" WHERE team_id = '{team_id}' "
+                    f"   AND opponent = '{opponent_team}';", ttl="10m")
 
     # Opponent's Team's Players
     df_opp = conn.query(f"SELECT jersey_number || ' - ' || full_name as player "
-                        f"FROM roster "
-                        f"where team = '{opponent_team}' "
-                        f"and active = True "
-                        f"order by jersey_number;", ttl="10m")
+                        f"  FROM roster "
+                        f" WHERE team = '{opponent_team}' "
+                        f"   AND active = True "
+                        f"   AND team_id = '{team_id}' "
+                        f" ORDER BY jersey_number;", ttl="10m")
 
     with col_c:
         game_date = st.selectbox("Game Date", gd)
