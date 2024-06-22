@@ -30,22 +30,68 @@ def main():
         st.session_state.visibility = "collapsed"
         st.session_state.disabled = False
 
-    # col_blank, col_level, col_season = st.columns(3)
-    col_a, col_b, col_c = st.columns(3)
+    col_team, col_level, col_season = st.columns(3)
+    col_blank1, col_mascot, col_blank2 = st.columns(3)
 
     # My Team
     mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
-    # Opponent Team
-    ot = conn.query(f"select team "
-                    f"  from v_opponents_list;", ttl="10m")
+    # My Team
+    mt = conn.query("SELECT DISTINCT team_name FROM team;", ttl="10m")
 
-    with col_a:
+    with col_team:
         my_team = st.selectbox("My Team", mt)
+
+    # My Level
+    ml = conn.query(f"SELECT team_level FROM team WHERE team_name = '{my_team}' ;", ttl="10m")
+
+    with col_level:
+        my_level = st.selectbox("Level", ml)
+
+    # My Season
+    ms = conn.query(f"SELECT season FROM team where team_name = '{my_team}' "
+                    f"   AND team_level = '{my_level}' ;", ttl="10m")
+
+    with col_season:
+        my_season = st.selectbox("Season", ms)
+
+    # HTML and CSS to draw a horizontal line
+    st.markdown(
+        """
+        <style>
+        .divider {
+            margin-top: 20px; /* Adjust margin as needed */
+            margin-bottom: 20px; /* Adjust margin as needed */
+            border-top: 1px solid #ccc; /* Line color and style */
+        }
+        </style>
+        <hr class="divider">
+        """,
+        unsafe_allow_html=True
+    )
+
+    tid = conn.query(f"SELECT team_id FROM team WHERE team_name = '{my_team}' "
+                     f"   AND team_level = '{my_level}'"
+                     f"   AND season = '{my_season}' ;", ttl="10m")
+
+    team_id = int(tid['team_id'].iloc[0])
+
+    mascot = ut.my_mascot_fn(team_id)
+
+    with col_mascot:
+        st.write(f'<span style="color: yellow; font-weight: 600; text-align: center; display: block; '
+                 f'font-size: 40px;">{mascot}</span>', unsafe_allow_html=True)
 
     # My Team's Players
     df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
-                    f"POSITION(' ' in full_name))) + 1) as player FROM roster where team = '{my_team}';", ttl="10m")
+                    f"       POSITION(' ' in full_name))) + 1) as player "
+                    f"  FROM roster"
+                    f" WHERE team_id = '{team_id}' ;", ttl="10m")
+
+    # Opponent Team
+    ot = conn.query(f"SELECT team "
+                    f"  FROM v_opponents_list"
+                    f" WHERE team_id = '{team_id}';", ttl="10m")
 
     st.write("")
     st.write("SUMMARY:&nbsp;&nbsp;&nbsp;Individual Scoring / Plus Minus")
@@ -92,7 +138,8 @@ def main():
         f"  left join v_points_individual_for_summary pos "
         f"   	on pts.player = pos.player "
         f"  left join v_points_individual_against_summary neg "
-        f"   	on pts.player = neg.player ")
+        f"   	on pts.player = neg.player "
+        f" where sched.team_id = '{team_id}' ")
 
     ispm_after = (
         f" group by pts.player, pos.points_for, abs(neg.points_against), "
@@ -102,7 +149,7 @@ def main():
 
     if len(opponent_checkbox) > 0:
         ispm_conditional = (
-            f" where (SELECT DISTINCT ((sched.opponent::text || ' ('::text) ||"
+            f"   and (SELECT DISTINCT ((sched.opponent::text || ' ('::text) ||"
             f"        sched.game_date::text) || ')'::text) in ('{tchk_result_fmt}') "
         )
     else:
@@ -118,73 +165,17 @@ def main():
     st.write("")
     st.write(f"SUMMARY:&nbsp;&nbsp;&nbsp;Lineup Scoring / Plus Minus")
 
-    #########################################
-    # # Opponent Team for Lineup Summary
-    #
-    # ots = conn.query(f"select team "
-    #                  f"  from v_opponents_list;", ttl="10m")
-    #
-    # # Create the initial multiselect widget for players
-    # player_checkbox = []
-    #
-    # # st.write('player_checkbox = ', player_checkbox)
-    #
-    # pc_before = (f"select a.* "
-    #              f"  from ( "
-    #              f"	 SELECT distinct unnest(string_to_array(\"Lineup\", ', ')) as player "
-    #              f"	   FROM v_lineup_scoring_summary ")
-    #
-    # pc_conditional = ""
-    #
-    # pc_after = f") a ORDER BY left(player::text, POSITION(('-'::text) IN (player)) - 2)::integer;"
-    #
-    # # Update the existing multiselect widget with the new options
-    # # player_checkbox = st.multiselect("Filter on Player(s)", dfs)
-    # # player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
-    #
-    # pc_query = pc_before + pc_conditional + pc_after
-    #
-    # # st.write(pc_query)
-    #
-    # pc = conn.query(pc_query, ttl="5")
-    #
-    # player_checkbox = st.multiselect("Filter on Player(s)", pc,
-    #                                  label_visibility=st.session_state.visibility,
-    #                                  disabled=st.session_state.disabled)
-    # player_checkbox.sort(key=lambda x: int(x.split(" -")[0]))
-    #
-    # opp_sum_checkbox = st.multiselect("Filter on Opponent(s) ", ots,
-    #                                   label_visibility=st.session_state.visibility,
-    #                                   disabled=st.session_state.disabled)
-    # opp_sum_checkbox.sort(key=lambda x: x[1])
-    # tchk_sum_result = '|'.join(opp_sum_checkbox)
-    # tchk_sum_result_fmt = tchk_sum_result.replace("'", "''").replace("|", "', '")
-    #
-    # # st.write('tchk_sum_result_fmt = ', tchk_sum_result_fmt)
-    #
-    # if len(opp_sum_checkbox) > 0:
-    #     pc_conditional = (
-    #         f" where \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
-    #     )
-    #     # st.write(player_checkbox)
-    #
-    # lspm_before = (f"SELECT * "
-    #                f"  FROM v_lineup_scoring_summary")
-    #
-    # if len(player_checkbox) > 0:
-    #     pchk_result = '%' + '%'.join(player_checkbox) + '%'
-    #     lspm_conditional = f" WHERE \"Lineup\" like '{pchk_result}' "
-    #     if len(opp_sum_checkbox) > 0:
-    #         pc_conditional = (
-    #             f" and \"Opponent(s)\" in ('{tchk_sum_result_fmt}') "
-    #         )
-    # else:
-    #     lspm_conditional = ""
-#########################################
-
-    # lspm_query = lspm_before + lspm_conditional + pc_conditional
-    lspm_query = (f"SELECT * "
-                  f"  FROM v_lineup_scoring_summary")
+    lspm_query = (f'SELECT "Lineup", '
+                  f'"   +/-",'
+                  f'"Team Points", '
+                  f'"Free Throws", '
+                  f'"   2s",'
+                  f'"   3s",'
+                  f'"Opponent Points", '
+                  f'"Games", '
+                  f'"Opponent(s)"'
+                  f'  FROM v_lineup_scoring_summary'
+                  f' WHERE "Team ID" = {team_id} ;')
 
     # st.write(lspm_query)
 
