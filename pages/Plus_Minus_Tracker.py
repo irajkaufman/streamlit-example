@@ -65,8 +65,8 @@ def main():
     button_clicked = False
 
     col_team, col_level, col_season = st.columns(3)
-    col_a, col_b, col_c = st.columns(3)
-    col_m, col_o, col_z = st.columns(3)
+    col_a, col_b, col_c = st.columns(3)  # mascot, opponent, date
+    col_m, col_o, col_z = st.columns(3)  # my team's score, opponent team's score, Win/Loss
 
     # HTML and CSS to draw a horizontal line
     st.markdown(
@@ -83,7 +83,6 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.write("")
     st.write("")
 
     col1, col2, col3 = st.columns(3)
@@ -181,8 +180,6 @@ def main():
     with col_c:
         game_date = st.selectbox("Game Date", gd)
 
-    # st.write(game_date)
-
     if game_date is None:
         query_str = (f"SELECT schedule_id "
                      f"  FROM schedule "
@@ -195,13 +192,6 @@ def main():
                      f" WHERE team_id = '{team_id}' "
                      f"   AND opponent = '{opponent_team}' "
                      f"   AND game_date = '{game_date}' ")
-
-    # st.write(query_str)
-
-    # sid = conn.query(f"SELECT schedule_id "
-    #                  f"  FROM schedule "
-    #                  f" WHERE team_id = '{team_id}' "
-    #                  f"   AND opponent = '{opponent_team}' and game_date = '{game_date}';", ttl="10m")
 
     sid = conn.query(query_str, ttl="10m")
 
@@ -371,7 +361,9 @@ def main():
                     f"  from scoring p1"
                     f"  join schedule s1"
                     f"  	on p1.schedule_id = s1.schedule_id"
-                    f" where s1.team = '{my_team}' "
+                    f"  join team t1"
+                    f"      on s1.team_id = t1.team_id"
+                    f" where t1.team_name = '{my_team}' "
                     f"   and s1.opponent = '{opponent_team}'"
                     f"   and scorer = true "
                     f"UNION "
@@ -380,7 +372,9 @@ def main():
                     f"  from scoring p2"
                     f"  join schedule s2"
                     f"  	on p2.schedule_id = s2.schedule_id"
-                    f" where s2.team = '{my_team}' "
+                    f"  join team t2"
+                    f"      on s2.team_id = t2.team_id"
+                    f" where t2.team_name = '{my_team}' "
                     f"   and s2.opponent = '{opponent_team}'"
                     f"   and opponent_player != '') as x"
                     f"  order by video_time desc;", ttl="5")
