@@ -34,7 +34,7 @@ def main():
     col_blank1, col_mascot, col_blank2 = st.columns(3)
 
     # My Team
-    mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
+    # mt = conn.query("SELECT DISTINCT team FROM schedule s;", ttl="10m")
 
     # My Team
     mt = conn.query("SELECT DISTINCT team_name FROM team;", ttl="10m")
@@ -82,11 +82,11 @@ def main():
         st.write(f'<span style="color: yellow; font-weight: 600; text-align: center; display: block; '
                  f'font-size: 40px;">{mascot}</span>', unsafe_allow_html=True)
 
-    # My Team's Players
-    df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
-                    f"       POSITION(' ' in full_name))) + 1) as player "
-                    f"  FROM roster"
-                    f" WHERE team_id = '{team_id}' ;", ttl="10m")
+    # My Team's Players (don't think this is being used 20240818)
+    # df = conn.query(f"SELECT jersey_number || ' - ' || left(full_name, length(right(full_name, "
+    #                 f"       POSITION(' ' in full_name))) + 1) as player "
+    #                 f"  FROM roster"
+    #                 f" WHERE team_id = '{team_id}' ;", ttl="10m")
 
     # Opponent Team
     ot = conn.query(f"SELECT team "
@@ -107,6 +107,11 @@ def main():
         f"	case when sum(coalesce(pts_tot.points,0)) = 0 then 0 "
         f"	   else round(sum(coalesce(pts_tot.points,0))::numeric/"
         f"            count(distinct vis.schedule_id), 1) end as \"Points Per Game\", "
+        f"	   coalesce(sum(vis.points_for), 0) - "
+        f"            coalesce(sum(abs(vis.points_against)), 0) as \"Overall +/-\", "
+        f"	   round((coalesce(sum(vis.points_for), 0) - "
+        f"            coalesce(sum(abs(vis.points_against)), 0))::numeric/"
+        f"            count(distinct pts.schedule_id), 1) as \"+/- Per Game\",  "
         f"	case when sum(coalesce(pts_tot.points,0)) = 0 then 0 "
         f"	   else round(sum(coalesce(m_fts,0))::numeric/"
         f"            count(distinct vis.schedule_id), 1) end as \"FTs Per Game\", "
@@ -116,11 +121,6 @@ def main():
         f"	case when sum(coalesce(pts_tot.points,0)) = 0 then 0 "
         f"	   else round(sum(coalesce(m_3s,0))::numeric/"
         f"            count(distinct vis.schedule_id), 1) end as \"3s Per Game\", "
-        f"	   coalesce(sum(vis.points_for), 0) - "
-        f"            coalesce(sum(abs(vis.points_against)), 0) as \"Overall +/-\", "
-        f"	   round((coalesce(sum(vis.points_for), 0) - "
-        f"            coalesce(sum(abs(vis.points_against)), 0))::numeric/"
-        f"            count(distinct pts.schedule_id), 1) as \"+/- Per Game\",  "
         f"	   coalesce(sum(vis.points_for), 0) as \"Team Points For\", "
         f"	   coalesce(sum(abs(vis.points_against)), 0) as \"Team Points Against\", "
         f"	   count(distinct vis.schedule_id) as \"Games Played\", "
