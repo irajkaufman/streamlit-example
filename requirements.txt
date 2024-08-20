@@ -1,6 +1,6 @@
 altair
 pandas
-streamlit==1.35.0
+streamlit==1.36.0
 gspread
 oauth2client
 toml
