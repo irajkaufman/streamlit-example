@@ -181,7 +181,7 @@ def main():
 
     lspm = conn.query(lspm_query,  ttl="5")
 
-    st.dataframe(lspm)
+    # st.dataframe(lspm)
 
 
     dynamic_filters = ut.DynamicFilters(df=lspm, filters=['Lineup', 'Opponent(s)'], contains_filter=['Lineup'])
