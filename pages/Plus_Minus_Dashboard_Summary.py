@@ -184,9 +184,9 @@ def main():
     st.dataframe(lspm)
 
 
-    # dynamic_filters = ut.DynamicFilters(df=lspm, filters=['Lineup', 'Opponent(s)'], contains_filter=['Lineup'])
-    # dynamic_filters.display_filters(location='columns', num_columns=1, gap='large')
-    # dynamic_filters.display_df()
+    dynamic_filters = ut.DynamicFilters(df=lspm, filters=['Lineup', 'Opponent(s)'], contains_filter=['Lineup'])
+    dynamic_filters.display_filters(location='columns', num_columns=1, gap='large')
+    dynamic_filters.display_df()
 
 
 if __name__ == "__main__":
