@@ -57,7 +57,7 @@ def main():
         div[data-baseweb="select"] {
             /* min-height: 20px; */
             height: 20px;
-            font-size: 14px;
+            font-size: 12px;
             padding: 0px;
             display: flex;
             align-items: center;
@@ -79,7 +79,7 @@ def main():
 
         /* Adjust the dropdown menu options to be smaller */
         div[data-baseweb="menu"] {
-            font-size: 14px;
+            font-size: 12px;
         }
         </style>
     """, unsafe_allow_html=True)
@@ -155,7 +155,7 @@ def main():
                      label_visibility=st.session_state.visibility,
                      disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        st.selectbox("Drop-down 2", ["Half Court Offense", "One-on-One", "Inbounds Play", "Fast Break",
+        st.selectbox("Drop-down 2", ["1/2 Court Offense", "One-on-One", "Inbounds Play", "Fast Break",
                                      "Buzzer Beater"],
                      label_visibility=st.session_state.visibility,
                      disabled=st.session_state.disabled, )
@@ -192,11 +192,11 @@ def main():
     tm_elpsd1, tm_elpsd2, tm_elpsd3 = st.columns(3)
 
     # st.title("Roster Dropdowns from Hoops DB")
-    col4, col5, col3a, col4a = st.columns(4)
-    col6, col7, col3b, col4b = st.columns(4)
-    col8, col9, col3c, col4c = st.columns(4)
-    col10, col11, col3d, col4d = st.columns(4)
-    col12, col13, col3e, col4e = st.columns(4)
+    col4, col5, asst1, col3a, col4a = st.columns(5)
+    col6, col7, asst2, col3b, col4b = st.columns(5)
+    col8, col9, asst3, col3c, col4c = st.columns(5)
+    col10, col11, asst4, col3d, col4d = st.columns(5)
+    col12, col13, asst5, col3e, col4e = st.columns(5)
 
     # Initialize session state
     if 'clicked_button' not in st.session_state:
@@ -320,7 +320,7 @@ def main():
 
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
-        st.write("My Team's 5 Players:")
+        st.write("My Team:")
         selected_option1 = st.selectbox("Player 1:", df,
                                         label_visibility=st.session_state.visibility,
                                         disabled=st.session_state.disabled,)
@@ -394,13 +394,22 @@ def main():
                     key="scorer4",
                     value=False)
 
-    # Opponent Player Label and align with Players 4
-    with col3d:
-        st.write("Opponent Player #:")
+    # Opponent Player Label and align with Player Headers
+    with col3a:
+        st.write("Opponent Player:")
+        selected_option_opp = st.selectbox("Opponent Player:", df_opp,
+                                           label_visibility=st.session_state.visibility,
+                                           disabled=st.session_state.disabled)
+        # st.write(selected_option_opp)
 
-    # Opponent Scorer Label and align with Players 4
-    with col4d:
+    # Opponent Scorer Label and align with Player 1
+    with col4a:
         st.write("Scored:")
+        st.checkbox("Opponent Scored",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="scorer_opp",
+                    value=False)
 
     with col12:
         selected_option5 = st.selectbox("Player 5:", df,
@@ -411,21 +420,6 @@ def main():
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="scorer5",
-                    value=False)
-
-    # Opponent Player dropdown and align with Player 5
-    with col3e:
-        selected_option_opp = st.selectbox("Opponent Player:", df_opp,
-                                           label_visibility=st.session_state.visibility,
-                                           disabled=st.session_state.disabled)
-        # st.write(selected_option_opp)
-
-    # Opponent Player checkbox and align with Player 5
-    with col4e:
-        st.checkbox("Opponent Scored",
-                    label_visibility=st.session_state.visibility,
-                    disabled=st.session_state.disabled,
-                    key="scorer_opp",
                     value=False)
 
     # st.write("")
