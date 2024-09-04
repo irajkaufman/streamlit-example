@@ -321,7 +321,6 @@ def main():
     # Create Streamlit dropdown with the read data for Player 1
     with col4:
         st.write("My Team:")
-        st.markdown("<div style='height: 4px;'></div>", unsafe_allow_html=True)  # Custom height spacer
         selected_option1 = st.selectbox("Player 1:", df,
                                         label_visibility=st.session_state.visibility,
                                         disabled=st.session_state.disabled,)
