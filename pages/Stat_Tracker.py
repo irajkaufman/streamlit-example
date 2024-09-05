@@ -380,6 +380,14 @@ def main():
                     key="provider2",
                     value=False)
 
+    with col3b:
+        st.write("Opponent Player:")
+
+    # Opponent Facilitator Label and align with Player 2
+    with col4b:
+        st.write("Assisted:")
+
+
     with col8:
         selected_option3 = st.selectbox("Player 3:", df,
                                         label_visibility=st.session_state.visibility,
@@ -396,6 +404,23 @@ def main():
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="provider3",
+                    value=False)
+
+    # Opponent Player Label and align with Player 2
+    with col3c:
+        # st.write("Opponent Player:")
+        selected_option_opp = st.selectbox("Opponent Facilitator:", df_opp,
+                                           label_visibility=st.session_state.visibility,
+                                           disabled=st.session_state.disabled)
+        # st.write(selected_option_opp)
+
+    # Opponent Facilitator Label and align with Player 2
+    with col4c:
+        # st.write("Assisted:")
+        st.checkbox("Opponent Assisted",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="facilitator_opp",
                     value=False)
 
     # Opponent Team text box input and align with Player 3 (Moved to TOP of Page)
