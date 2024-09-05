@@ -206,7 +206,7 @@ def main():
         st.session_state.scorer3 = False
         st.session_state.scorer4 = False
         st.session_state.scorer5 = False
-        st.session_state.scorer_opp = False
+        st.session_state.contributor_opp = False
 
     # My Team
     mt = conn.query("SELECT DISTINCT team_name FROM team;", ttl="10m")
@@ -327,11 +327,19 @@ def main():
 
     # Create corresponding checkbox for Player 1
     with col5:
-        st.write("Scored:")
+        st.write("Contributed:")
         st.checkbox("Scored 1",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="scorer1",
+                    value=False)
+
+    with asst1:
+        st.write("Assisted:")
+        st.checkbox("Assisted 1",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="provider1",
                     value=False)
 
     # Time Elapsed text box input and align with Player 1
@@ -365,6 +373,13 @@ def main():
     # with col4b:
     #     st.write("Opponent:")
 
+    with asst2:
+        st.checkbox("Assisted 2",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="provider2",
+                    value=False)
+
     with col8:
         selected_option3 = st.selectbox("Player 3:", df,
                                         label_visibility=st.session_state.visibility,
@@ -374,6 +389,13 @@ def main():
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="scorer3",
+                    value=False)
+
+    with asst3:
+        st.checkbox("Assisted 3",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="provider3",
                     value=False)
 
     # Opponent Team text box input and align with Player 3 (Moved to TOP of Page)
@@ -394,6 +416,13 @@ def main():
                     key="scorer4",
                     value=False)
 
+    with asst4:
+        st.checkbox("Assisted 4",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="provider4",
+                    value=False)
+
     # Opponent Player Label and align with Player Headers
     with col3a:
         st.write("Opponent Player:")
@@ -404,11 +433,11 @@ def main():
 
     # Opponent Scorer Label and align with Player 1
     with col4a:
-        st.write("Scored:")
-        st.checkbox("Opponent Scored",
+        st.write("Contributed:")
+        st.checkbox("Opponent Contributed",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer_opp",
+                    key="contributor_opp",
                     value=False)
 
     with col12:
@@ -420,6 +449,13 @@ def main():
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
                     key="scorer5",
+                    value=False)
+
+    with asst5:
+        st.checkbox("Assisted 5",
+                    label_visibility=st.session_state.visibility,
+                    disabled=st.session_state.disabled,
+                    key="provider5",
                     value=False)
 
     # st.write("")
@@ -494,15 +530,15 @@ def log_shot(current_shot,
     print(f"In the callback function {current_shot}")
     if button_clicked:
         print(f"In the button_clicked condition {current_shot}")
-        if not st.session_state.scorer_opp:
+        if not st.session_state.contributor_opp:
             selected_option_opp = ""
             st.session_state.score += current_shot
-        if st.session_state.scorer_opp:
+        if st.session_state.contributor_opp:
             current_shot = current_shot * -1
             team = opponent_team
             st.session_state.score -= current_shot
         if (st.session_state.scorer1 or st.session_state.scorer2 or st.session_state.scorer3
-                or st.session_state.scorer4 or st.session_state.scorer5 or st.session_state.scorer_opp):
+                or st.session_state.scorer4 or st.session_state.scorer5 or st.session_state.contributor_opp):
             with conn.session as session:
                 # import ipdb
                 # ipdb.set_trace()
