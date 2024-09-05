@@ -180,7 +180,7 @@ def main():
             pass
 
     with col_scoring_4:
-        st.selectbox("Drop-down 4", ["Offensive", "Defensive"],
+        st.selectbox("Drop-down 4", ["Defensive", "Offensive"],
                      label_visibility=st.session_state.visibility,
                      disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 106px;'></div>", unsafe_allow_html=True)  # Custom height spacer
