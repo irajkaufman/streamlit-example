@@ -23,7 +23,7 @@ conn = st.connection("postgresql", type="sql")
 def main():
     def log_shot_then_clear_selection(current_shot, button_clicked):
         log_shot(current_shot,
-                 team,
+                 my_team,
                  opponent_team,
                  insert_query1,
                  insert_query2,
