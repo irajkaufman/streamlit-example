@@ -185,7 +185,9 @@ def main():
                         f" WHERE team = '{opponent_team}' "
                         f"   AND active = True "
                         f"   AND team_id = '{team_id}' "
-                        f" ORDER BY jersey_number;", ttl="10m")
+                        f" UNION "
+                        f" SELECT '0 - UNKNOWN' as player "
+                        f" ORDER BY player;", ttl="10m")
 
     with col_c:
         game_date = st.selectbox("Game Date", gd)
