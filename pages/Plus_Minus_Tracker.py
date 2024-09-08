@@ -61,6 +61,16 @@ def main():
     free_throw = 1
     jumper = 2
     triple = 3
+    insert_query1 = ""
+    insert_query2 = ""
+    insert_query3 = ""
+    insert_query4 = ""
+    insert_query5 = ""
+    selected_option1 = ""
+    selected_option2 = ""
+    selected_option3 = ""
+    selected_option4 = ""
+    selected_option5 = ""
     # team = 'Campolindo'
     button_clicked = False
 
