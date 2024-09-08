@@ -71,6 +71,7 @@ def main():
     selected_option3 = ""
     selected_option4 = ""
     selected_option5 = ""
+    selected_option_opp = ""
     # team = 'Campolindo'
     button_clicked = False
 
