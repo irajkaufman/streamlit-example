@@ -21,8 +21,35 @@ conn = st.connection("postgresql", type="sql")
 
 
 def main():
-    def log_shot_then_clear_selection(current_shot, button_clicked):
-        log_shot(current_shot,
+    def log_shot_then_clear_selection(current_stat, current_stat_value, success_fn, offense_fn, shot_type_fn,
+                                      rebound_end_fn, button_clicked):
+        st.cache_data.clear()
+        dup_check = conn.query(f"SELECT count(*) "
+                               f"  FROM public.stat_log"
+                               f" WHERE schedule_id = '{schedule_id}' "
+                               f"   AND video_time = '{vid_time}';", ttl="10m")
+        # st.rerun
+        dup_check_list = dup_check.values.tolist()
+        print("dup_check_list[0][0] = ", dup_check_list[0][0])
+        print("dup_check_list = ", dup_check_list)
+        print("schedule_id = ", schedule_id)
+        print("vid_time = ", vid_time)
+        if dup_check_list[0][0] > 0:
+            st.warning('Whoa Nellie! Please update the "Time Elapsed", and RE-submit the previous stat.',
+                       icon="✋🏻")
+            return
+        if current_stat != "Free Throw" and current_stat != "Basket":
+            success_fn = ""
+        if current_stat != "Basket":
+            offense_fn = ""
+            shot_type_fn = ""
+            for key in st.session_state.keys():
+                if key.startswith("provider") or key == "contested":
+                    st.session_state[key] = False
+        if current_stat != "Rebound":
+            rebound_end_fn = ""
+        log_shot(current_stat,
+                 current_stat_value,
                  my_team,
                  opponent_team,
                  insert_query1,
@@ -36,21 +63,37 @@ def main():
                  selected_option4,
                  selected_option5,
                  selected_option_opp,
+                 success_fn,
+                 offense_fn,
+                 shot_type_fn,
+                 rebound_end_fn,
                  schedule_id,
                  vid_time,
                  button_clicked)
         print("Re-setting checkboxes, BEFORE")
         for key in st.session_state.keys():
-            if key.startswith("scorer"):
-                print("key = ", key)
-                print("st.session_state[key] =", st.session_state[key])
+            if key.startswith("contributor") or key.startswith("provider") or key == "contested":
+                # print("key = ", key)
+                # print("st.session_state[key] =", st.session_state[key])
                 st.session_state[key] = False
                 # st.rerun
-        print("Re-seting checkboxes, AFTER")
+            # print("suc_list[0][0] = ", suc_list[0][0])
+            # print("off_list[0][0] = ", suc_list[0][0])
+            # print("shot_list[0][0] = ", suc_list[0][0])
+            # print("reb_list[0][0] = ", suc_list[0][0])
+            if st.session_state['suc_stat'] != suc_list[0][0]:
+                st.session_state['suc_stat'] = suc_list[0][0]
+            if st.session_state['off_stat'] != off_list[0][0]:
+                st.session_state['off_stat'] = off_list[0][0]
+            if st.session_state['shot_stat'] != shot_list[0][0]:
+                st.session_state['shot_stat'] = shot_list[0][0]
+            if st.session_state['reb_stat'] != reb_list[0][0]:
+                st.session_state['reb_stat'] = reb_list[0][0]
+        print("Re-setting checkboxes, AFTER")
 
     print("Entering Main")
 
-    # TODO: Custom CSS to adjust the height and appearance of elements
+    # Custom CSS to adjust the height and appearance of elements
     st.markdown("""
         <style>
         /* Reduce height of the select box */
@@ -84,7 +127,7 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-    # TODO: Initialize session states
+    # Initialize session states
     if 'score' not in st.session_state:
         st.session_state.score = 0
 
@@ -95,14 +138,21 @@ def main():
 
     if 'clicked_button' not in st.session_state:
         st.session_state.clicked_button = False
-        st.session_state.scorer1 = False
-        st.session_state.scorer2 = False
-        st.session_state.scorer3 = False
-        st.session_state.scorer4 = False
-        st.session_state.scorer5 = False
+        st.session_state.contributor1 = False
+        st.session_state.contributor2 = False
+        st.session_state.contributor3 = False
+        st.session_state.contributor4 = False
+        st.session_state.contributor5 = False
         st.session_state.contributor_opp = False
+        st.session_state.provider1 = False
+        st.session_state.provider2 = False
+        st.session_state.provider3 = False
+        st.session_state.provider4 = False
+        st.session_state.provider5 = False
+        st.session_state.provider_opp = False
+        st.session_state.contested = False
 
-    # TODO: initialize global variables (inside main function)
+    # Initialize global variables (inside main function)
     free_throw = 1
     jumper = 2
     triple = 3
@@ -110,11 +160,37 @@ def main():
     block = 1
     steal = 1
     turnover = 1
+    rebound_end = ""
     # team = 'Campolindo'
-    button_clicked = False
+    # button_clicked = False
+
+    # Initialize stat queries (dropdowns)
+    suc = conn.query(f"SELECT eav_value "
+                     f"  FROM ent_att_val "
+                     f" WHERE eav_attribute = 'success' "
+                     f" ORDER BY eav_id ;", ttl="10m")
+    suc_list = suc.values.tolist()
+
+    off = conn.query(f"SELECT eav_value "
+                     f"  FROM ent_att_val "
+                     f" WHERE eav_attribute = 'offense' "
+                     f" ORDER BY eav_id ;", ttl="10m")
+    off_list = off.values.tolist()
+
+    shot = conn.query(f"SELECT eav_value "
+                      f"  FROM ent_att_val "
+                      f" WHERE eav_attribute = 'shot' "
+                      f" ORDER BY eav_id ;", ttl="10m")
+    shot_list = shot.values.tolist()
+
+    reb = conn.query(f"SELECT eav_value "
+                     f"  FROM ent_att_val "
+                     f" WHERE eav_attribute = 'rebound' "
+                     f" ORDER BY eav_id ;", ttl="10m")
+    reb_list = reb.values.tolist()
 
     # *************************************************
-    # TODO: ****** Top Headers: My Team, Level, Season ******
+    # ****** Top Headers: My Team, Level, Season ******
     # *************************************************
     col_team, col_level, col_season = st.columns(3)
     # My Team
@@ -136,16 +212,16 @@ def main():
     with col_season:
         my_season = st.selectbox("Season", ms)
 
-    # *****************************************************
-    # TODO: ****** 2nd Header Line: mascot, opponent, date ******
-    # *****************************************************
-    col_a, col_b, col_c = st.columns(3)
     tid = conn.query(f"SELECT team_id FROM team WHERE team_name = '{my_team}' "
                      f"   AND team_level = '{my_level}'"
                      f"   AND season = '{my_season}' ;", ttl="10m")
 
     team_id = int(tid['team_id'].iloc[0])
 
+    # *****************************************************
+    # ****** 2nd Header Line: mascot, opponent, date ******
+    # *****************************************************
+    col_a, col_b, col_c = st.columns(3)
     mascot = ut.my_mascot_fn(team_id)
 
     # Opponent Team
@@ -189,7 +265,7 @@ def main():
         game_date = st.selectbox("Game Date", gd)
 
     # **************************************************************
-    # TODO: ****** my team's score, opponent team's score, Win/Loss ******
+    # ****** my team's score, opponent team's score, Win/Loss ******
     # **************************************************************
     col_m, col_o, col_z = st.columns(3)
     if game_date is None:
@@ -237,7 +313,7 @@ def main():
             st.write('')
 
     # ****************************************************
-    # TODO: ****** HTML and CSS to draw a horizontal line ******
+    # ****** HTML and CSS to draw a horizontal line ******
     # ****************************************************
     st.markdown(
         """
@@ -254,7 +330,7 @@ def main():
     )
 
     # *****************************************
-    # TODO: ****** (Non-)Scoring Stats Headers ******
+    # ****** (Non-)Scoring Stats Headers ******
     # *****************************************
     col_scoring, col_non_scoring = st.columns(2)
     with col_scoring:
@@ -266,62 +342,70 @@ def main():
                  f'font-size: 29px;">Non-Scoring Stats</span>', unsafe_allow_html=True)
 
     # ***************************************************
-    # TODO: ****** Stat Buttons, Drop-downs, & 1 Boolean ******
+    # ****** Stat Buttons, Drop-downs, & 1 Boolean ******
     # ***************************************************
     col_scoring_1, col_scoring_2, col_scoring_3, col_scoring_4 = st.columns(4)
-    with col_scoring_1:
-        if st.button("Free Throw", key='ft', on_click=log_shot_then_clear_selection, args=[free_throw, True],
-                     use_container_width=True):
-            pass
-        st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        if st.button("2 points", key='jmp', on_click=log_shot_then_clear_selection, args=[jumper, True],
-                     use_container_width=True):
-            pass
-        st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        if st.button("3 points", key='tri', on_click=log_shot_then_clear_selection, args=[triple, True],
-                     use_container_width=True):
-            pass
-
     with col_scoring_2:
-        st.selectbox("Drop-down 1", ["Make", "Miss"],
-                     label_visibility=st.session_state.visibility,
-                     disabled=st.session_state.disabled, )
+        success = st.selectbox("Success Drop-down", suc, key="suc_stat",
+                               label_visibility=st.session_state.visibility,
+                               disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        st.selectbox("Drop-down 2", ["1/2 Court Offense", "One-on-One", "Inbounds Play", "Fast Break",
-                                     "Buzzer Beater"],
-                     label_visibility=st.session_state.visibility,
-                     disabled=st.session_state.disabled, )
+        offense = st.selectbox("Offense Drop-down", off, key="off_stat",
+                               label_visibility=st.session_state.visibility,
+                               disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        st.selectbox("Drop-down 3", ["Jumper", "Layup", "Floater", "Putback", "Dunk", "Heave"],
-                     label_visibility=st.session_state.visibility,
-                     disabled=st.session_state.disabled, )
+        shot_type = st.selectbox("Shot Drop-down", shot, key="shot_stat",
+                                 label_visibility=st.session_state.visibility,
+                                 disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        st.checkbox("Contested?")
+        st.checkbox("Contested?",
+                    key="contested",
+                    value=False)
 
-    with col_scoring_3:
-        if st.button("Rebound", key='reb', on_click=log_shot_then_clear_selection, args=[rebound, True],
+    with col_scoring_1:
+        if st.button("Free Throw", key='ft', on_click=log_shot_then_clear_selection,
+                     args=["Free Throw", free_throw, success, offense, shot_type, rebound_end, True],
                      use_container_width=True):
             pass
         st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        if st.button("Block", key='blk', on_click=log_shot_then_clear_selection, args=[block, True],
+        if st.button("2 points", key='jmp', on_click=log_shot_then_clear_selection,
+                     args=["Basket", jumper, success, offense, shot_type, rebound_end, True],
                      use_container_width=True):
             pass
         st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        if st.button("Steal", key='stl', on_click=log_shot_then_clear_selection, args=[steal, True],
+        if st.button("3 points", key='tri', on_click=log_shot_then_clear_selection,
+                     args=["Basket", triple, success, offense, shot_type, rebound_end, True],
                      use_container_width=True):
             pass
 
     with col_scoring_4:
-        st.selectbox("Drop-down 4", ["Defensive", "Offensive"],
-                     label_visibility=st.session_state.visibility,
-                     disabled=st.session_state.disabled, )
+        rebound_end = st.selectbox("Drop-down 4", reb, key="reb_stat",
+                                   label_visibility=st.session_state.visibility,
+                                   disabled=st.session_state.disabled, )
         st.markdown("<div style='height: 106px;'></div>", unsafe_allow_html=True)  # Custom height spacer
-        if st.button("Turnover", key='to', on_click=log_shot_then_clear_selection, args=[turnover, True],
+        if st.button("Turnover", key='to', on_click=log_shot_then_clear_selection,
+                     args=["Turnover", turnover, success, offense, shot_type, rebound_end, True],
+                     use_container_width=True):
+            pass
+
+    with col_scoring_3:
+        if st.button("Rebound", key='reb', on_click=log_shot_then_clear_selection,
+                     args=["Rebound", rebound, success, offense, shot_type, rebound_end, True],
+                     use_container_width=True):
+            pass
+        st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
+        if st.button("Block", key='blk', on_click=log_shot_then_clear_selection,
+                     args=["Block", block, success, offense, shot_type, rebound_end, True],
+                     use_container_width=True):
+            pass
+        st.markdown("<div style='height: 17px;'></div>", unsafe_allow_html=True)  # Custom height spacer
+        if st.button("Steal", key='stl', on_click=log_shot_then_clear_selection,
+                     args=["Steal", steal, success, offense, shot_type, rebound_end, True],
                      use_container_width=True):
             pass
 
     # *****************************************
-    # TODO: ****** Time Elapsed Text Box Input ******
+    # ****** Time Elapsed Text Box Input ******
     # *****************************************
     tm_elapsed1, tm_elapsed2, tm_elapsed3 = st.columns(3)
     with tm_elapsed2:
@@ -340,7 +424,9 @@ def main():
             vid_time = '00:'+vid_time
 
 
-    # st.title("Roster Dropdowns from Hoops DB")
+    # *********************************************
+    # ****** Player 1 / Opponent Contributor ******
+    # *********************************************
     col4, col5, asst1, col3a, col4a = st.columns(5)
     with col4:
         st.write("My Team:")
@@ -348,15 +434,12 @@ def main():
                                         label_visibility=st.session_state.visibility,
                                         disabled=st.session_state.disabled,)
 
-    # *********************************************
-    # TODO: ****** Player 1 / Opponent Contributor ******
-    # *********************************************
     with col5:
         st.write("Contributed:")
         st.checkbox("Scored 1",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer1",
+                    key="contributor1",
                     value=False)
 
     with asst1:
@@ -375,7 +458,7 @@ def main():
                                            disabled=st.session_state.disabled)
         # st.write(selected_option_opp)
 
-    # Opponent Scorer Label and align with Player 1
+    # Opponent Contributor Label and align with Player 1
     with col4a:
         st.write("Contributed:")
         st.checkbox("Opponent Contributed",
@@ -385,7 +468,7 @@ def main():
                     value=False)
 
     # ****************************************************
-    # TODO: ****** Player 2 / Opponent Facilitator Labels ******
+    # ****** Player 2 / Opponent Facilitator Labels ******
     # ****************************************************
     col6, col7, asst2, col3b, col4b = st.columns(5)
     with col6:
@@ -396,7 +479,7 @@ def main():
         st.checkbox("Scored 2",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer2",
+                    key="contributor2",
                     value=False)
 
     with asst2:
@@ -414,7 +497,7 @@ def main():
         st.write("Assisted:")
 
     # *********************************************
-    # TODO: ****** Player 3 / Opponent Facilitator ******
+    # ****** Player 3 / Opponent Facilitator ******
     # *********************************************
     col8, col9, asst3, col3c, col4c = st.columns(5)
     with col8:
@@ -425,7 +508,7 @@ def main():
         st.checkbox("Scored 3",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer3",
+                    key="contributor3",
                     value=False)
 
     with asst3:
@@ -449,11 +532,11 @@ def main():
         st.checkbox("Opponent Assisted",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="facilitator_opp",
+                    key="provider_opp",
                     value=False)
 
     # **********************
-    # TODO: ****** Player 4 ******
+    # ****** Player 4 ******
     # **********************
     col10, col11, asst4, col3d, col4d = st.columns(5)
     with col10:
@@ -464,7 +547,7 @@ def main():
         st.checkbox("Scored 4",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer4",
+                    key="contributor4",
                     value=False)
 
     with asst4:
@@ -475,7 +558,7 @@ def main():
                     value=False)
 
     # **********************
-    # TODO: ****** Player 5 ******
+    # ****** Player 5 ******
     # **********************
     col12, col13, asst5, col3e, col4e = st.columns(5)
     with col12:
@@ -486,7 +569,7 @@ def main():
         st.checkbox("Scored 5",
                     label_visibility=st.session_state.visibility,
                     disabled=st.session_state.disabled,
-                    key="scorer5",
+                    key="contributor5",
                     value=False)
 
     with asst5:
@@ -498,48 +581,77 @@ def main():
 
     # st.write("")
     # st.write("NOTE: 'Time Elapsed' and 'Opponent' are required fields")
+    # UPDATE "scoring" TABLE THROUGHOUT FILE, and MODIFY INSERT QUERIES, BELOW:
+    insert_query1 = text(f"INSERT INTO stat_log (stat_name, team, player, contributor, "
+                         f"stat_value, assist, success, offense, shot, contested, rebound, "
+                         f"opponent_player, schedule_id, video_time) VALUES ( "
+                         f":current_stat, :team, :selected_option1, :contributor1, "
+                         f":current_stat_value, :provider1, :success, :offense, :shot_type, :contested, :rebound_end, "
+                         f":selected_option_opp, :schedule_id, :vid_time);")
+    insert_query2 = text(f"INSERT INTO stat_log (stat_name, team, player, contributor, "
+                         f"stat_value, assist, success, offense, shot, contested, rebound, "
+                         f"opponent_player, schedule_id, video_time) VALUES ( "
+                         f":current_stat, :team, :selected_option2, :contributor2, "
+                         f":current_stat_value, :provider2, :success, :offense, :shot_type, :contested, :rebound_end, "
+                         f":selected_option_opp, :schedule_id, :vid_time);")
+    insert_query3 = text(f"INSERT INTO stat_log (stat_name, team, player, contributor, "
+                         f"stat_value, assist, success, offense, shot, contested, rebound, "
+                         f"opponent_player, schedule_id, video_time) VALUES ( "
+                         f":current_stat, :team, :selected_option3, :contributor3, "
+                         f":current_stat_value, :provider3, :success, :offense, :shot_type, :contested, :rebound_end, "
+                         f":selected_option_opp, :schedule_id, :vid_time);")
+    insert_query4 = text(f"INSERT INTO stat_log (stat_name, team, player, contributor, "
+                         f"stat_value, assist, success, offense, shot, contested, rebound, "
+                         f"opponent_player, schedule_id, video_time) VALUES ( "
+                         f":current_stat, :team, :selected_option4, :contributor4, "
+                         f":current_stat_value, :provider4, :success, :offense, :shot_type, :contested, :rebound_end, "
+                         f":selected_option_opp, :schedule_id, :vid_time);")
+    insert_query5 = text(f"INSERT INTO stat_log (stat_name, team, player, contributor, "
+                         f"stat_value, assist, success, offense, shot, contested, rebound, "
+                         f"opponent_player, schedule_id, video_time) VALUES ( "
+                         f":current_stat, :team, :selected_option5, :contributor5, "
+                         f":current_stat_value, :provider5, :success, :offense, :shot_type, :contested, :rebound_end, "
+                         f":selected_option_opp, :schedule_id, :vid_time);")
 
-    insert_query1 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
-                         f"schedule_id) VALUES (:selected_option1, :current_shot, :team, :scorer1, :vid_time, "
-                         f":selected_option_opp, :schedule_id);")
-    insert_query2 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
-                         f"schedule_id) VALUES (:selected_option2, :current_shot, :team, :scorer2, :vid_time, "
-                         f":selected_option_opp, :schedule_id);")
-    insert_query3 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
-                         f"schedule_id) VALUES (:selected_option3, :current_shot, :team, :scorer3, :vid_time, "
-                         f":selected_option_opp, :schedule_id);")
-    insert_query4 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
-                         f"schedule_id) VALUES (:selected_option4, :current_shot, :team, :scorer4, :vid_time, "
-                         f":selected_option_opp, :schedule_id);")
-    insert_query5 = text(f"INSERT INTO scoring (player, points_scored, team, scorer, video_time, opponent_player, "
-                         f"schedule_id) VALUES (:selected_option5, :current_shot, :team, :scorer5, :vid_time, "
-                         f":selected_option_opp, :schedule_id);")
-
-    ts = conn.query(f"SELECT player as \"Player\", team as \"Team\", video_time as \"Video Time\", "
-                    f"points_scored as \"Points\" "
-                    f"  FROM ("
-                    f"select player, p1.team, right(to_char(video_time,'HH24:MI:SS'), 7) "
-                    f"       as video_time, points_scored"
-                    f"  from scoring p1"
-                    f"  join schedule s1"
-                    f"  	on p1.schedule_id = s1.schedule_id"
-                    f"  join team t1"
-                    f"      on s1.team_id = t1.team_id"
-                    f" where t1.team_name = '{my_team}' "
-                    f"   and s1.opponent = '{opponent_team}'"
-                    f"   and scorer = true "
-                    f"UNION "
-                    f"select distinct opponent_player, p2.team, right(to_char(video_time,'HH24:MI:SS'), 7) "
-                    f"       as video_time, points_scored"
-                    f"  from scoring p2"
-                    f"  join schedule s2"
-                    f"  	on p2.schedule_id = s2.schedule_id"
-                    f"  join team t2"
-                    f"      on s2.team_id = t2.team_id"
-                    f" where t2.team_name = '{my_team}' "
-                    f"   and s2.opponent = '{opponent_team}'"
-                    f"   and opponent_player != '') as x"
-                    f"  order by video_time desc;", ttl="5")
+    # Scoring Log Query:
+    ts = conn.query(
+        f"SELECT video_time as \"Video Time\", "
+        f"       player as \"Player\", "
+        f"       team as \"Team\", "
+        f"       stat_name as \"Stat\", "
+        f"       success as \"Shot Success?\", "
+        f"       offense as \"Offense Scenario\", "
+        f"       shot as \"Shot Type\", "
+        f"       contested as \"Shot Contested?\", "
+        f"       rebound as \"Rebound End\", "
+        f"       stat_value as \"Stat Value\" "
+        f"  FROM ( "
+        f"                select player, p1.team, "
+        f"                stat_name, success, offense, shot, contested, rebound, "
+        f"                right(to_char(video_time,'HH24:MI:SS'), 7) as video_time, stat_value "
+        f"                  from stat_log p1 "
+        f"                  join schedule s1 "
+        f"                      on p1.schedule_id = s1.schedule_id "
+        f"                  join team t1 "
+        f"                      on s1.team_id = t1.team_id "
+        f"                 where t1.team_name = '{my_team}' "
+        f"                   and s1.opponent = '{opponent_team}' "
+        f"                   and contributor = true"
+        f"                UNION "
+        f"                select distinct opponent_player, p2.team, "
+        f"                stat_name, success, offense, shot, contested, rebound, "
+        f"                right(to_char(video_time,'HH24:MI:SS'), 7) "
+        f"                       as video_time, stat_value "
+        f"                  from stat_log p2 "
+        f"                  join schedule s2 "
+        f"                      on p2.schedule_id = s2.schedule_id "
+        f"                  join team t2 "
+        f"                      on s2.team_id = t2.team_id "
+        f"                 where t2.team_name = '{my_team}' "
+        f"                   and s2.opponent = '{opponent_team}' "
+        f"                   and opponent_player != '' "
+        f"        ) as x "
+        f" ORDER BY video_time desc; ", ttl="5")
 
     st.write("")
     st.write("")
@@ -548,7 +660,8 @@ def main():
     # st.write(st.session_state)
 
 
-def log_shot(current_shot,
+def log_shot(current_stat,
+             current_stat_value,
              team,
              opponent_team,
              insert_query1,
@@ -562,41 +675,71 @@ def log_shot(current_shot,
              selected_option4,
              selected_option5,
              selected_option_opp,
+             success,
+             offense,
+             shot_type,
+             rebound_end,
              schedule_id,
              vid_time,
              button_clicked):
-    print(f"In the callback function {current_shot}")
+    print(f"In the callback function {current_stat_value}")
     if button_clicked:
-        print(f"In the button_clicked condition {current_shot}")
+        print(f"In the button_clicked condition {current_stat_value}")
         if not st.session_state.contributor_opp:
             selected_option_opp = ""
-            st.session_state.score += current_shot
+            st.session_state.score += current_stat_value
         if st.session_state.contributor_opp:
-            current_shot = current_shot * -1
+            current_stat_value = current_stat_value * -1
             team = opponent_team
-            st.session_state.score -= current_shot
-        if (st.session_state.scorer1 or st.session_state.scorer2 or st.session_state.scorer3
-                or st.session_state.scorer4 or st.session_state.scorer5 or st.session_state.contributor_opp):
+            st.session_state.score -= current_stat_value
+        if (st.session_state.contributor1 or st.session_state.contributor2 or st.session_state.contributor3
+                or st.session_state.contributor4 or st.session_state.contributor5 or st.session_state.contributor_opp):
             with conn.session as session:
                 # import ipdb
                 # ipdb.set_trace()
-                session.execute(insert_query1, {"selected_option1": selected_option1, "current_shot": current_shot,
-                                                "team": team, "scorer1": st.session_state.scorer1, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
-                session.execute(insert_query2, {"selected_option2": selected_option2, "current_shot": current_shot,
-                                                "team": team, "scorer2": st.session_state.scorer2, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
-                session.execute(insert_query3, {"selected_option3": selected_option3, "current_shot": current_shot,
-                                                "team": team, "scorer3": st.session_state.scorer3, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
-                session.execute(insert_query4, {"selected_option4": selected_option4, "current_shot": current_shot,
-                                                "team": team, "scorer4": st.session_state.scorer4, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
-                session.execute(insert_query5, {"selected_option5": selected_option5, "current_shot": current_shot,
-                                                "team": team, "scorer5": st.session_state.scorer5, "vid_time": vid_time,
-                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id})
+                session.execute(insert_query1, {"current_stat": current_stat, "team": team,
+                                                "selected_option1": selected_option1, "contributor1":
+                                                st.session_state.contributor1, "current_stat_value": current_stat_value,
+                                                "provider1": st.session_state.provider1, "success": success, "offense":
+                                                offense, "shot_type": shot_type, "contested":
+                                                st.session_state.contested, "rebound_end": rebound_end,
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id,
+                                                "vid_time": vid_time})
+                session.execute(insert_query2, {"current_stat": current_stat, "team": team,
+                                                "selected_option2": selected_option2, "contributor2":
+                                                st.session_state.contributor2, "current_stat_value": current_stat_value,
+                                                "provider2": st.session_state.provider2, "success": success, "offense":
+                                                offense, "shot_type": shot_type, "contested":
+                                                st.session_state.contested, "rebound_end": rebound_end,
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id,
+                                                "vid_time": vid_time})
+                session.execute(insert_query3, {"current_stat": current_stat, "team": team,
+                                                "selected_option3": selected_option3, "contributor3":
+                                                st.session_state.contributor3, "current_stat_value": current_stat_value,
+                                                "provider3": st.session_state.provider3, "success": success, "offense":
+                                                offense, "shot_type": shot_type, "contested":
+                                                st.session_state.contested, "rebound_end": rebound_end,
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id,
+                                                "vid_time": vid_time})
+                session.execute(insert_query4, {"current_stat": current_stat, "team": team,
+                                                "selected_option4": selected_option4, "contributor4":
+                                                st.session_state.contributor4, "current_stat_value": current_stat_value,
+                                                "provider4": st.session_state.provider4, "success": success, "offense":
+                                                offense, "shot_type": shot_type, "contested":
+                                                st.session_state.contested, "rebound_end": rebound_end,
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id,
+                                                "vid_time": vid_time})
+                session.execute(insert_query5, {"current_stat": current_stat, "team": team,
+                                                "selected_option5": selected_option5, "contributor5":
+                                                st.session_state.contributor5, "current_stat_value": current_stat_value,
+                                                "provider5": st.session_state.provider5, "success": success, "offense":
+                                                offense, "shot_type": shot_type, "contested":
+                                                st.session_state.contested, "rebound_end": rebound_end,
+                                                "selected_option_opp": selected_option_opp, "schedule_id": schedule_id,
+                                                "vid_time": vid_time})
                 session.commit()
 
 
 if __name__ == "__main__":
     main()
+    st.write(st.session_state)
