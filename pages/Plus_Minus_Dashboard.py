@@ -79,9 +79,9 @@ def main():
 
     # Opponent Team
     ot = conn.query(f"SELECT distinct sched.opponent "
-                    f"  FROM public.scoring pts "
+                    f"  FROM public.stat_log sl "
                     f"  JOIN public.schedule sched "
-                    f"    ON pts.schedule_id = sched.schedule_id"
+                    f"    ON sl.schedule_id = sched.schedule_id"
                     f" WHERE team_id = '{team_id}' ;", ttl="10m")  # UPDATE per My Team's Team ID
 
     with col_a:
