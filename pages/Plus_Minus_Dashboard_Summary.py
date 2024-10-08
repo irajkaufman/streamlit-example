@@ -126,7 +126,7 @@ def main():
         f"	   count(distinct vis.schedule_id) as \"Games Played\", "
         f"	   string_agg(((vis.opponent::text || ' ('::text) || sched.game_date::text) ||"
         f"            ')'::text, ';  '::text) as \"Opponents\" "
-        f"  from (select distinct player, schedule_id from public.scoring) pts "
+        f"  from (select distinct player, schedule_id from public.stat_log) pts "
         f"  join public.schedule sched "
         f"    on pts.schedule_id = sched.schedule_id "
         f"  join (select * from v_individual_scoring order by player, opponent) vis "
