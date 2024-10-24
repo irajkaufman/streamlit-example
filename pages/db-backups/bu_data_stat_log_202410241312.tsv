@@ -1,0 +1,1231 @@
+"stat_log_id"	"stat_name"	"team"	"player"	"contributor"	"stat_value"	"assist"	"success"	"offense"	"shot"	"contested"	"rebound"	"opponent_player"	"schedule_id"	"video_time"	"created_date"
+1	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:01:43	2024-01-08 00:00:22.623
+2	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:01:43	2024-01-08 00:00:22.623
+3	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:01:43	2024-01-08 00:00:22.623
+4	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:01:43	2024-01-08 00:00:22.623
+5	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:01:43	2024-01-08 00:00:22.623
+6	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:02:04	2024-01-08 00:00:22.623
+7	Basket	Campolindo	"11 - Micah Kaufman"	true	3		Make	Half Court	Jumper		Defensive	""	3	00:02:04	2024-01-08 00:00:22.623
+8	Basket	Campolindo	"15 - Thomas Berg III"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:02:04	2024-01-08 00:00:22.623
+9	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:02:04	2024-01-08 00:00:22.623
+10	Basket	Campolindo	"25 - Noah Henry"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:02:04	2024-01-08 00:00:22.623
+11	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:23	2024-01-08 00:00:22.623
+12	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:23	2024-01-08 00:00:22.623
+13	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:03:23	2024-01-08 00:00:22.623
+14	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:23	2024-01-08 00:00:22.623
+15	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:23	2024-01-08 00:00:22.623
+16	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:47	2024-01-08 00:00:22.623
+17	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:47	2024-01-08 00:00:22.623
+18	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:47	2024-01-08 00:00:22.623
+19	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:03:47	2024-01-08 00:00:22.623
+20	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:03:47	2024-01-08 00:00:22.623
+21	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:04:03	2024-01-08 00:00:22.623
+22	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:04:03	2024-01-08 00:00:22.623
+23	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:04:03	2024-01-08 00:00:22.623
+24	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:04:03	2024-01-08 00:00:22.623
+25	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:04:03	2024-01-08 00:00:22.623
+26	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:04:49	2024-01-08 00:00:22.623
+27	Basket	Campolindo	"11 - Micah Kaufman"	true	3		Make	Half Court	Jumper		Defensive	""	3	00:04:49	2024-01-08 00:00:22.623
+28	Basket	Campolindo	"15 - Thomas Berg III"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:04:49	2024-01-08 00:00:22.623
+29	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:04:49	2024-01-08 00:00:22.623
+30	Basket	Campolindo	"25 - Noah Henry"	false	3		Make	Half Court	Jumper		Defensive	""	3	00:04:49	2024-01-08 00:00:22.623
+31	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:06:49	2024-01-08 00:00:22.623
+32	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:06:49	2024-01-08 00:00:22.623
+33	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:06:49	2024-01-08 00:00:22.623
+34	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:06:49	2024-01-08 00:00:22.623
+35	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:06:49	2024-01-08 00:00:22.623
+36	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:29	2024-01-08 00:00:22.623
+37	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:29	2024-01-08 00:00:22.623
+38	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:29	2024-01-08 00:00:22.623
+39	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:29	2024-01-08 00:00:22.623
+40	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	3	00:07:29	2024-01-08 00:00:22.623
+41	Free Throw	Campolindo	"2 - Luca Potts"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:49	2024-01-08 00:00:22.623
+42	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:49	2024-01-08 00:00:22.623
+43	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:49	2024-01-08 00:00:22.623
+44	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:07:49	2024-01-08 00:00:22.623
+45	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	3	00:07:49	2024-01-08 00:00:22.623
+46	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:09:57	2024-01-08 00:00:22.623
+47	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:09:57	2024-01-08 00:00:22.623
+48	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:09:57	2024-01-08 00:00:22.623
+49	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:09:57	2024-01-08 00:00:22.623
+50	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:09:57	2024-01-08 00:00:22.623
+51	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:13:17	2024-01-08 00:00:22.623
+52	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:13:17	2024-01-08 00:00:22.623
+53	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:13:17	2024-01-08 00:00:22.623
+54	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:13:17	2024-01-08 00:00:22.623
+55	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:13:17	2024-01-08 00:00:22.623
+56	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:14:53	2024-01-08 00:00:22.623
+57	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:14:53	2024-01-08 00:00:22.623
+58	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:14:53	2024-01-08 00:00:22.623
+59	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:14:53	2024-01-08 00:00:22.623
+60	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:14:53	2024-01-08 00:00:22.623
+61	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:15:24	2024-01-08 00:00:22.623
+62	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:15:24	2024-01-08 00:00:22.623
+63	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:15:24	2024-01-08 00:00:22.623
+64	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:15:24	2024-01-08 00:00:22.623
+65	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:15:24	2024-01-08 00:00:22.623
+66	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:17:50	2024-01-08 00:00:22.623
+67	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:17:50	2024-01-08 00:00:22.623
+68	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:17:50	2024-01-08 00:00:22.623
+69	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:17:50	2024-01-08 00:00:22.623
+70	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:17:50	2024-01-08 00:00:22.623
+71	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:18:09	2024-01-08 00:00:22.623
+72	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:18:09	2024-01-08 00:00:22.623
+73	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:18:09	2024-01-08 00:00:22.623
+74	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:18:09	2024-01-08 00:00:22.623
+75	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:18:09	2024-01-08 00:00:22.623
+76	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:18:39	2024-01-08 00:00:22.623
+77	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:18:39	2024-01-08 00:00:22.623
+78	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:18:39	2024-01-08 00:00:22.623
+79	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:18:39	2024-01-08 00:00:22.623
+80	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:18:39	2024-01-08 00:00:22.623
+81	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:26	2024-01-08 00:00:22.623
+82	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	3	00:19:26	2024-01-08 00:00:22.623
+83	Free Throw	Campolindo	"15 - Thomas Berg III"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:26	2024-01-08 00:00:22.623
+84	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:26	2024-01-08 00:00:22.623
+85	Free Throw	Campolindo	"25 - Noah Henry"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:26	2024-01-08 00:00:22.623
+86	Free Throw	Campolindo	"2 - Luca Potts"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:48	2024-01-08 00:00:22.623
+87	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:48	2024-01-08 00:00:22.623
+88	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	3	00:19:48	2024-01-08 00:00:22.623
+89	Free Throw	Campolindo	"12 - Lucas Katz"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:48	2024-01-08 00:00:22.623
+90	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:19:48	2024-01-08 00:00:22.623
+91	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:24	2024-01-08 00:00:22.623
+92	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:24	2024-01-08 00:00:22.623
+93	Basket	Campolindo	"12 - Lucas Katz"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:20:24	2024-01-08 00:00:22.623
+94	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:24	2024-01-08 00:00:22.623
+95	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:24	2024-01-08 00:00:22.623
+96	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:33	2024-01-08 00:00:22.623
+97	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:33	2024-01-08 00:00:22.623
+98	Basket	Campolindo	"12 - Lucas Katz"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:20:33	2024-01-08 00:00:22.623
+99	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:33	2024-01-08 00:00:22.623
+100	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:20:33	2024-01-08 00:00:22.623
+101	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"12 - Quincy"	3	00:21:05	2024-01-08 00:00:22.623
+102	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"12 - Quincy"	3	00:21:05	2024-01-08 00:00:22.623
+103	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"12 - Quincy"	3	00:21:05	2024-01-08 00:00:22.623
+104	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"12 - Quincy"	3	00:21:05	2024-01-08 00:00:22.623
+105	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"12 - Quincy"	3	00:21:05	2024-01-08 00:00:22.623
+106	Basket	Campolindo	"2 - Luca Potts"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:22:12	2024-01-08 00:00:22.623
+107	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:22:12	2024-01-08 00:00:22.623
+108	Basket	Campolindo	"12 - Lucas Katz"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:22:12	2024-01-08 00:00:22.623
+109	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:22:12	2024-01-08 00:00:22.623
+110	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:22:12	2024-01-08 00:00:22.623
+111	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:22:22	2024-01-08 00:00:22.623
+1351	Turnover	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:16	2024-09-21 20:06:07.965
+112	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:22:22	2024-01-08 00:00:22.623
+113	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:22:22	2024-01-08 00:00:22.623
+114	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:22:22	2024-01-08 00:00:22.623
+115	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:22:22	2024-01-08 00:00:22.623
+116	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:23:00	2024-01-08 00:00:22.623
+117	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:23:00	2024-01-08 00:00:22.623
+118	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:23:00	2024-01-08 00:00:22.623
+119	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:23:00	2024-01-08 00:00:22.623
+120	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:23:00	2024-01-08 00:00:22.623
+121	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:25:13	2024-01-08 00:00:22.623
+122	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:25:13	2024-01-08 00:00:22.623
+123	Basket	Campolindo	"12 - Lucas Katz"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:25:13	2024-01-08 00:00:22.623
+124	Basket	Campolindo	"40 - Thatcher Grenby"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:25:13	2024-01-08 00:00:22.623
+125	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:25:13	2024-01-08 00:00:22.623
+126	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:26:17	2024-01-08 00:00:22.623
+127	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:26:17	2024-01-08 00:00:22.623
+128	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:26:17	2024-01-08 00:00:22.623
+129	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:26:17	2024-01-08 00:00:22.623
+130	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:26:17	2024-01-08 00:00:22.623
+131	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:27:29	2024-01-08 00:00:22.623
+132	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:27:29	2024-01-08 00:00:22.623
+133	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:27:29	2024-01-08 00:00:22.623
+134	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:27:29	2024-01-08 00:00:22.623
+135	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:27:29	2024-01-08 00:00:22.623
+136	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:27:41	2024-01-08 00:00:22.623
+137	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:27:41	2024-01-08 00:00:22.623
+138	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:27:41	2024-01-08 00:00:22.623
+139	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:27:41	2024-01-08 00:00:22.623
+140	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:27:41	2024-01-08 00:00:22.623
+141	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:28:17	2024-01-08 00:00:22.623
+142	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:28:17	2024-01-08 00:00:22.623
+143	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:28:17	2024-01-08 00:00:22.623
+144	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:28:17	2024-01-08 00:00:22.623
+145	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:28:17	2024-01-08 00:00:22.623
+146	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:28:31	2024-01-08 00:00:22.623
+147	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:28:31	2024-01-08 00:00:22.623
+148	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:28:31	2024-01-08 00:00:22.623
+149	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:28:31	2024-01-08 00:00:22.623
+150	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:28:31	2024-01-08 00:00:22.623
+151	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:29:20	2024-01-08 00:00:22.623
+152	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:29:20	2024-01-08 00:00:22.623
+153	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:29:20	2024-01-08 00:00:22.623
+154	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:29:20	2024-01-08 00:00:22.623
+155	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:29:20	2024-01-08 00:00:22.623
+156	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:30:21	2024-01-08 00:00:22.623
+157	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:30:21	2024-01-08 00:00:22.623
+158	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:30:21	2024-01-08 00:00:22.623
+159	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:30:21	2024-01-08 00:00:22.623
+160	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:30:21	2024-01-08 00:00:22.623
+161	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:31:42	2024-01-08 00:00:22.623
+162	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:31:42	2024-01-08 00:00:22.623
+163	Free Throw	Campolindo	"15 - Thomas Berg III"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:31:42	2024-01-08 00:00:22.623
+164	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:31:42	2024-01-08 00:00:22.623
+165	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	3	00:31:42	2024-01-08 00:00:22.623
+166	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:32:07	2024-01-08 00:00:22.623
+167	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:32:07	2024-01-08 00:00:22.623
+168	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:32:07	2024-01-08 00:00:22.623
+169	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:32:07	2024-01-08 00:00:22.623
+170	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:32:07	2024-01-08 00:00:22.623
+171	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"21 - Etrawl"	3	00:34:00	2024-01-08 00:00:22.623
+172	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"21 - Etrawl"	3	00:34:00	2024-01-08 00:00:22.623
+173	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-1		Make	Half Court	Jumper		Defensive	"21 - Etrawl"	3	00:34:00	2024-01-08 00:00:22.623
+174	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"21 - Etrawl"	3	00:34:00	2024-01-08 00:00:22.623
+175	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"21 - Etrawl"	3	00:34:00	2024-01-08 00:00:22.623
+176	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:36:51	2024-01-08 00:00:22.623
+177	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:36:51	2024-01-08 00:00:22.623
+178	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:36:51	2024-01-08 00:00:22.623
+179	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:36:51	2024-01-08 00:00:22.623
+180	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:36:51	2024-01-08 00:00:22.623
+181	Free Throw	Campolindo	"2 - Luca Potts"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:37:48	2024-01-08 00:00:22.623
+182	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:37:48	2024-01-08 00:00:22.623
+183	Free Throw	Campolindo	"12 - Lucas Katz"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:37:48	2024-01-08 00:00:22.623
+184	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:37:48	2024-01-08 00:00:22.623
+185	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	3	00:37:48	2024-01-08 00:00:22.623
+186	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:38:21	2024-01-08 00:00:22.623
+187	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:38:21	2024-01-08 00:00:22.623
+188	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:38:21	2024-01-08 00:00:22.623
+189	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:38:21	2024-01-08 00:00:22.623
+190	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:38:21	2024-01-08 00:00:22.623
+191	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:38:40	2024-01-08 00:00:22.623
+192	Basket	Campolindo	"3 - Owen Ludwig"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:38:40	2024-01-08 00:00:22.623
+193	Basket	Campolindo	"12 - Lucas Katz"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:38:40	2024-01-08 00:00:22.623
+194	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:38:40	2024-01-08 00:00:22.623
+195	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:38:40	2024-01-08 00:00:22.623
+196	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:39:17	2024-01-08 00:00:22.623
+197	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:39:17	2024-01-08 00:00:22.623
+198	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:39:17	2024-01-08 00:00:22.623
+199	Basket	St. Patrick / St. Vincent	"20 - Noah Mesfin"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:39:17	2024-01-08 00:00:22.623
+200	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-3		Make	Half Court	Jumper		Defensive	"24 - Darius"	3	00:39:17	2024-01-08 00:00:22.623
+201	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:40:30	2024-01-08 00:00:22.623
+202	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:40:30	2024-01-08 00:00:22.623
+203	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:40:30	2024-01-08 00:00:22.623
+204	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:40:30	2024-01-08 00:00:22.623
+205	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:40:30	2024-01-08 00:00:22.623
+206	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:03	2024-01-08 00:00:22.623
+207	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:03	2024-01-08 00:00:22.623
+208	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:42:03	2024-01-08 00:00:22.623
+209	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:03	2024-01-08 00:00:22.623
+210	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:03	2024-01-08 00:00:22.623
+211	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:16	2024-01-08 00:00:22.623
+212	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:16	2024-01-08 00:00:22.623
+213	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:16	2024-01-08 00:00:22.623
+214	Basket	Campolindo	"24 - Sean Parker"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:42:16	2024-01-08 00:00:22.623
+215	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:42:16	2024-01-08 00:00:22.623
+216	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:43:39	2024-01-08 00:00:22.623
+217	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:43:39	2024-01-08 00:00:22.623
+218	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:43:39	2024-01-08 00:00:22.623
+219	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:43:39	2024-01-08 00:00:22.623
+220	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Sergio"	3	00:43:39	2024-01-08 00:00:22.623
+221	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:43:52	2024-01-08 00:00:22.623
+222	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:43:52	2024-01-08 00:00:22.623
+223	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:43:52	2024-01-08 00:00:22.623
+224	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:43:52	2024-01-08 00:00:22.623
+225	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:43:52	2024-01-08 00:00:22.623
+226	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:44:01	2024-01-08 00:00:22.623
+227	Basket	St. Patrick / St. Vincent	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:44:01	2024-01-08 00:00:22.623
+228	Basket	St. Patrick / St. Vincent	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:44:01	2024-01-08 00:00:22.623
+229	Basket	St. Patrick / St. Vincent	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:44:01	2024-01-08 00:00:22.623
+230	Basket	St. Patrick / St. Vincent	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:44:01	2024-01-08 00:00:22.623
+231	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:27	2024-01-08 00:00:22.623
+232	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:27	2024-01-08 00:00:22.623
+233	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:27	2024-01-08 00:00:22.623
+234	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:44:27	2024-01-08 00:00:22.623
+235	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:27	2024-01-08 00:00:22.623
+236	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:49	2024-01-08 00:00:22.623
+237	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:49	2024-01-08 00:00:22.623
+238	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:49	2024-01-08 00:00:22.623
+239	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:44:49	2024-01-08 00:00:22.623
+240	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:44:49	2024-01-08 00:00:22.623
+241	Basket	Campolindo	"5 - Luke Hickey"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:45:30	2024-01-08 00:00:22.623
+242	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:45:30	2024-01-08 00:00:22.623
+243	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:45:30	2024-01-08 00:00:22.623
+244	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:45:30	2024-01-08 00:00:22.623
+245	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:45:30	2024-01-08 00:00:22.623
+246	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:46:32	2024-01-08 00:00:22.623
+247	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:46:32	2024-01-08 00:00:22.623
+248	Basket	St. Patrick / St. Vincent	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:46:32	2024-01-08 00:00:22.623
+249	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:46:32	2024-01-08 00:00:22.623
+250	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Mateo"	3	00:46:32	2024-01-08 00:00:22.623
+251	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:47:30	2024-01-08 00:00:22.623
+252	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:47:30	2024-01-08 00:00:22.623
+253	Basket	Campolindo	"12 - Lucas Katz"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:47:30	2024-01-08 00:00:22.623
+254	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	3	00:47:30	2024-01-08 00:00:22.623
+255	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	3	00:47:30	2024-01-08 00:00:22.623
+256	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:49:42	2024-01-08 00:00:22.623
+257	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:49:42	2024-01-08 00:00:22.623
+258	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:49:42	2024-01-08 00:00:22.623
+259	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:49:42	2024-01-08 00:00:22.623
+260	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:49:42	2024-01-08 00:00:22.623
+261	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:50:09	2024-01-08 00:00:22.623
+262	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:50:09	2024-01-08 00:00:22.623
+263	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:50:09	2024-01-08 00:00:22.623
+264	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:50:09	2024-01-08 00:00:22.623
+265	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Amelio"	3	00:50:09	2024-01-08 00:00:22.623
+266	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:50:58	2024-01-08 00:00:22.623
+267	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:50:58	2024-01-08 00:00:22.623
+268	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:50:58	2024-01-08 00:00:22.623
+269	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:50:58	2024-01-08 00:00:22.623
+270	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:50:58	2024-01-08 00:00:22.623
+271	Basket	St. Patrick / St. Vincent	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:51:11	2024-01-08 00:00:22.623
+272	Basket	St. Patrick / St. Vincent	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:51:11	2024-01-08 00:00:22.623
+273	Basket	St. Patrick / St. Vincent	"12 - Lucas Katz"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:51:11	2024-01-08 00:00:22.623
+274	Basket	St. Patrick / St. Vincent	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:51:11	2024-01-08 00:00:22.623
+275	Basket	St. Patrick / St. Vincent	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"20 - Jaden"	3	00:51:11	2024-01-08 00:00:22.623
+276	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:03:58	2024-01-08 16:54:34.485
+277	Basket	Campolindo	"10 - Rex Pastore"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:03:58	2024-01-08 16:54:34.485
+278	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:03:58	2024-01-08 16:54:34.485
+279	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:03:58	2024-01-08 16:54:34.485
+280	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:03:58	2024-01-08 16:54:34.485
+281	Basket	Campolindo	"5 - Luke Hickey"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:04:39	2024-01-08 16:55:56.527
+282	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:04:39	2024-01-08 16:55:56.527
+283	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:04:39	2024-01-08 16:55:56.527
+284	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:04:39	2024-01-08 16:55:56.527
+285	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:04:39	2024-01-08 16:55:56.527
+286	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:05:25	2024-01-08 16:56:54.211
+287	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:05:25	2024-01-08 16:56:54.211
+288	Basket	Campolindo	"24 - Sean Parker"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:05:25	2024-01-08 16:56:54.211
+289	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:05:25	2024-01-08 16:56:54.211
+290	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:05:25	2024-01-08 16:56:54.211
+291	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:05:46	2024-01-08 17:57:33.010
+292	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:05:46	2024-01-08 17:57:33.010
+293	Free Throw	Campolindo	"24 - Sean Parker"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:05:46	2024-01-08 17:57:33.010
+294	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:05:46	2024-01-08 17:57:33.010
+295	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:05:46	2024-01-08 17:57:33.010
+296	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:08:05	2024-01-08 19:18:03.033
+297	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:08:05	2024-01-08 19:18:03.033
+298	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:06:46	2024-01-08 19:12:04.035
+299	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:08:05	2024-01-08 19:18:03.033
+300	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:08:05	2024-01-08 19:18:03.033
+301	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:08:05	2024-01-08 19:18:03.033
+302	Free Throw	Campolindo	"2 - Luca Potts"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:35	2024-01-08 19:20:37.146
+303	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:35	2024-01-08 19:20:37.146
+304	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:09:35	2024-01-08 19:20:37.146
+305	Free Throw	Campolindo	"25 - Noah Henry"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:35	2024-01-08 19:20:37.146
+306	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:35	2024-01-08 19:20:37.146
+307	Free Throw	Campolindo	"2 - Luca Potts"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:49	2024-01-08 19:21:02.279
+308	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:49	2024-01-08 19:21:02.279
+309	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:09:49	2024-01-08 19:21:02.279
+310	Free Throw	Campolindo	"25 - Noah Henry"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:49	2024-01-08 19:21:02.279
+311	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:09:49	2024-01-08 19:21:02.279
+312	Basket	Campolindo	"2 - Luca Potts"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:02	2024-01-08 19:22:11.294
+313	Basket	Campolindo	"3 - Owen Ludwig"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:10:02	2024-01-08 19:22:11.294
+314	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:02	2024-01-08 19:22:11.294
+315	Basket	Campolindo	"25 - Noah Henry"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:02	2024-01-08 19:22:11.294
+316	Basket	Campolindo	"40 - Thatcher Grenby"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:02	2024-01-08 19:22:11.294
+317	Basket	Campolindo	"2 - Luca Potts"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:22	2024-01-08 19:22:45.778
+318	Basket	Campolindo	"3 - Owen Ludwig"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:22	2024-01-08 19:22:45.778
+319	Basket	Campolindo	"11 - Micah Kaufman"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:10:22	2024-01-08 19:22:45.778
+320	Basket	Campolindo	"25 - Noah Henry"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:22	2024-01-08 19:22:45.778
+321	Basket	Campolindo	"40 - Thatcher Grenby"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:10:22	2024-01-08 19:22:45.778
+322	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:15:26	2024-01-08 21:09:50.228
+323	Basket	Campolindo	"10 - Rex Pastore"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:15:26	2024-01-08 21:09:50.228
+324	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:15:26	2024-01-08 21:09:50.228
+325	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:15:26	2024-01-08 21:09:50.228
+326	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:15:26	2024-01-08 21:09:50.228
+327	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:15:55	2024-01-08 21:10:34.829
+328	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:15:55	2024-01-08 21:10:34.829
+329	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:15:55	2024-01-08 21:10:34.829
+330	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:15:55	2024-01-08 21:10:34.829
+331	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:15:55	2024-01-08 21:10:34.829
+332	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:32	2024-01-08 21:13:01.896
+333	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:32	2024-01-08 21:13:01.896
+334	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:32	2024-01-08 21:13:01.896
+335	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:32	2024-01-08 21:13:01.896
+336	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:17:32	2024-01-08 21:13:01.896
+337	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:52	2024-01-08 21:13:32.270
+338	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:52	2024-01-08 21:13:32.270
+339	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:52	2024-01-08 21:13:32.270
+340	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:17:52	2024-01-08 21:13:32.270
+341	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:17:52	2024-01-08 21:13:32.270
+342	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:18:21	2024-01-08 21:14:24.263
+343	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:18:21	2024-01-08 21:14:24.263
+344	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:18:21	2024-01-08 21:14:24.263
+345	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:18:21	2024-01-08 21:14:24.263
+346	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:18:21	2024-01-08 21:14:24.263
+347	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:21:45	2024-01-08 21:19:33.497
+348	Basket	Campolindo	"10 - Rex Pastore"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:21:45	2024-01-08 21:19:33.497
+349	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:21:45	2024-01-08 21:19:33.497
+350	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:21:45	2024-01-08 21:19:33.497
+351	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:21:45	2024-01-08 21:19:33.497
+352	Basket	Campolindo	"3 - Owen Ludwig"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:23:51	2024-01-08 21:24:39.540
+353	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:23:51	2024-01-08 21:24:39.540
+354	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:23:51	2024-01-08 21:24:39.540
+355	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:23:51	2024-01-08 21:24:39.540
+356	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:23:51	2024-01-08 21:24:39.540
+357	Basket	Campolindo	"2 - Luca Potts"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:25:08	2024-01-08 21:26:41.980
+358	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:25:08	2024-01-08 21:26:41.980
+359	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:25:08	2024-01-08 21:26:41.980
+360	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:25:08	2024-01-08 21:26:41.980
+361	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:25:08	2024-01-08 21:26:41.980
+362	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:28:06	2024-01-08 21:40:30.827
+363	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:28:06	2024-01-08 21:40:30.827
+364	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:28:06	2024-01-08 21:40:30.827
+365	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:28:06	2024-01-08 21:40:30.827
+366	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:28:06	2024-01-08 21:40:30.827
+367	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:30:39	2024-01-08 21:49:18.476
+368	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:30:39	2024-01-08 21:49:18.476
+369	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:30:39	2024-01-08 21:49:18.476
+370	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:30:39	2024-01-08 21:49:18.476
+371	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:30:39	2024-01-08 21:49:18.476
+372	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:12	2024-01-08 21:49:57.937
+373	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:12	2024-01-08 21:49:57.937
+374	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:12	2024-01-08 21:49:57.937
+375	Free Throw	Campolindo	"24 - Sean Parker"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:31:12	2024-01-08 21:49:57.937
+376	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:12	2024-01-08 21:49:57.937
+377	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:27	2024-01-08 21:50:15.727
+378	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:27	2024-01-08 21:50:15.727
+379	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:27	2024-01-08 21:50:15.727
+380	Free Throw	Campolindo	"24 - Sean Parker"	true	1		Make	Half Court	Jumper		Defensive	""	13	00:31:27	2024-01-08 21:50:15.727
+381	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	13	00:31:27	2024-01-08 21:50:15.727
+382	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:35:52	2024-01-08 21:56:37.608
+383	Basket	Campolindo	"10 - Rex Pastore"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:35:52	2024-01-08 21:56:37.608
+384	Basket	Campolindo	"24 - Sean Parker"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:35:52	2024-01-08 21:56:37.608
+385	Basket	Campolindo	"25 - Noah Henry"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:35:52	2024-01-08 21:56:37.608
+386	Basket	Campolindo	"40 - Thatcher Grenby"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:35:52	2024-01-08 21:56:37.608
+387	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:36:38	2024-01-08 21:58:01.467
+388	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:36:38	2024-01-08 21:58:01.467
+389	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:36:38	2024-01-08 21:58:01.467
+390	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:36:38	2024-01-08 21:58:01.467
+391	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:36:38	2024-01-08 21:58:01.467
+392	Basket	Campolindo	"3 - Owen Ludwig"	true	3		Make	Half Court	Jumper		Defensive	""	13	00:39:44	2024-01-08 22:04:48.053
+393	Basket	Campolindo	"5 - Luke Hickey"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:39:44	2024-01-08 22:04:48.053
+394	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:39:44	2024-01-08 22:04:48.053
+395	Basket	Campolindo	"40 - Thatcher Grenby"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:39:44	2024-01-08 22:04:48.053
+396	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	13	00:39:44	2024-01-08 22:04:48.053
+397	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:42:01	2024-01-08 22:09:26.210
+398	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:42:01	2024-01-08 22:09:26.210
+399	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:42:01	2024-01-08 22:09:26.210
+400	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:42:01	2024-01-08 22:09:26.210
+401	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:42:01	2024-01-08 22:09:26.210
+402	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:10	2024-01-08 22:12:20.443
+403	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:44:10	2024-01-08 22:12:20.443
+404	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:10	2024-01-08 22:12:20.443
+405	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:10	2024-01-08 22:12:20.443
+406	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:10	2024-01-08 22:12:20.443
+407	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:50	2024-01-08 22:13:14.072
+408	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:50	2024-01-08 22:13:14.072
+409	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:50	2024-01-08 22:13:14.072
+410	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:44:50	2024-01-08 22:13:14.072
+411	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:44:50	2024-01-08 22:13:14.072
+412	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:46:16	2024-01-08 22:16:28.290
+413	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:46:16	2024-01-08 22:16:28.290
+414	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:46:16	2024-01-08 22:16:28.290
+415	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:46:16	2024-01-08 22:16:28.290
+416	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:46:16	2024-01-08 22:16:28.290
+417	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:50:02	2024-01-08 22:21:17.009
+418	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:50:02	2024-01-08 22:21:17.009
+419	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:50:02	2024-01-08 22:21:17.009
+420	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	13	00:50:02	2024-01-08 22:21:17.009
+421	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	13	00:50:02	2024-01-08 22:21:17.009
+422	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:01:26	2024-01-09 08:08:42.106
+423	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:01:26	2024-01-09 08:08:42.106
+424	Basket	Foothill	"22 - Phin Kofman"	false	-2		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:01:26	2024-01-09 08:08:42.106
+425	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:01:26	2024-01-09 08:08:42.106
+426	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:01:26	2024-01-09 08:08:42.106
+427	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:02:30	2024-01-09 08:12:06.938
+428	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:02:30	2024-01-09 08:12:06.938
+429	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:02:30	2024-01-09 08:12:06.938
+430	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:02:30	2024-01-09 08:12:06.938
+431	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:02:30	2024-01-09 08:12:06.938
+432	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:02:50	2024-01-09 08:12:49.881
+433	Basket	Foothill	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:02:50	2024-01-09 08:12:49.881
+434	Basket	Foothill	"22 - Phin Kofman"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:02:50	2024-01-09 08:12:49.881
+435	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:02:50	2024-01-09 08:12:49.881
+436	Basket	Foothill	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:02:50	2024-01-09 08:12:49.881
+437	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:03:08	2024-01-09 08:13:34.711
+438	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:03:08	2024-01-09 08:13:34.711
+439	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:03:08	2024-01-09 08:13:34.711
+440	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:03:08	2024-01-09 08:13:34.711
+441	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:03:08	2024-01-09 08:13:34.711
+442	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:03:49	2024-01-09 08:14:28.351
+443	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:03:49	2024-01-09 08:14:28.351
+444	Free Throw	Campolindo	"22 - Phin Kofman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:03:49	2024-01-09 08:14:28.351
+445	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:03:49	2024-01-09 08:14:28.351
+446	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:03:49	2024-01-09 08:14:28.351
+447	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:06:16	2024-01-09 08:17:56.072
+448	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:06:16	2024-01-09 08:17:56.072
+449	Free Throw	Campolindo	"22 - Phin Kofman"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:06:16	2024-01-09 08:17:56.072
+450	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:06:16	2024-01-09 08:17:56.072
+451	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:06:16	2024-01-09 08:17:56.072
+452	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:07:17	2024-01-09 08:22:19.294
+453	Basket	Foothill	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:07:17	2024-01-09 08:22:19.294
+454	Basket	Foothill	"22 - Phin Kofman"	false	-3		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:07:17	2024-01-09 08:22:19.294
+455	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:07:17	2024-01-09 08:22:19.294
+456	Basket	Foothill	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:07:17	2024-01-09 08:22:19.294
+457	Free Throw	Campolindo	"10 - Rex Pastore"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:08:49	2024-01-09 08:24:13.352
+458	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:08:49	2024-01-09 08:24:13.352
+459	Free Throw	Campolindo	"22 - Phin Kofman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:08:49	2024-01-09 08:24:13.352
+460	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:08:49	2024-01-09 08:24:13.352
+461	Free Throw	Campolindo	"44 - Crosby Kelly"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:08:49	2024-01-09 08:24:13.352
+462	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:09:08	2024-01-09 08:25:43.073
+463	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:09:08	2024-01-09 08:25:43.073
+464	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:09:08	2024-01-09 08:25:43.073
+465	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:09:08	2024-01-09 08:25:43.073
+466	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:09:08	2024-01-09 08:25:43.073
+467	Basket	Campolindo	"10 - Rex Pastore"	true	3		Make	Half Court	Jumper		Defensive	""	9	00:09:29	2024-01-09 08:26:23.038
+468	Basket	Campolindo	"15 - Thomas Berg III"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:09:29	2024-01-09 08:26:23.038
+469	Basket	Campolindo	"20 - Noah Mesfin"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:09:29	2024-01-09 08:26:23.038
+470	Basket	Campolindo	"22 - Phin Kofman"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:09:29	2024-01-09 08:26:23.038
+471	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:09:29	2024-01-09 08:26:23.038
+472	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:10:06	2024-01-09 08:27:21.195
+473	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:10:06	2024-01-09 08:27:21.195
+474	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:10:06	2024-01-09 08:27:21.195
+475	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:10:06	2024-01-09 08:27:21.195
+476	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:10:06	2024-01-09 08:27:21.195
+477	Basket	Foothill	"5 - Luke Hickey"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:11:29	2024-01-09 08:30:16.314
+478	Basket	Foothill	"15 - Thomas Berg III"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:11:29	2024-01-09 08:30:16.314
+479	Basket	Foothill	"20 - Noah Mesfin"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:11:29	2024-01-09 08:30:16.314
+480	Basket	Foothill	"22 - Phin Kofman"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:11:29	2024-01-09 08:30:16.314
+481	Basket	Foothill	"25 - Noah Henry"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:11:29	2024-01-09 08:30:16.314
+482	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:15:10	2024-01-09 08:37:05.791
+483	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:15:10	2024-01-09 08:37:05.791
+484	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:15:10	2024-01-09 08:37:05.791
+485	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:15:10	2024-01-09 08:37:05.791
+486	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:15:10	2024-01-09 08:37:05.791
+487	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:19:50	2024-01-09 08:42:18.617
+488	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:19:50	2024-01-09 08:42:18.617
+489	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:19:50	2024-01-09 08:42:18.617
+490	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:19:50	2024-01-09 08:42:18.617
+491	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:19:50	2024-01-09 08:42:18.617
+492	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:22:27	2024-01-09 08:52:38.392
+493	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:22:27	2024-01-09 08:52:38.392
+494	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:22:27	2024-01-09 08:52:38.392
+495	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:22:27	2024-01-09 08:52:38.392
+496	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:22:27	2024-01-09 08:52:38.392
+497	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:23:35	2024-01-09 08:55:50.464
+498	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:23:35	2024-01-09 08:55:50.464
+499	Basket	Foothill	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:23:35	2024-01-09 08:55:50.464
+500	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:23:35	2024-01-09 08:55:50.464
+501	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:23:35	2024-01-09 08:55:50.464
+502	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:25:22	2024-01-09 08:57:51.458
+503	Basket	Foothill	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:25:22	2024-01-09 08:57:51.458
+504	Basket	Foothill	"15 - Thomas Berg III"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:25:22	2024-01-09 08:57:51.458
+505	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:25:22	2024-01-09 08:57:51.458
+506	Basket	Foothill	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:25:22	2024-01-09 08:57:51.458
+507	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:26:17	2024-01-09 09:00:41.268
+508	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:26:17	2024-01-09 09:00:41.268
+509	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:26:17	2024-01-09 09:00:41.268
+510	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:26:17	2024-01-09 09:00:41.268
+511	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:26:17	2024-01-09 09:02:37.089
+512	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Yohan"	9	00:27:24	2024-01-09 09:05:40.477
+513	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Yohan"	9	00:27:24	2024-01-09 09:05:40.477
+514	Basket	Foothill	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Yohan"	9	00:27:24	2024-01-09 09:05:40.477
+515	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Yohan"	9	00:27:24	2024-01-09 09:05:40.477
+516	Basket	Foothill	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Yohan"	9	00:27:24	2024-01-09 09:05:40.477
+517	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:28:26	2024-01-09 18:44:33.426
+518	Basket	Foothill	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:28:26	2024-01-09 18:44:33.426
+519	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:28:26	2024-01-09 18:44:33.426
+520	Basket	Foothill	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:28:26	2024-01-09 18:44:33.426
+521	Basket	Foothill	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:28:26	2024-01-09 18:44:33.426
+522	Basket	Foothill	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"15 - Anthony"	9	00:28:54	2024-01-09 18:45:25.683
+523	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"15 - Anthony"	9	00:28:54	2024-01-09 18:45:25.683
+524	Basket	Foothill	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"15 - Anthony"	9	00:28:54	2024-01-09 18:45:25.683
+525	Basket	Foothill	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"15 - Anthony"	9	00:28:54	2024-01-09 18:45:25.683
+526	Basket	Foothill	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"15 - Anthony"	9	00:28:54	2024-01-09 18:45:25.683
+527	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:29:24	2024-01-09 19:17:51.803
+528	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:29:24	2024-01-09 19:17:51.803
+529	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:29:24	2024-01-09 19:17:51.803
+530	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:29:24	2024-01-09 19:17:51.803
+531	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:29:24	2024-01-09 19:17:51.803
+532	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:29:52	2024-01-09 19:18:54.192
+533	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:29:52	2024-01-09 19:18:54.192
+534	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:29:52	2024-01-09 19:18:54.192
+535	Free Throw	Campolindo	"25 - Noah Henry"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:29:52	2024-01-09 19:18:54.192
+536	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:29:52	2024-01-09 19:18:54.192
+537	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:31:14	2024-01-09 19:23:11.813
+538	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:31:14	2024-01-09 19:23:11.813
+539	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:31:14	2024-01-09 19:23:11.813
+540	Free Throw	Campolindo	"25 - Noah Henry"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:31:14	2024-01-09 19:23:11.813
+541	Free Throw	Campolindo	"40 - Thatcher Grenby"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:31:14	2024-01-09 19:23:11.813
+542	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:33:34	2024-01-09 19:27:14.546
+543	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:33:34	2024-01-09 19:27:14.546
+544	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:33:34	2024-01-09 19:27:14.546
+545	Basket	Campolindo	"25 - Noah Henry"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:33:34	2024-01-09 19:27:14.546
+546	Basket	Campolindo	"40 - Thatcher Grenby"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:33:34	2024-01-09 19:27:14.546
+547	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:34:42	2024-01-09 19:30:16.336
+548	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:34:42	2024-01-09 19:30:16.336
+549	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:34:42	2024-01-09 19:30:16.336
+550	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:34:42	2024-01-09 19:30:16.336
+551	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:34:42	2024-01-09 19:30:16.336
+552	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:35:07	2024-01-09 19:32:01.090
+553	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:35:07	2024-01-09 19:32:01.090
+554	Basket	Foothill	"22 - Phin Kofman"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:35:07	2024-01-09 19:32:01.090
+555	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:35:07	2024-01-09 19:32:01.090
+556	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:35:07	2024-01-09 19:32:01.090
+557	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:35:25	2024-01-09 19:32:38.733
+558	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:35:25	2024-01-09 19:32:38.733
+559	Basket	Foothill	"22 - Phin Kofman"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:35:25	2024-01-09 19:32:38.733
+560	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:35:25	2024-01-09 19:32:38.733
+561	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:35:25	2024-01-09 19:32:38.733
+562	Basket	Campolindo	"10 - Rex Pastore"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:35:46	2024-01-09 19:33:33.609
+563	Basket	Campolindo	"11 - Micah Kaufman"	true	3		Make	Half Court	Jumper		Defensive	""	9	00:35:46	2024-01-09 19:33:33.609
+564	Basket	Campolindo	"22 - Phin Kofman"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:35:46	2024-01-09 19:33:33.609
+565	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:35:46	2024-01-09 19:33:33.609
+566	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:35:46	2024-01-09 19:33:33.609
+567	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:21	2024-01-09 19:34:18.953
+568	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:21	2024-01-09 19:34:18.953
+569	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:21	2024-01-09 19:34:18.953
+570	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:21	2024-01-09 19:34:18.953
+571	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:21	2024-01-09 19:34:18.953
+572	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:32	2024-01-09 19:34:57.569
+573	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:32	2024-01-09 19:34:57.569
+574	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:32	2024-01-09 19:34:57.569
+575	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:32	2024-01-09 19:34:57.569
+576	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:36:32	2024-01-09 19:34:57.569
+577	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:36:44	2024-01-09 19:35:20.515
+578	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:36:44	2024-01-09 19:35:20.515
+579	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:36:44	2024-01-09 19:35:20.515
+580	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:36:44	2024-01-09 19:35:20.515
+581	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:36:44	2024-01-09 19:35:20.515
+582	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:36:57	2024-01-09 19:36:06.412
+583	Basket	Foothill	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:36:57	2024-01-09 19:36:06.412
+584	Basket	Foothill	"22 - Phin Kofman"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:36:57	2024-01-09 19:36:06.412
+585	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:36:57	2024-01-09 19:36:06.412
+586	Basket	Foothill	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:36:57	2024-01-09 19:36:06.412
+587	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:37:16	2024-01-09 19:37:21.537
+588	Basket	Foothill	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:37:16	2024-01-09 19:37:21.537
+589	Basket	Foothill	"22 - Phin Kofman"	false	-3		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:37:16	2024-01-09 19:37:21.537
+590	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:37:16	2024-01-09 19:37:21.537
+591	Basket	Foothill	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"4 - Jagger"	9	00:37:16	2024-01-09 19:37:21.537
+592	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:37:36	2024-01-09 19:38:13.840
+593	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:37:36	2024-01-09 19:38:13.840
+594	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:37:36	2024-01-09 19:38:13.840
+595	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:37:36	2024-01-09 19:38:13.840
+596	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:37:36	2024-01-09 19:38:13.840
+597	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:02	2024-01-09 19:40:06.147
+598	Basket	Campolindo	"11 - Micah Kaufman"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:39:02	2024-01-09 19:40:06.147
+599	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:02	2024-01-09 19:40:06.147
+600	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:02	2024-01-09 19:40:06.147
+601	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:02	2024-01-09 19:40:06.147
+602	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:17	2024-01-09 19:40:48.664
+603	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:17	2024-01-09 19:40:48.664
+604	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:17	2024-01-09 19:40:48.664
+605	Basket	Campolindo	"24 - Sean Parker"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:39:17	2024-01-09 19:40:48.664
+606	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:39:17	2024-01-09 19:40:48.664
+607	Basket	Campolindo	"10 - Rex Pastore"	true	3		Make	Half Court	Jumper		Defensive	""	9	00:39:53	2024-01-09 22:28:06.819
+608	Basket	Campolindo	"11 - Micah Kaufman"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:39:53	2024-01-09 22:28:06.819
+609	Basket	Campolindo	"15 - Thomas Berg III"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:39:53	2024-01-09 22:28:06.819
+610	Basket	Campolindo	"24 - Sean Parker"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:39:53	2024-01-09 22:28:06.819
+611	Basket	Campolindo	"44 - Crosby Kelly"	false	3		Make	Half Court	Jumper		Defensive	""	9	00:39:53	2024-01-09 22:28:06.819
+612	Basket	Campolindo	"10 - Rex Pastore"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:41:32	2024-01-09 22:30:38.305
+613	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:41:32	2024-01-09 22:30:38.305
+614	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:41:32	2024-01-09 22:30:38.305
+615	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:41:32	2024-01-09 22:30:38.305
+616	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:41:32	2024-01-09 22:30:38.305
+617	Basket	Foothill	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:43:48	2024-01-09 22:34:25.902
+618	Basket	Foothill	"15 - Thomas Berg III"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:43:48	2024-01-09 22:34:25.902
+619	Basket	Foothill	"20 - Noah Mesfin"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:43:48	2024-01-09 22:34:25.902
+620	Basket	Foothill	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:43:48	2024-01-09 22:34:25.902
+621	Basket	Foothill	"25 - Noah Henry"	false	-3		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:43:48	2024-01-09 22:34:25.902
+622	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:42	2024-01-09 22:36:00.596
+623	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:42	2024-01-09 22:36:00.596
+624	Basket	Foothill	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:42	2024-01-09 22:36:00.596
+625	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:42	2024-01-09 22:36:00.596
+626	Basket	Foothill	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:42	2024-01-09 22:36:00.596
+627	Basket	Foothill	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:59	2024-01-09 22:36:23.543
+628	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:59	2024-01-09 22:36:23.543
+629	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:59	2024-01-09 22:36:23.543
+630	Basket	Foothill	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:59	2024-01-09 22:36:23.543
+631	Basket	Foothill	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:44:59	2024-01-09 22:36:23.543
+632	Basket	Campolindo	"3 - Owen Ludwig"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:45:28	2024-01-09 22:41:33.832
+633	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:45:28	2024-01-09 22:41:33.832
+634	Basket	Campolindo	"15 - Thomas Berg III"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:45:28	2024-01-09 22:41:33.832
+635	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:45:28	2024-01-09 22:41:33.832
+636	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:45:28	2024-01-09 22:41:33.832
+637	Basket	Foothill	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:13	2024-01-09 22:42:36.946
+638	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:13	2024-01-09 22:42:36.946
+639	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:13	2024-01-09 22:42:36.946
+640	Basket	Foothill	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:13	2024-01-09 22:42:36.946
+641	Basket	Foothill	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:13	2024-01-09 22:42:36.946
+642	Basket	Foothill	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:25	2024-01-09 22:43:09.423
+643	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:25	2024-01-09 22:43:09.423
+644	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:25	2024-01-09 22:43:09.423
+645	Basket	Foothill	"20 - Noah Mesfin"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:25	2024-01-09 22:43:09.423
+646	Basket	Foothill	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	00:46:25	2024-01-09 22:43:09.423
+647	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:04:00	2024-01-09 22:46:52.491
+648	Free Throw	Campolindo	"15 - Thomas Berg III"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:04:00	2024-01-09 22:46:52.491
+649	Free Throw	Campolindo	"22 - Phin Kofman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:04:00	2024-01-09 22:46:52.491
+650	Free Throw	Campolindo	"24 - Sean Parker"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:04:00	2024-01-09 22:46:52.491
+651	Free Throw	Campolindo	"25 - Noah Henry"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:04:00	2024-01-09 22:46:52.491
+652	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:51:23	2024-01-09 22:52:28.361
+653	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:51:23	2024-01-09 22:52:28.361
+654	Basket	Foothill	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:51:23	2024-01-09 22:52:28.361
+655	Basket	Foothill	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:51:23	2024-01-09 22:52:28.361
+656	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	00:51:23	2024-01-09 22:52:28.361
+657	Basket	Foothill	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:52:46	2024-01-09 22:54:39.483
+658	Basket	Foothill	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:52:46	2024-01-09 22:54:39.483
+659	Basket	Foothill	"15 - Thomas Berg III"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:52:46	2024-01-09 22:54:39.483
+660	Basket	Foothill	"22 - Phin Kofman"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:52:46	2024-01-09 22:54:39.483
+661	Basket	Foothill	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	00:52:46	2024-01-09 22:54:39.483
+662	Free Throw	Campolindo	"10 - Rex Pastore"	true	1		Make	Half Court	Jumper		Defensive	""	9	00:54:38	2024-01-09 23:20:27.319
+663	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:54:38	2024-01-09 23:20:27.319
+664	Free Throw	Campolindo	"15 - Thomas Berg III"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:54:38	2024-01-09 23:20:27.319
+665	Free Throw	Campolindo	"22 - Phin Kofman"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:54:38	2024-01-09 23:20:27.319
+666	Free Throw	Campolindo	"44 - Crosby Kelly"	false	1		Make	Half Court	Jumper		Defensive	""	9	00:54:38	2024-01-09 23:20:27.319
+667	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:55:59	2024-01-09 23:41:17.663
+668	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:55:59	2024-01-09 23:41:17.663
+669	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:55:59	2024-01-09 23:41:17.663
+670	Basket	Campolindo	"22 - Phin Kofman"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:55:59	2024-01-09 23:41:17.663
+671	Basket	Campolindo	"44 - Crosby Kelly"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:55:59	2024-01-09 23:41:17.663
+672	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:59:24	2024-01-10 00:08:34.066
+673	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:59:24	2024-01-10 00:08:34.066
+674	Basket	Campolindo	"22 - Phin Kofman"	true	2		Make	Half Court	Jumper		Defensive	""	9	00:59:24	2024-01-10 00:08:34.066
+675	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:59:24	2024-01-10 00:08:34.066
+676	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	00:59:24	2024-01-10 00:08:34.066
+677	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:06	2024-01-10 23:38:51.470
+678	Basket	Foothill	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:06	2024-01-10 23:38:51.470
+679	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:06	2024-01-10 23:38:51.470
+680	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:06	2024-01-10 23:38:51.470
+681	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:06	2024-01-10 23:38:51.470
+682	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:19	2024-01-11 01:23:41.763
+683	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:19	2024-01-11 01:23:41.763
+684	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:19	2024-01-11 01:23:41.763
+685	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:19	2024-01-11 01:23:41.763
+686	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"2 - Isaiah"	9	01:00:19	2024-01-11 01:23:41.763
+687	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:22	2024-01-11 01:25:05.272
+688	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:22	2024-01-11 01:25:05.272
+689	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:22	2024-01-11 01:25:05.272
+690	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:22	2024-01-11 01:25:05.272
+691	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:22	2024-01-11 01:25:05.272
+692	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:41	2024-01-11 01:25:51.830
+693	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:41	2024-01-11 01:25:51.830
+694	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:41	2024-01-11 01:25:51.830
+695	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:41	2024-01-11 01:25:51.830
+696	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"5 - Vidit"	9	01:01:41	2024-01-11 01:25:51.830
+697	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:29	2024-01-11 01:28:24.044
+698	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:29	2024-01-11 01:28:24.044
+699	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:29	2024-01-11 01:28:24.044
+700	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:29	2024-01-11 01:28:24.044
+701	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:29	2024-01-11 01:28:24.044
+702	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:44	2024-01-11 01:28:56.328
+703	Basket	Foothill	"15 - Thomas Berg III"	true	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:44	2024-01-11 01:28:56.328
+704	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:44	2024-01-11 01:28:56.328
+705	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:44	2024-01-11 01:28:56.328
+706	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:03:44	2024-01-11 01:28:56.328
+707	Basket	Campolindo	"10 - Rex Pastore"	false	2		Make	Half Court	Jumper		Defensive	""	9	01:04:09	2024-01-11 01:29:46.450
+708	Basket	Campolindo	"15 - Thomas Berg III"	false	2		Make	Half Court	Jumper		Defensive	""	9	01:04:09	2024-01-11 01:29:46.450
+709	Basket	Campolindo	"22 - Phin Kofman"	true	2		Make	Half Court	Jumper		Defensive	""	9	01:04:09	2024-01-11 01:29:46.450
+710	Basket	Campolindo	"24 - Sean Parker"	false	2		Make	Half Court	Jumper		Defensive	""	9	01:04:09	2024-01-11 01:29:46.450
+711	Basket	Campolindo	"44 - Crosby Kelly"	false	2		Make	Half Court	Jumper		Defensive	""	9	01:04:09	2024-01-11 01:29:46.450
+712	Basket	Foothill	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:08:24	2024-01-11 01:34:52.138
+713	Basket	Foothill	"15 - Thomas Berg III"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:08:24	2024-01-11 01:34:52.138
+714	Basket	Foothill	"22 - Phin Kofman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:08:24	2024-01-11 01:34:52.138
+715	Basket	Foothill	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:08:24	2024-01-11 01:34:52.138
+716	Basket	Foothill	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Tyler"	9	01:08:24	2024-01-11 01:34:52.138
+717	Basket	De La Salle	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"32 - Davit"	12	00:02:38	2024-01-11 01:50:32.331
+718	Basket	De La Salle	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"32 - Davit"	12	00:02:38	2024-01-11 01:50:32.331
+719	Basket	De La Salle	"22 - Phin Kofman"	false	-2		Make	Half Court	Jumper		Defensive	"32 - Davit"	12	00:02:38	2024-01-11 01:50:32.331
+720	Basket	De La Salle	"20 - Noah Mesfin"	false	-2		Make	Half Court	Jumper		Defensive	"32 - Davit"	12	00:02:38	2024-01-11 01:50:32.331
+721	Basket	De La Salle	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"32 - Davit"	12	00:02:38	2024-01-11 01:50:32.331
+722	Free Throw	Campolindo	"5 - Luke Hickey"	false	1		Make	Half Court	Jumper		Defensive	""	12	00:03:14	2024-01-11 01:52:17.588
+723	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1		Make	Half Court	Jumper		Defensive	""	12	00:03:14	2024-01-11 01:52:17.588
+724	Free Throw	Campolindo	"22 - Phin Kofman"	false	1		Make	Half Court	Jumper		Defensive	""	12	00:03:14	2024-01-11 01:52:17.588
+725	Free Throw	Campolindo	"20 - Noah Mesfin"	false	1		Make	Half Court	Jumper		Defensive	""	12	00:03:14	2024-01-11 01:52:17.588
+726	Free Throw	Campolindo	"25 - Noah Henry"	true	1		Make	Half Court	Jumper		Defensive	""	12	00:03:14	2024-01-11 01:52:17.588
+727	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:03:29	2024-01-11 01:53:06.921
+728	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:03:29	2024-01-11 01:53:06.921
+729	Basket	Campolindo	"22 - Phin Kofman"	true	2		Make	Half Court	Jumper		Defensive	""	12	00:03:29	2024-01-11 01:53:06.921
+730	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:03:29	2024-01-11 01:53:06.921
+731	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:03:29	2024-01-11 01:53:06.921
+732	Basket	Campolindo	"5 - Luke Hickey"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:05:42	2024-01-11 01:55:41.965
+733	Basket	Campolindo	"11 - Micah Kaufman"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:05:42	2024-01-11 01:55:41.965
+734	Basket	Campolindo	"22 - Phin Kofman"	true	2		Make	Half Court	Jumper		Defensive	""	12	00:05:42	2024-01-11 01:55:41.965
+735	Basket	Campolindo	"20 - Noah Mesfin"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:05:42	2024-01-11 01:55:41.965
+736	Basket	Campolindo	"25 - Noah Henry"	false	2		Make	Half Court	Jumper		Defensive	""	12	00:05:42	2024-01-11 01:55:41.965
+737	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:06:46	2024-01-08 19:12:04.035
+738	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:06:46	2024-01-08 19:12:04.035
+739	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:06:46	2024-01-08 19:12:04.035
+740	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:06:46	2024-01-08 19:12:04.035
+741	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:07:55	2024-01-08 19:17:33.858
+742	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:07:55	2024-01-08 19:17:33.858
+743	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:07:55	2024-01-08 19:17:33.858
+744	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:07:55	2024-01-08 19:17:33.858
+745	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:07:55	2024-01-08 19:17:33.858
+746	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:01:35	2024-01-08 16:50:32.792
+747	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:01:35	2024-01-08 16:50:32.792
+748	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:01:35	2024-01-08 16:50:32.792
+749	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:01:35	2024-01-08 16:50:32.792
+750	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:02:43	2024-01-08 16:52:15.884
+751	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:02:43	2024-01-08 16:52:15.884
+752	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:02:43	2024-01-08 16:52:15.884
+753	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:02:43	2024-01-08 16:52:15.884
+754	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:08:23	2024-01-08 20:03:00.009
+755	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:08:23	2024-01-08 20:03:00.009
+756	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:08:23	2024-01-08 20:03:00.009
+757	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:08:23	2024-01-08 20:03:00.009
+758	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"14 - Casqueiro"	13	00:08:23	2024-01-08 20:03:00.009
+759	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:12:00	2024-01-08 20:10:06.684
+760	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:12:00	2024-01-08 20:10:06.684
+761	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:12:00	2024-01-08 20:10:06.684
+762	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:12:00	2024-01-08 20:10:06.684
+763	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:12:00	2024-01-08 20:10:06.684
+764	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:39	2024-01-08 20:13:04.244
+765	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:39	2024-01-08 20:13:04.244
+766	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:39	2024-01-08 20:13:04.244
+767	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:39	2024-01-08 20:13:04.244
+768	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:39	2024-01-08 20:13:04.244
+769	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:55	2024-01-08 20:13:30.179
+770	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:55	2024-01-08 20:13:30.179
+771	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:55	2024-01-08 20:13:30.179
+772	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:55	2024-01-08 20:13:30.179
+773	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:13:55	2024-01-08 20:13:30.179
+774	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-3		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:14:27	2024-01-08 21:07:44.104
+775	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-3		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:14:27	2024-01-08 21:07:44.104
+776	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-3		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:14:27	2024-01-08 21:07:44.104
+777	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-3		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:14:27	2024-01-08 21:07:44.104
+778	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-3		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:14:27	2024-01-08 21:07:44.104
+779	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:14:59	2024-01-08 21:09:07.077
+780	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:14:59	2024-01-08 21:09:07.077
+781	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:14:59	2024-01-08 21:09:07.077
+782	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:14:59	2024-01-08 21:09:07.077
+783	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:14:59	2024-01-08 21:09:07.077
+784	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:21:25	2024-01-08 21:18:53.849
+785	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:21:25	2024-01-08 21:18:53.849
+786	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:21:25	2024-01-08 21:18:53.849
+787	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:21:25	2024-01-08 21:18:53.849
+788	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:21:25	2024-01-08 21:18:53.849
+789	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:22	2024-01-08 21:20:49.118
+790	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:22	2024-01-08 21:20:49.118
+791	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:22	2024-01-08 21:20:49.118
+792	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:22	2024-01-08 21:20:49.118
+793	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:22	2024-01-08 21:20:49.118
+794	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-1		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:55	2024-01-08 21:22:20.941
+795	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:55	2024-01-08 21:22:20.941
+796	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:55	2024-01-08 21:22:20.941
+797	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-1		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:55	2024-01-08 21:22:20.941
+798	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-1		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:22:55	2024-01-08 21:22:20.941
+799	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:23:39	2024-01-08 21:23:55.529
+800	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:23:39	2024-01-08 21:23:55.529
+801	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:23:39	2024-01-08 21:23:55.529
+802	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:23:39	2024-01-08 21:23:55.529
+803	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:23:39	2024-01-08 21:23:55.529
+804	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:24:42	2024-01-08 21:26:05.395
+805	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:24:42	2024-01-08 21:26:05.395
+806	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:24:42	2024-01-08 21:26:05.395
+807	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:24:42	2024-01-08 21:26:05.395
+808	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"24 - Montez"	13	00:24:42	2024-01-08 21:26:05.395
+809	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:25:28	2024-01-08 21:27:31.777
+810	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:25:28	2024-01-08 21:27:31.777
+811	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:25:28	2024-01-08 21:27:31.777
+812	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:25:28	2024-01-08 21:27:31.777
+813	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:25:28	2024-01-08 21:27:31.777
+814	Basket	Bishop O'Dowd	"2 - Luca Potts"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:26:47	2024-01-08 21:29:48.697
+815	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:26:47	2024-01-08 21:29:48.697
+816	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:26:47	2024-01-08 21:29:48.697
+817	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:26:47	2024-01-08 21:29:48.697
+818	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:26:47	2024-01-08 21:29:48.697
+819	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:27:47	2024-01-08 21:39:45.738
+820	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:27:47	2024-01-08 21:39:45.738
+821	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:27:47	2024-01-08 21:39:45.738
+822	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:27:47	2024-01-08 21:39:45.738
+823	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:27:47	2024-01-08 21:39:45.738
+824	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:28:28	2024-01-08 21:46:20.804
+825	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:28:28	2024-01-08 21:46:20.804
+826	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:28:28	2024-01-08 21:46:20.804
+827	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:28:28	2024-01-08 21:46:20.804
+828	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:28:28	2024-01-08 21:46:20.804
+829	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:29:30	2024-01-08 21:47:49.383
+830	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:29:30	2024-01-08 21:47:49.383
+831	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:29:30	2024-01-08 21:47:49.383
+832	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:29:30	2024-01-08 21:47:49.383
+833	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:29:30	2024-01-08 21:47:49.383
+834	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:34:40	2024-01-08 21:54:33.758
+835	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:34:40	2024-01-08 21:54:33.758
+836	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:34:40	2024-01-08 21:54:33.758
+837	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:34:40	2024-01-08 21:54:33.758
+838	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:34:40	2024-01-08 21:54:33.758
+839	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:35:31	2024-01-08 21:55:59.610
+840	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:35:31	2024-01-08 21:55:59.610
+841	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:35:31	2024-01-08 21:55:59.610
+842	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:35:31	2024-01-08 21:55:59.610
+843	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"3 - Oke"	13	00:35:31	2024-01-08 21:55:59.610
+844	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:36:17	2024-01-08 21:57:24.405
+845	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:36:17	2024-01-08 21:57:24.405
+846	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:36:17	2024-01-08 21:57:24.405
+847	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:36:17	2024-01-08 21:57:24.405
+848	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"1 - Thome"	13	00:36:17	2024-01-08 21:57:24.405
+849	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:37:28	2024-01-08 22:01:29.219
+850	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:37:28	2024-01-08 22:01:29.219
+851	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:37:28	2024-01-08 22:01:29.219
+852	Basket	Bishop O'Dowd	"25 - Noah Henry"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:37:28	2024-01-08 22:01:29.219
+853	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:37:28	2024-01-08 22:01:29.219
+854	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:40:32	2024-01-08 22:06:26.523
+855	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:40:32	2024-01-08 22:06:26.523
+856	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:40:32	2024-01-08 22:06:26.523
+857	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:40:32	2024-01-08 22:06:26.523
+858	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:40:32	2024-01-08 22:06:26.523
+859	Basket	Bishop O'Dowd	"3 - Owen Ludwig"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:40:46	2024-01-08 22:07:29.402
+860	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:40:46	2024-01-08 22:07:29.402
+861	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:40:46	2024-01-08 22:07:29.402
+862	Basket	Bishop O'Dowd	"40 - Thatcher Grenby"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:40:46	2024-01-08 22:07:29.402
+863	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"10 - Lacsamana"	13	00:40:46	2024-01-08 22:07:29.402
+864	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:45:58	2024-01-08 22:15:57.406
+865	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:45:58	2024-01-08 22:15:57.406
+866	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:45:58	2024-01-08 22:15:57.406
+867	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:45:58	2024-01-08 22:15:57.406
+868	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"30 - Eddy"	13	00:45:58	2024-01-08 22:15:57.406
+869	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-1		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:48:57	2024-01-08 22:19:23.850
+870	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-1		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:48:57	2024-01-08 22:19:23.850
+871	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-1		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:48:57	2024-01-08 22:19:23.850
+872	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-1		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:48:57	2024-01-08 22:19:23.850
+873	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-1		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:48:57	2024-01-08 22:19:23.850
+874	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:49:37	2024-01-08 22:20:34.511
+875	Basket	Bishop O'Dowd	"10 - Rex Pastore"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:49:37	2024-01-08 22:20:34.511
+876	Basket	Bishop O'Dowd	"11 - Micah Kaufman"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:49:37	2024-01-08 22:20:34.511
+877	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:49:37	2024-01-08 22:20:34.511
+878	Basket	Bishop O'Dowd	"44 - Crosby Kelly"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:49:37	2024-01-08 22:20:34.511
+879	Basket	Bishop O'Dowd	"5 - Luke Hickey"	false	-2		Make	Half Court	Jumper		Defensive	"33 - Wang"	13	00:01:35	2024-01-08 16:50:32.792
+880	Basket	Bishop O'Dowd	"24 - Sean Parker"	false	-2		Make	Half Court	Jumper		Defensive	"11 - Baldwin"	13	00:02:43	2024-01-08 16:52:15.884
+1321	Steal	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	""	""	1	00:06:11	2024-09-21 18:53:03.637
+1322	Steal	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	""	""	1	00:06:11	2024-09-21 18:53:03.637
+1323	Steal	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	""	""	1	00:06:11	2024-09-21 18:53:03.637
+1324	Steal	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	""	""	1	00:06:11	2024-09-21 18:53:03.637
+1325	Steal	Campolindo	"11 - Micah Kaufman"	true	1	false	    	""	""	false	""	""	1	00:06:11	2024-09-21 18:53:03.637
+1352	Turnover	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:16	2024-09-21 20:06:07.965
+1353	Turnover	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:16	2024-09-21 20:06:07.965
+1354	Turnover	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:16	2024-09-21 20:06:07.965
+1355	Turnover	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:16	2024-09-21 20:06:07.965
+1366	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	"1/2 Court Offense"	Dunk	false	""	"0 - UNKNOWN"	1	00:06:20	2024-09-21 20:22:00.880
+1367	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	"1/2 Court Offense"	Dunk	false	""	"0 - UNKNOWN"	1	00:06:20	2024-09-21 20:22:00.880
+1368	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	"1/2 Court Offense"	Dunk	false	""	"0 - UNKNOWN"	1	00:06:20	2024-09-21 20:22:00.880
+1369	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	"1/2 Court Offense"	Dunk	false	""	"0 - UNKNOWN"	1	00:06:20	2024-09-21 20:22:00.880
+1370	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	"1/2 Court Offense"	Dunk	false	""	"0 - UNKNOWN"	1	00:06:20	2024-09-21 20:22:00.880
+900	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:00	2024-09-07 16:28:46.709
+901	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:00	2024-09-07 16:28:46.709
+902	Basket	Campolindo	"10 - Rex Pastore"	true	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:00	2024-09-07 16:28:46.709
+903	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:00	2024-09-07 16:28:46.709
+904	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:00	2024-09-07 16:28:46.709
+910	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:06	2024-09-07 16:29:06.527
+1381	Turnover	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:26	2024-09-21 20:28:20.259
+1382	Turnover	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:26	2024-09-21 20:28:20.259
+1383	Turnover	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:26	2024-09-21 20:28:20.259
+1384	Turnover	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:26	2024-09-21 20:28:20.259
+1385	Turnover	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:26	2024-09-21 20:28:20.259
+1391	Turnover	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:27	2024-09-23 21:53:20.534
+1392	Turnover	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:27	2024-09-23 21:53:20.534
+1393	Turnover	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:27	2024-09-23 21:53:20.534
+1394	Turnover	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:27	2024-09-23 21:53:20.534
+1395	Turnover	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:27	2024-09-23 21:53:20.534
+1406	Basket	Campolindo	"2 - Luca Potts"	true	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:28	2024-09-24 21:45:38.851
+1407	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:28	2024-09-24 21:45:38.851
+1408	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:28	2024-09-24 21:45:38.851
+1409	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:28	2024-09-24 21:45:38.851
+1410	Basket	Campolindo	"11 - Micah Kaufman"	false	2	true	Make	Fastbreak	Layup	false	""	""	1	00:06:28	2024-09-24 21:45:38.851
+939	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:12	2024-09-07 16:32:42.408
+940	Basket	Campolindo	"44 - Crosby Kelly"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:20	2024-09-07 16:35:48.194
+941	Basket	Campolindo	"40 - Thatcher Grenby"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:20	2024-09-07 16:35:48.194
+942	Basket	Campolindo	"25 - Noah Henry"	true	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:20	2024-09-07 16:35:48.194
+943	Basket	Campolindo	"24 - Sean Parker"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:20	2024-09-07 16:35:48.194
+944	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:20	2024-09-07 16:35:48.194
+945	Basket	Lincoln Stockton Scrimmage	"44 - Crosby Kelly"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:21	2024-09-07 16:35:59.714
+946	Basket	Lincoln Stockton Scrimmage	"40 - Thatcher Grenby"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:21	2024-09-07 16:35:59.714
+947	Basket	Lincoln Stockton Scrimmage	"25 - Noah Henry"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:21	2024-09-07 16:35:59.714
+948	Basket	Lincoln Stockton Scrimmage	"24 - Sean Parker"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:21	2024-09-07 16:35:59.714
+949	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:21	2024-09-07 16:35:59.714
+1371	Turnover	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:25	2024-09-21 20:25:47.001
+1372	Turnover	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:25	2024-09-21 20:25:47.001
+1373	Turnover	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:25	2024-09-21 20:25:47.001
+1374	Turnover	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:25	2024-09-21 20:25:47.001
+1375	Turnover	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:25	2024-09-21 20:25:47.001
+1036	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:45	2024-09-18 16:24:38.757
+1037	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:45	2024-09-18 16:24:38.757
+1039	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:45	2024-09-18 16:24:38.757
+1040	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:45	2024-09-18 16:24:38.757
+1046	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	Inbounds	Jumper	true	""	""	1	00:00:47	2024-09-18 16:31:38.755
+1038	Basket	Campolindo	"5 - Luke Hickey"	true	2	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:45	2024-09-18 16:24:38.757
+995	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:31	2024-09-07 20:03:00.879
+996	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:31	2024-09-07 20:03:00.879
+997	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:31	2024-09-07 20:03:00.879
+998	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:31	2024-09-07 20:03:00.879
+999	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:31	2024-09-07 20:03:00.879
+1047	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	Inbounds	Jumper	true	""	""	1	00:00:47	2024-09-18 16:31:38.755
+1048	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Make	Inbounds	Jumper	true	""	""	1	00:00:47	2024-09-18 16:31:38.755
+1049	Basket	Campolindo	"11 - Micah Kaufman"	false	3	true	Make	Inbounds	Jumper	true	""	""	1	00:00:47	2024-09-18 16:31:38.755
+1050	Basket	Campolindo	"10 - Rex Pastore"	true	3	false	Make	Inbounds	Jumper	true	""	""	1	00:00:47	2024-09-18 16:31:38.755
+1051	Rebound	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	Offensive	""	1	00:00:50	2024-09-18 16:37:58.984
+1052	Rebound	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	Offensive	""	1	00:00:50	2024-09-18 16:37:58.984
+1053	Rebound	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	Offensive	""	1	00:00:50	2024-09-18 16:37:58.984
+1054	Rebound	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	Offensive	""	1	00:00:50	2024-09-18 16:37:58.984
+1055	Rebound	Campolindo	"11 - Micah Kaufman"	true	1	false	    	""	""	false	Offensive	""	1	00:00:50	2024-09-18 16:37:58.984
+1061	Block	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:00:54	2024-09-18 16:41:19.332
+1062	Block	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:00:54	2024-09-18 16:41:19.332
+1063	Block	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:00:54	2024-09-18 16:41:19.332
+1064	Block	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:00:54	2024-09-18 16:41:19.332
+1065	Block	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:00:54	2024-09-18 16:41:19.332
+1066	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:55	2024-09-18 16:41:56.147
+1067	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:55	2024-09-18 16:41:56.147
+1068	Basket	Campolindo	"5 - Luke Hickey"	false	3	true	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:55	2024-09-18 16:41:56.147
+1069	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:55	2024-09-18 16:41:56.147
+1070	Basket	Campolindo	"11 - Micah Kaufman"	true	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:00:55	2024-09-18 16:41:56.147
+1071	Basket	Campolindo	"2 - Luca Potts"	true	2	false	Make	One-on-One	Jumper	false	""	""	1	00:00:56	2024-09-18 17:39:17.696
+1072	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:00:56	2024-09-18 17:39:17.696
+1073	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:00:56	2024-09-18 17:39:17.696
+1074	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:00:56	2024-09-18 17:39:17.696
+1075	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:00:56	2024-09-18 17:39:17.696
+1286	Rebound	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	Defensive	"0 - UNKNOWN"	1	00:06:05	2024-09-21 17:19:56.673
+1287	Rebound	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	Defensive	"0 - UNKNOWN"	1	00:06:05	2024-09-21 17:19:56.673
+1288	Rebound	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	Defensive	"0 - UNKNOWN"	1	00:06:05	2024-09-21 17:19:56.673
+1289	Rebound	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	Defensive	"0 - UNKNOWN"	1	00:06:05	2024-09-21 17:19:56.673
+1290	Rebound	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	Defensive	"0 - UNKNOWN"	1	00:06:05	2024-09-21 17:19:56.673
+1091	Basket	Campolindo	"2 - Luca Potts"	true	2	false	Make	Fastbreak	Dunk	false	""	""	1	00:01:00	2024-09-18 17:57:20.091
+1092	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Fastbreak	Dunk	false	""	""	1	00:01:00	2024-09-18 17:57:20.091
+1093	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Fastbreak	Dunk	false	""	""	1	00:01:00	2024-09-18 17:57:20.091
+1094	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Fastbreak	Dunk	false	""	""	1	00:01:00	2024-09-18 17:57:20.091
+1095	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Fastbreak	Dunk	false	""	""	1	00:01:00	2024-09-18 17:57:20.091
+1101	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Inbounds	Putback	false	""	""	1	00:01:05	2024-09-18 19:13:03.222
+1102	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Inbounds	Putback	false	""	""	1	00:01:05	2024-09-18 19:13:03.222
+1103	Basket	Campolindo	"5 - Luke Hickey"	true	2	false	Make	Inbounds	Putback	false	""	""	1	00:01:05	2024-09-18 19:13:03.222
+1104	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Inbounds	Putback	false	""	""	1	00:01:05	2024-09-18 19:13:03.222
+1105	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Inbounds	Putback	false	""	""	1	00:01:05	2024-09-18 19:13:03.222
+1161	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Dunk	false	""	""	1	00:05:10	2024-09-18 20:29:00.191
+1162	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Dunk	false	""	""	1	00:05:10	2024-09-18 20:29:00.191
+1163	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	"1/2 Court Offense"	Dunk	false	""	""	1	00:05:10	2024-09-18 20:29:00.191
+1426	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	"1/2 Court Offense"	Jumper	true	""	""	1	00:06:30	2024-09-24 22:30:51.421
+1427	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	"1/2 Court Offense"	Jumper	true	""	""	1	00:06:30	2024-09-24 22:30:51.421
+1428	Basket	Campolindo	"5 - Luke Hickey"	true	3	false	Make	"1/2 Court Offense"	Jumper	true	""	""	1	00:06:30	2024-09-24 22:30:51.421
+1116	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Dunk	true	""	""	1	00:01:10	2024-09-18 19:32:16.599
+1117	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Dunk	true	""	""	1	00:01:10	2024-09-18 19:32:16.599
+1118	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	"1/2 Court Offense"	Dunk	true	""	""	1	00:01:10	2024-09-18 19:32:16.599
+1119	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	"1/2 Court Offense"	Dunk	true	""	""	1	00:01:10	2024-09-18 19:32:16.599
+1120	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Make	"1/2 Court Offense"	Dunk	true	""	""	1	00:01:10	2024-09-18 19:32:16.599
+1121	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	One-on-One	Dunk	true	""	""	1	00:02:00	2024-09-18 19:34:18.830
+1122	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	One-on-One	Dunk	true	""	""	1	00:02:00	2024-09-18 19:34:18.830
+1123	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	One-on-One	Dunk	true	""	""	1	00:02:00	2024-09-18 19:34:18.830
+1124	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	One-on-One	Dunk	true	""	""	1	00:02:00	2024-09-18 19:34:18.830
+1125	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Make	One-on-One	Dunk	true	""	""	1	00:02:00	2024-09-18 19:34:18.830
+1126	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	Buzzer Beater	Jumper	true	""	""	1	00:02:01	2024-09-18 19:45:10.104
+1127	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	Buzzer Beater	Jumper	true	""	""	1	00:02:01	2024-09-18 19:45:10.104
+1128	Basket	Campolindo	"5 - Luke Hickey"	true	3	false	Make	Buzzer Beater	Jumper	true	""	""	1	00:02:01	2024-09-18 19:45:10.104
+1129	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Make	Buzzer Beater	Jumper	true	""	""	1	00:02:01	2024-09-18 19:45:10.104
+1130	Basket	Campolindo	"11 - Micah Kaufman"	false	3	false	Make	Buzzer Beater	Jumper	true	""	""	1	00:02:01	2024-09-18 19:45:10.104
+1291	Rebound	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	Offensive	""	1	00:06:07	2024-09-21 18:38:48.448
+1292	Rebound	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	Offensive	""	1	00:06:07	2024-09-21 18:38:48.448
+1293	Rebound	Campolindo	"5 - Luke Hickey"	true	1	false	    	""	""	false	Offensive	""	1	00:06:07	2024-09-21 18:38:48.448
+1294	Rebound	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	Offensive	""	1	00:06:07	2024-09-21 18:38:48.448
+1295	Rebound	Campolindo	"11 - Micah Kaufman"	false	1	false	    	""	""	false	Offensive	""	1	00:06:07	2024-09-21 18:38:48.448
+1141	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Putback	false	""	""	1	00:02:02	2024-09-18 20:11:11.503
+1142	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Putback	false	""	""	1	00:02:02	2024-09-18 20:11:11.503
+1143	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	"1/2 Court Offense"	Putback	false	""	""	1	00:02:02	2024-09-18 20:11:11.503
+1144	Basket	Campolindo	"10 - Rex Pastore"	true	2	false	Make	"1/2 Court Offense"	Putback	false	""	""	1	00:02:02	2024-09-18 20:11:11.503
+1145	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	"1/2 Court Offense"	Putback	false	""	""	1	00:02:02	2024-09-18 20:11:11.503
+1146	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	"1/2 Court Offense"	Heave	false	""	""	1	00:05:00	2024-09-18 20:17:14.688
+1147	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	"1/2 Court Offense"	Heave	false	""	""	1	00:05:00	2024-09-18 20:17:14.688
+1148	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Make	"1/2 Court Offense"	Heave	false	""	""	1	00:05:00	2024-09-18 20:17:14.688
+1149	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Make	"1/2 Court Offense"	Heave	false	""	""	1	00:05:00	2024-09-18 20:17:14.688
+1150	Basket	Campolindo	"11 - Micah Kaufman"	true	3	false	Make	"1/2 Court Offense"	Heave	false	""	""	1	00:05:00	2024-09-18 20:17:14.688
+1331	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:15	2024-09-21 18:54:34.753
+1332	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:15	2024-09-21 18:54:34.753
+1333	Basket	Campolindo	"5 - Luke Hickey"	true	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:15	2024-09-21 18:54:34.753
+1334	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Fastbreak	Layup	false	""	""	1	00:06:15	2024-09-21 18:54:34.753
+1335	Basket	Campolindo	"11 - Micah Kaufman"	false	2	true	Make	Fastbreak	Layup	false	""	""	1	00:06:15	2024-09-21 18:54:34.753
+1156	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Floater	false	""	""	1	00:05:05	2024-09-18 20:26:54.331
+1157	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Floater	false	""	""	1	00:05:05	2024-09-18 20:26:54.331
+1158	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	"1/2 Court Offense"	Floater	false	""	""	1	00:05:05	2024-09-18 20:26:54.331
+1159	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	"1/2 Court Offense"	Floater	false	""	""	1	00:05:05	2024-09-18 20:26:54.331
+1160	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Make	"1/2 Court Offense"	Floater	false	""	""	1	00:05:05	2024-09-18 20:26:54.331
+1421	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:29	2024-09-24 22:29:20.426
+1422	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:29	2024-09-24 22:29:20.426
+1423	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:29	2024-09-24 22:29:20.426
+1424	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:29	2024-09-24 22:29:20.426
+1425	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:29	2024-09-24 22:29:20.426
+1164	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	"1/2 Court Offense"	Dunk	false	""	""	1	00:05:10	2024-09-18 20:29:00.191
+1165	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Make	"1/2 Court Offense"	Dunk	false	""	""	1	00:05:10	2024-09-18 20:29:00.191
+1296	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	"1/2 Court Offense"	Putback	true	""	""	1	00:06:08	2024-09-21 18:39:13.504
+1297	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	"1/2 Court Offense"	Putback	true	""	""	1	00:06:08	2024-09-21 18:39:13.504
+1298	Basket	Campolindo	"5 - Luke Hickey"	true	2	false	Make	"1/2 Court Offense"	Putback	true	""	""	1	00:06:08	2024-09-21 18:39:13.504
+1299	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	"1/2 Court Offense"	Putback	true	""	""	1	00:06:08	2024-09-21 18:39:13.504
+1300	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	"1/2 Court Offense"	Putback	true	""	""	1	00:06:08	2024-09-21 18:39:13.504
+1429	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Make	"1/2 Court Offense"	Jumper	true	""	""	1	00:06:30	2024-09-24 22:30:51.421
+1430	Basket	Campolindo	"11 - Micah Kaufman"	false	3	true	Make	"1/2 Court Offense"	Jumper	true	""	""	1	00:06:30	2024-09-24 22:30:51.421
+1186	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:15	2024-09-19 20:41:22.376
+1187	Basket	Campolindo	"3 - Owen Ludwig"	true	2	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:15	2024-09-19 20:41:22.376
+1188	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:15	2024-09-19 20:41:22.376
+1189	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:15	2024-09-19 20:41:22.376
+1190	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:15	2024-09-19 20:41:22.376
+1191	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Inbounds	Floater	false	""	""	1	00:05:20	2024-09-19 20:54:35.508
+1192	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Inbounds	Floater	false	""	""	1	00:05:20	2024-09-19 20:54:35.508
+1193	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Inbounds	Floater	false	""	""	1	00:05:20	2024-09-19 20:54:35.508
+1194	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Inbounds	Floater	false	""	""	1	00:05:20	2024-09-19 20:54:35.508
+1195	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Make	Inbounds	Floater	false	""	""	1	00:05:20	2024-09-19 20:54:35.508
+1196	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Fastbreak	Layup	true	""	""	1	00:05:25	2024-09-19 21:01:05.696
+1197	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	Fastbreak	Layup	true	""	""	1	00:05:25	2024-09-19 21:01:05.696
+1198	Basket	Campolindo	"5 - Luke Hickey"	false	2	true	Make	Fastbreak	Layup	true	""	""	1	00:05:25	2024-09-19 21:01:05.696
+1199	Basket	Campolindo	"10 - Rex Pastore"	true	2	false	Make	Fastbreak	Layup	true	""	""	1	00:05:25	2024-09-19 21:01:05.696
+1200	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Fastbreak	Layup	true	""	""	1	00:05:25	2024-09-19 21:01:05.696
+1201	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:30	2024-09-19 21:04:48.569
+1202	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:30	2024-09-19 21:04:48.569
+1203	Basket	Campolindo	"5 - Luke Hickey"	true	3	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:30	2024-09-19 21:04:48.569
+1204	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:30	2024-09-19 21:04:48.569
+1205	Basket	Campolindo	"11 - Micah Kaufman"	false	3	false	Miss	"1/2 Court Offense"	Jumper	false	""	""	1	00:05:30	2024-09-19 21:04:48.569
+1211	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Miss	One-on-One	Floater	false	""	""	1	00:05:35	2024-09-19 22:54:23.970
+1212	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Miss	One-on-One	Floater	false	""	""	1	00:05:35	2024-09-19 22:54:23.970
+1213	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Miss	One-on-One	Floater	false	""	""	1	00:05:35	2024-09-19 22:54:23.970
+1214	Basket	Campolindo	"10 - Rex Pastore"	true	2	false	Miss	One-on-One	Floater	false	""	""	1	00:05:35	2024-09-19 22:54:23.970
+1215	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Miss	One-on-One	Floater	false	""	""	1	00:05:35	2024-09-19 22:54:23.970
+1216	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Miss	"1/2 Court Offense"	Heave	false	""	""	1	00:05:40	2024-09-19 22:57:47.211
+1217	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Miss	"1/2 Court Offense"	Heave	false	""	""	1	00:05:40	2024-09-19 22:57:47.211
+1218	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Miss	"1/2 Court Offense"	Heave	false	""	""	1	00:05:40	2024-09-19 22:57:47.211
+1219	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Miss	"1/2 Court Offense"	Heave	false	""	""	1	00:05:40	2024-09-19 22:57:47.211
+1220	Basket	Campolindo	"11 - Micah Kaufman"	true	3	false	Miss	"1/2 Court Offense"	Heave	false	""	""	1	00:05:40	2024-09-19 22:57:47.211
+1236	Rebound	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	Offensive	""	1	00:05:45	2024-09-20 13:58:11.226
+1237	Rebound	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	Offensive	""	1	00:05:45	2024-09-20 13:58:11.226
+1238	Rebound	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	Offensive	""	1	00:05:45	2024-09-20 13:58:11.226
+1239	Rebound	Campolindo	"10 - Rex Pastore"	true	1	false	    	""	""	false	Offensive	""	1	00:05:45	2024-09-20 13:58:11.226
+1240	Rebound	Campolindo	"11 - Micah Kaufman"	false	1	false	    	""	""	false	Offensive	""	1	00:05:45	2024-09-20 13:58:11.226
+1466	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:06:45	2024-10-04 15:37:17.238
+1467	Basket	Campolindo	"3 - Owen Ludwig"	true	2	false	Make	One-on-One	Jumper	false	""	""	1	00:06:45	2024-10-04 15:37:17.238
+1306	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	Inbounds	Jumper	false	""	""	1	00:06:09	2024-09-21 18:51:43.179
+881	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1	false	Make	""	""	false	""	""	1	00:00:08	2024-09-07 16:32:17.660
+882	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:00:08	2024-09-07 16:32:17.660
+883	Free Throw	Campolindo	"10 - Rex Pastore"	false	1	false	Make	""	""	false	""	""	1	00:00:08	2024-09-07 16:32:17.660
+884	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1	false	Make	""	""	false	""	""	1	00:00:08	2024-09-07 16:32:17.660
+885	Free Throw	Campolindo	"2 - Luca Potts"	false	1	false	Make	""	""	false	""	""	1	00:00:08	2024-09-07 16:32:17.660
+905	Free Throw	Campolindo	"3 - Owen Ludwig"	true	1	false	Make	""	""	false	""	""	1	00:00:05	2024-09-07 16:28:56.854
+906	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:00:05	2024-09-07 16:28:56.854
+907	Free Throw	Campolindo	"10 - Rex Pastore"	false	1	false	Make	""	""	false	""	""	1	00:00:05	2024-09-07 16:28:56.854
+908	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1	false	Make	""	""	false	""	""	1	00:00:05	2024-09-07 16:28:56.854
+909	Free Throw	Campolindo	"2 - Luca Potts"	false	1	false	Make	""	""	false	""	""	1	00:00:05	2024-09-07 16:28:56.854
+925	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1	false	Make	""	""	false	""	""	1	00:00:10	2024-09-07 16:32:26.177
+926	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:00:10	2024-09-07 16:32:26.177
+927	Free Throw	Campolindo	"10 - Rex Pastore"	false	1	false	Make	""	""	false	""	""	1	00:00:10	2024-09-07 16:32:26.177
+928	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1	false	Make	""	""	false	""	""	1	00:00:10	2024-09-07 16:32:26.177
+929	Free Throw	Campolindo	"2 - Luca Potts"	false	1	false	Make	""	""	false	""	""	1	00:00:10	2024-09-07 16:32:26.177
+955	Free Throw	Campolindo	"2 - Luca Potts"	true	1	false	Make	""	""	false	""	""	1	00:00:22	2024-09-07 19:56:52.908
+956	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1	false	Make	""	""	false	""	""	1	00:00:22	2024-09-07 19:56:52.908
+957	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:00:22	2024-09-07 19:56:52.908
+958	Free Throw	Campolindo	"10 - Rex Pastore"	false	1	false	Make	""	""	false	""	""	1	00:00:22	2024-09-07 19:56:52.908
+959	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1	false	Make	""	""	false	""	""	1	00:00:22	2024-09-07 19:56:52.908
+1307	Basket	Campolindo	"3 - Owen Ludwig"	false	3	true	Make	Inbounds	Jumper	false	""	""	1	00:06:09	2024-09-21 18:51:43.179
+1308	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Make	Inbounds	Jumper	false	""	""	1	00:06:09	2024-09-21 18:51:43.179
+1309	Basket	Campolindo	"10 - Rex Pastore"	true	3	false	Make	Inbounds	Jumper	false	""	""	1	00:06:09	2024-09-21 18:51:43.179
+1310	Basket	Campolindo	"11 - Micah Kaufman"	false	3	false	Make	Inbounds	Jumper	false	""	""	1	00:06:09	2024-09-21 18:51:43.179
+1311	Turnover	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:10	2024-09-21 18:52:28.944
+1312	Turnover	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:10	2024-09-21 18:52:28.944
+1313	Turnover	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:10	2024-09-21 18:52:28.944
+1314	Turnover	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:10	2024-09-21 18:52:28.944
+1315	Turnover	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:10	2024-09-21 18:52:28.944
+1015	Free Throw	Campolindo	"2 - Luca Potts"	false	1	false	Make	""	""	false	""	""	1	00:00:40	2024-09-07 20:32:00.848
+1016	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1	false	Make	""	""	false	""	""	1	00:00:40	2024-09-07 20:32:00.848
+1017	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:00:40	2024-09-07 20:32:00.848
+1018	Free Throw	Campolindo	"11 - Micah Kaufman"	true	1	false	Make	""	""	false	""	""	1	00:00:40	2024-09-07 20:32:00.848
+1019	Free Throw	Campolindo	"10 - Rex Pastore"	false	1	false	Make	""	""	false	""	""	1	00:00:40	2024-09-07 20:32:00.848
+1431	Basket	Campolindo	"2 - Luca Potts"	true	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:06:18	2024-09-26 13:43:34.241
+1432	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:06:18	2024-09-26 13:43:34.241
+1433	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:06:18	2024-09-26 13:43:34.241
+1434	Basket	Campolindo	"10 - Rex Pastore"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:06:18	2024-09-26 13:43:34.241
+1435	Basket	Campolindo	"11 - Micah Kaufman"	false	3	false	Make	"1/2 Court Offense"	Jumper	false	""	""	1	00:06:18	2024-09-26 13:43:34.241
+1441	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	One-on-One	Floater	false	""	""	1	00:06:40	2024-10-01 20:37:38.150
+1442	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Make	One-on-One	Floater	false	""	""	1	00:06:40	2024-10-01 20:37:38.150
+1443	Basket	Campolindo	"5 - Luke Hickey"	true	2	false	Make	One-on-One	Floater	false	""	""	1	00:06:40	2024-10-01 20:37:38.150
+1444	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	One-on-One	Floater	false	""	""	1	00:06:40	2024-10-01 20:37:38.150
+1445	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	One-on-One	Floater	false	""	""	1	00:06:40	2024-10-01 20:37:38.150
+1468	Basket	Campolindo	"5 - Luke Hickey"	false	2	true	Make	One-on-One	Jumper	false	""	""	1	00:06:45	2024-10-04 15:37:17.238
+1469	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:06:45	2024-10-04 15:37:17.238
+911	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:06	2024-09-07 16:29:06.527
+1470	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	One-on-One	Jumper	false	""	""	1	00:06:45	2024-10-04 15:37:17.238
+1326	Steal	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	""	""	1	00:06:12	2024-09-21 18:53:24.046
+1327	Steal	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	""	""	1	00:06:12	2024-09-21 18:53:24.046
+1328	Steal	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	""	""	1	00:06:12	2024-09-21 18:53:24.046
+1329	Steal	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	""	""	1	00:06:12	2024-09-21 18:53:24.046
+1330	Steal	Campolindo	"11 - Micah Kaufman"	true	1	false	    	""	""	false	""	""	1	00:06:12	2024-09-21 18:53:24.046
+1436	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Miss	One-on-One	Jumper	false	""	""	1	00:06:31	2024-09-26 13:44:35.481
+1437	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Miss	One-on-One	Jumper	false	""	""	1	00:06:31	2024-09-26 13:44:35.481
+1438	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Miss	One-on-One	Jumper	false	""	""	1	00:06:31	2024-09-26 13:44:35.481
+1439	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Miss	One-on-One	Jumper	false	""	""	1	00:06:31	2024-09-26 13:44:35.481
+1440	Basket	Campolindo	"11 - Micah Kaufman"	true	2	false	Miss	One-on-One	Jumper	false	""	""	1	00:06:31	2024-09-26 13:44:35.481
+1446	Rebound	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	Defensive	""	1	00:06:41	2024-10-01 20:38:15.783
+1447	Rebound	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	Defensive	""	1	00:06:41	2024-10-01 20:38:15.783
+1448	Rebound	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	Defensive	""	1	00:06:41	2024-10-01 20:38:15.783
+1449	Rebound	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	Defensive	""	1	00:06:41	2024-10-01 20:38:15.783
+1450	Rebound	Campolindo	"11 - Micah Kaufman"	true	1	false	    	""	""	false	Defensive	""	1	00:06:41	2024-10-01 20:38:15.783
+912	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:06	2024-09-07 16:29:06.527
+913	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:06	2024-09-07 16:29:06.527
+914	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:06	2024-09-07 16:29:06.527
+915	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:07	2024-09-07 16:31:37.531
+916	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:07	2024-09-07 16:31:37.531
+917	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:07	2024-09-07 16:31:37.531
+918	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:07	2024-09-07 16:31:37.531
+919	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:07	2024-09-07 16:31:37.531
+930	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:11	2024-09-07 16:32:34.708
+931	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:11	2024-09-07 16:32:34.708
+932	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:11	2024-09-07 16:32:34.708
+933	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:11	2024-09-07 16:32:34.708
+934	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:11	2024-09-07 16:32:34.708
+935	Basket	Campolindo	"3 - Owen Ludwig"	true	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:12	2024-09-07 16:32:42.408
+936	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:12	2024-09-07 16:32:42.408
+937	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:12	2024-09-07 16:32:42.408
+938	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:12	2024-09-07 16:32:42.408
+1451	Steal	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:42	2024-10-01 20:45:36.330
+1452	Steal	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:42	2024-10-01 20:45:36.330
+960	Basket	Campolindo	"2 - Luca Potts"	false	3	false	Make	Half Court	Jumper	false	""	""	1	00:00:25	2024-09-07 19:56:59.803
+961	Basket	Campolindo	"3 - Owen Ludwig"	false	3	false	Make	Half Court	Jumper	false	""	""	1	00:00:25	2024-09-07 19:56:59.803
+962	Basket	Campolindo	"5 - Luke Hickey"	false	3	false	Make	Half Court	Jumper	false	""	""	1	00:00:25	2024-09-07 19:56:59.803
+963	Basket	Campolindo	"10 - Rex Pastore"	true	3	false	Make	Half Court	Jumper	false	""	""	1	00:00:25	2024-09-07 19:56:59.803
+964	Basket	Campolindo	"11 - Micah Kaufman"	false	3	false	Make	Half Court	Jumper	false	""	""	1	00:00:25	2024-09-07 19:56:59.803
+965	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:27	2024-09-07 19:57:06.957
+966	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:27	2024-09-07 19:57:06.957
+967	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:27	2024-09-07 19:57:06.957
+968	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:27	2024-09-07 19:57:06.957
+969	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:27	2024-09-07 19:57:06.957
+975	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:32	2024-09-07 20:03:30.703
+976	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:32	2024-09-07 20:03:30.703
+977	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:32	2024-09-07 20:03:30.703
+978	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:32	2024-09-07 20:03:30.703
+979	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:32	2024-09-07 20:03:30.703
+985	Basket	Campolindo	"2 - Luca Potts"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:30	2024-09-07 20:02:25.613
+986	Basket	Campolindo	"3 - Owen Ludwig"	true	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:30	2024-09-07 20:02:25.613
+987	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:30	2024-09-07 20:02:25.613
+1453	Steal	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:42	2024-10-01 20:45:36.330
+1454	Steal	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:42	2024-10-01 20:45:36.330
+1455	Steal	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	    	""	""	false	""	"0 - UNKNOWN"	1	00:06:42	2024-10-01 20:45:36.330
+1456	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Miss	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:43	2024-10-01 20:52:15.079
+1457	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Miss	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:43	2024-10-01 20:52:15.079
+1458	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Miss	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:43	2024-10-01 20:52:15.079
+1459	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Miss	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:43	2024-10-01 20:52:15.079
+1460	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Miss	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:43	2024-10-01 20:52:15.079
+988	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:30	2024-09-07 20:02:25.613
+989	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Make	Half Court	Jumper	false	""	""	1	00:00:30	2024-09-07 20:02:25.613
+1005	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:33	2024-09-07 20:03:45.081
+1006	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:33	2024-09-07 20:03:45.081
+1007	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:33	2024-09-07 20:03:45.081
+1008	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:33	2024-09-07 20:03:45.081
+1009	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-1	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:33	2024-09-07 20:03:45.081
+1021	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:41	2024-09-07 20:37:15.688
+1022	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:41	2024-09-07 20:37:15.688
+1023	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:41	2024-09-07 20:37:15.688
+1024	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:41	2024-09-07 20:37:15.688
+1025	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-3	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:41	2024-09-07 20:37:15.688
+1026	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:43	2024-09-07 20:37:57.787
+1027	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:43	2024-09-07 20:37:57.787
+1028	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:43	2024-09-07 20:37:57.787
+1029	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:43	2024-09-07 20:37:57.787
+1030	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	Half Court	Jumper	false	""	"0 - UNKNOWN"	1	00:00:43	2024-09-07 20:37:57.787
+1246	Basket	Campolindo	"2 - Luca Potts"	true	2	false	Miss	Fastbreak	Layup	false	""	""	1	00:05:50	2024-09-20 22:08:55.765
+1247	Basket	Campolindo	"3 - Owen Ludwig"	false	2	false	Miss	Fastbreak	Layup	false	""	""	1	00:05:50	2024-09-20 22:08:55.765
+1248	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Miss	Fastbreak	Layup	false	""	""	1	00:05:50	2024-09-20 22:08:55.765
+1249	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Miss	Fastbreak	Layup	false	""	""	1	00:05:50	2024-09-20 22:08:55.765
+1250	Basket	Campolindo	"11 - Micah Kaufman"	false	2	true	Miss	Fastbreak	Layup	false	""	""	1	00:05:50	2024-09-20 22:08:55.765
+1256	Rebound	Campolindo	"2 - Luca Potts"	false	1	false	    	""	""	false	Defensive	""	1	00:05:55	2024-09-20 22:10:57.814
+1257	Rebound	Campolindo	"3 - Owen Ludwig"	false	1	false	    	""	""	false	Defensive	""	1	00:05:55	2024-09-20 22:10:57.814
+1258	Rebound	Campolindo	"5 - Luke Hickey"	false	1	false	    	""	""	false	Defensive	""	1	00:05:55	2024-09-20 22:10:57.814
+1259	Rebound	Campolindo	"10 - Rex Pastore"	false	1	false	    	""	""	false	Defensive	""	1	00:05:55	2024-09-20 22:10:57.814
+1260	Rebound	Campolindo	"11 - Micah Kaufman"	true	1	false	    	""	""	false	Defensive	""	1	00:05:55	2024-09-20 22:10:57.814
+1261	Free Throw	Campolindo	"2 - Luca Potts"	false	1	false	Make	""	""	false	""	""	1	00:06:00	2024-09-21 15:59:48.262
+1262	Free Throw	Campolindo	"3 - Owen Ludwig"	false	1	false	Make	""	""	false	""	""	1	00:06:00	2024-09-21 15:59:48.262
+1263	Free Throw	Campolindo	"5 - Luke Hickey"	false	1	false	Make	""	""	false	""	""	1	00:06:00	2024-09-21 15:59:48.262
+1264	Free Throw	Campolindo	"10 - Rex Pastore"	true	1	false	Make	""	""	false	""	""	1	00:06:00	2024-09-21 15:59:48.262
+1265	Free Throw	Campolindo	"11 - Micah Kaufman"	false	1	false	Make	""	""	false	""	""	1	00:06:00	2024-09-21 15:59:48.262
+1266	Basket	Campolindo	"2 - Luca Potts"	true	2	false	Miss	Fastbreak	Layup	true	""	""	1	00:06:01	2024-09-21 16:00:39.393
+1267	Basket	Campolindo	"3 - Owen Ludwig"	false	2	true	Miss	Fastbreak	Layup	true	""	""	1	00:06:01	2024-09-21 16:00:39.393
+1268	Basket	Campolindo	"5 - Luke Hickey"	false	2	false	Miss	Fastbreak	Layup	true	""	""	1	00:06:01	2024-09-21 16:00:39.393
+1269	Basket	Campolindo	"10 - Rex Pastore"	false	2	false	Miss	Fastbreak	Layup	true	""	""	1	00:06:01	2024-09-21 16:00:39.393
+1270	Basket	Campolindo	"11 - Micah Kaufman"	false	2	false	Miss	Fastbreak	Layup	true	""	""	1	00:06:01	2024-09-21 16:00:39.393
+1461	Basket	Lincoln Stockton Scrimmage	"2 - Luca Potts"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:44	2024-10-01 20:52:29.858
+1462	Basket	Lincoln Stockton Scrimmage	"3 - Owen Ludwig"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:44	2024-10-01 20:52:29.858
+1463	Basket	Lincoln Stockton Scrimmage	"5 - Luke Hickey"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:44	2024-10-01 20:52:29.858
+1464	Basket	Lincoln Stockton Scrimmage	"10 - Rex Pastore"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:44	2024-10-01 20:52:29.858
+1465	Basket	Lincoln Stockton Scrimmage	"11 - Micah Kaufman"	false	-2	false	Make	"1/2 Court Offense"	Jumper	false	""	"0 - UNKNOWN"	1	00:06:44	2024-10-01 20:52:29.858

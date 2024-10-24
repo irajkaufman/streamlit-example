@@ -1,0 +1,1031 @@
+"scoring_id"	"player"	"points_scored"	"team"	"scorer"	"video_time"	"created_date"	"opponent_player"	"schedule_id"
+1	"5 - Luke Hickey"	2	Campolindo	false	00:01:43	2024-01-08 00:00:22.623	""	3
+2	"11 - Micah Kaufman"	2	Campolindo	true	00:01:43	2024-01-08 00:00:22.623	""	3
+3	"15 - Thomas Berg III"	2	Campolindo	false	00:01:43	2024-01-08 00:00:22.623	""	3
+4	"24 - Sean Parker"	2	Campolindo	false	00:01:43	2024-01-08 00:00:22.623	""	3
+5	"25 - Noah Henry"	2	Campolindo	false	00:01:43	2024-01-08 00:00:22.623	""	3
+6	"5 - Luke Hickey"	3	Campolindo	false	00:02:04	2024-01-08 00:00:22.623	""	3
+7	"11 - Micah Kaufman"	3	Campolindo	true	00:02:04	2024-01-08 00:00:22.623	""	3
+8	"15 - Thomas Berg III"	3	Campolindo	false	00:02:04	2024-01-08 00:00:22.623	""	3
+9	"24 - Sean Parker"	3	Campolindo	false	00:02:04	2024-01-08 00:00:22.623	""	3
+10	"25 - Noah Henry"	3	Campolindo	false	00:02:04	2024-01-08 00:00:22.623	""	3
+11	"5 - Luke Hickey"	2	Campolindo	false	00:03:23	2024-01-08 00:00:22.623	""	3
+12	"11 - Micah Kaufman"	2	Campolindo	false	00:03:23	2024-01-08 00:00:22.623	""	3
+13	"15 - Thomas Berg III"	2	Campolindo	true	00:03:23	2024-01-08 00:00:22.623	""	3
+14	"24 - Sean Parker"	2	Campolindo	false	00:03:23	2024-01-08 00:00:22.623	""	3
+15	"25 - Noah Henry"	2	Campolindo	false	00:03:23	2024-01-08 00:00:22.623	""	3
+16	"5 - Luke Hickey"	2	Campolindo	false	00:03:47	2024-01-08 00:00:22.623	""	3
+17	"11 - Micah Kaufman"	2	Campolindo	false	00:03:47	2024-01-08 00:00:22.623	""	3
+18	"15 - Thomas Berg III"	2	Campolindo	false	00:03:47	2024-01-08 00:00:22.623	""	3
+19	"24 - Sean Parker"	2	Campolindo	false	00:03:47	2024-01-08 00:00:22.623	""	3
+20	"25 - Noah Henry"	2	Campolindo	true	00:03:47	2024-01-08 00:00:22.623	""	3
+21	"5 - Luke Hickey"	2	Campolindo	false	00:04:03	2024-01-08 00:00:22.623	""	3
+22	"11 - Micah Kaufman"	2	Campolindo	true	00:04:03	2024-01-08 00:00:22.623	""	3
+23	"15 - Thomas Berg III"	2	Campolindo	false	00:04:03	2024-01-08 00:00:22.623	""	3
+24	"24 - Sean Parker"	2	Campolindo	false	00:04:03	2024-01-08 00:00:22.623	""	3
+25	"25 - Noah Henry"	2	Campolindo	false	00:04:03	2024-01-08 00:00:22.623	""	3
+26	"5 - Luke Hickey"	3	Campolindo	false	00:04:49	2024-01-08 00:00:22.623	""	3
+27	"11 - Micah Kaufman"	3	Campolindo	true	00:04:49	2024-01-08 00:00:22.623	""	3
+28	"15 - Thomas Berg III"	3	Campolindo	false	00:04:49	2024-01-08 00:00:22.623	""	3
+29	"24 - Sean Parker"	3	Campolindo	false	00:04:49	2024-01-08 00:00:22.623	""	3
+30	"25 - Noah Henry"	3	Campolindo	false	00:04:49	2024-01-08 00:00:22.623	""	3
+31	"3 - Owen Ludwig"	2	Campolindo	false	00:06:49	2024-01-08 00:00:22.623	""	3
+32	"11 - Micah Kaufman"	2	Campolindo	false	00:06:49	2024-01-08 00:00:22.623	""	3
+33	"20 - Noah Mesfin"	2	Campolindo	false	00:06:49	2024-01-08 00:00:22.623	""	3
+34	"40 - Thatcher Grenby"	2	Campolindo	false	00:06:49	2024-01-08 00:00:22.623	""	3
+35	"44 - Crosby Kelly"	2	Campolindo	true	00:06:49	2024-01-08 00:00:22.623	""	3
+36	"3 - Owen Ludwig"	1	Campolindo	false	00:07:29	2024-01-08 00:00:22.623	""	3
+37	"11 - Micah Kaufman"	1	Campolindo	false	00:07:29	2024-01-08 00:00:22.623	""	3
+38	"20 - Noah Mesfin"	1	Campolindo	false	00:07:29	2024-01-08 00:00:22.623	""	3
+39	"40 - Thatcher Grenby"	1	Campolindo	false	00:07:29	2024-01-08 00:00:22.623	""	3
+40	"44 - Crosby Kelly"	1	Campolindo	true	00:07:29	2024-01-08 00:00:22.623	""	3
+41	"2 - Luca Potts"	1	Campolindo	false	00:07:49	2024-01-08 00:00:22.623	""	3
+42	"3 - Owen Ludwig"	1	Campolindo	false	00:07:49	2024-01-08 00:00:22.623	""	3
+43	"20 - Noah Mesfin"	1	Campolindo	false	00:07:49	2024-01-08 00:00:22.623	""	3
+44	"40 - Thatcher Grenby"	1	Campolindo	false	00:07:49	2024-01-08 00:00:22.623	""	3
+45	"44 - Crosby Kelly"	1	Campolindo	true	00:07:49	2024-01-08 00:00:22.623	""	3
+46	"2 - Luca Potts"	-1	St. Patrick / St. Vincent	false	00:09:57	2024-01-08 00:00:22.623	"20 - Jaden"	3
+47	"3 - Owen Ludwig"	-1	St. Patrick / St. Vincent	false	00:09:57	2024-01-08 00:00:22.623	"20 - Jaden"	3
+48	"20 - Noah Mesfin"	-1	St. Patrick / St. Vincent	false	00:09:57	2024-01-08 00:00:22.623	"20 - Jaden"	3
+49	"40 - Thatcher Grenby"	-1	St. Patrick / St. Vincent	false	00:09:57	2024-01-08 00:00:22.623	"20 - Jaden"	3
+50	"44 - Crosby Kelly"	-1	St. Patrick / St. Vincent	false	00:09:57	2024-01-08 00:00:22.623	"20 - Jaden"	3
+51	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:13:17	2024-01-08 00:00:22.623	"3 - Amelio"	3
+52	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:13:17	2024-01-08 00:00:22.623	"3 - Amelio"	3
+53	"20 - Noah Mesfin"	-2	St. Patrick / St. Vincent	false	00:13:17	2024-01-08 00:00:22.623	"3 - Amelio"	3
+54	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:13:17	2024-01-08 00:00:22.623	"3 - Amelio"	3
+55	"44 - Crosby Kelly"	-2	St. Patrick / St. Vincent	false	00:13:17	2024-01-08 00:00:22.623	"3 - Amelio"	3
+56	"5 - Luke Hickey"	2	Campolindo	false	00:14:53	2024-01-08 00:00:22.623	""	3
+57	"11 - Micah Kaufman"	2	Campolindo	false	00:14:53	2024-01-08 00:00:22.623	""	3
+58	"15 - Thomas Berg III"	2	Campolindo	true	00:14:53	2024-01-08 00:00:22.623	""	3
+59	"24 - Sean Parker"	2	Campolindo	false	00:14:53	2024-01-08 00:00:22.623	""	3
+60	"25 - Noah Henry"	2	Campolindo	false	00:14:53	2024-01-08 00:00:22.623	""	3
+61	"5 - Luke Hickey"	2	Campolindo	false	00:15:24	2024-01-08 00:00:22.623	""	3
+62	"11 - Micah Kaufman"	2	Campolindo	false	00:15:24	2024-01-08 00:00:22.623	""	3
+63	"15 - Thomas Berg III"	2	Campolindo	true	00:15:24	2024-01-08 00:00:22.623	""	3
+64	"24 - Sean Parker"	2	Campolindo	false	00:15:24	2024-01-08 00:00:22.623	""	3
+65	"25 - Noah Henry"	2	Campolindo	false	00:15:24	2024-01-08 00:00:22.623	""	3
+66	"5 - Luke Hickey"	2	Campolindo	false	00:17:50	2024-01-08 00:00:22.623	""	3
+67	"11 - Micah Kaufman"	2	Campolindo	true	00:17:50	2024-01-08 00:00:22.623	""	3
+68	"15 - Thomas Berg III"	2	Campolindo	false	00:17:50	2024-01-08 00:00:22.623	""	3
+69	"24 - Sean Parker"	2	Campolindo	false	00:17:50	2024-01-08 00:00:22.623	""	3
+70	"25 - Noah Henry"	2	Campolindo	false	00:17:50	2024-01-08 00:00:22.623	""	3
+71	"5 - Luke Hickey"	2	Campolindo	false	00:18:09	2024-01-08 00:00:22.623	""	3
+72	"11 - Micah Kaufman"	2	Campolindo	false	00:18:09	2024-01-08 00:00:22.623	""	3
+73	"15 - Thomas Berg III"	2	Campolindo	true	00:18:09	2024-01-08 00:00:22.623	""	3
+74	"24 - Sean Parker"	2	Campolindo	false	00:18:09	2024-01-08 00:00:22.623	""	3
+75	"25 - Noah Henry"	2	Campolindo	false	00:18:09	2024-01-08 00:00:22.623	""	3
+76	"5 - Luke Hickey"	-3	St. Patrick / St. Vincent	false	00:18:39	2024-01-08 00:00:22.623	"24 - Darius"	3
+77	"11 - Micah Kaufman"	-3	St. Patrick / St. Vincent	false	00:18:39	2024-01-08 00:00:22.623	"24 - Darius"	3
+78	"15 - Thomas Berg III"	-3	St. Patrick / St. Vincent	false	00:18:39	2024-01-08 00:00:22.623	"24 - Darius"	3
+79	"24 - Sean Parker"	-3	St. Patrick / St. Vincent	false	00:18:39	2024-01-08 00:00:22.623	"24 - Darius"	3
+80	"25 - Noah Henry"	-3	St. Patrick / St. Vincent	false	00:18:39	2024-01-08 00:00:22.623	"24 - Darius"	3
+81	"5 - Luke Hickey"	1	Campolindo	false	00:19:26	2024-01-08 00:00:22.623	""	3
+82	"11 - Micah Kaufman"	1	Campolindo	true	00:19:26	2024-01-08 00:00:22.623	""	3
+83	"15 - Thomas Berg III"	1	Campolindo	false	00:19:26	2024-01-08 00:00:22.623	""	3
+84	"24 - Sean Parker"	1	Campolindo	false	00:19:26	2024-01-08 00:00:22.623	""	3
+85	"25 - Noah Henry"	1	Campolindo	false	00:19:26	2024-01-08 00:00:22.623	""	3
+86	"2 - Luca Potts"	1	Campolindo	false	00:19:48	2024-01-08 00:00:22.623	""	3
+87	"3 - Owen Ludwig"	1	Campolindo	false	00:19:48	2024-01-08 00:00:22.623	""	3
+88	"11 - Micah Kaufman"	1	Campolindo	true	00:19:48	2024-01-08 00:00:22.623	""	3
+89	"12 - Lucas Katz"	1	Campolindo	false	00:19:48	2024-01-08 00:00:22.623	""	3
+90	"20 - Noah Mesfin"	1	Campolindo	false	00:19:48	2024-01-08 00:00:22.623	""	3
+91	"2 - Luca Potts"	2	Campolindo	false	00:20:24	2024-01-08 00:00:22.623	""	3
+92	"3 - Owen Ludwig"	2	Campolindo	false	00:20:24	2024-01-08 00:00:22.623	""	3
+93	"12 - Lucas Katz"	2	Campolindo	true	00:20:24	2024-01-08 00:00:22.623	""	3
+94	"20 - Noah Mesfin"	2	Campolindo	false	00:20:24	2024-01-08 00:00:22.623	""	3
+95	"40 - Thatcher Grenby"	2	Campolindo	false	00:20:24	2024-01-08 00:00:22.623	""	3
+96	"2 - Luca Potts"	2	Campolindo	false	00:20:33	2024-01-08 00:00:22.623	""	3
+97	"3 - Owen Ludwig"	2	Campolindo	false	00:20:33	2024-01-08 00:00:22.623	""	3
+98	"12 - Lucas Katz"	2	Campolindo	true	00:20:33	2024-01-08 00:00:22.623	""	3
+99	"20 - Noah Mesfin"	2	Campolindo	false	00:20:33	2024-01-08 00:00:22.623	""	3
+100	"40 - Thatcher Grenby"	2	Campolindo	false	00:20:33	2024-01-08 00:00:22.623	""	3
+101	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:21:05	2024-01-08 00:00:22.623	"12 - Quincy"	3
+102	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:21:05	2024-01-08 00:00:22.623	"12 - Quincy"	3
+103	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:21:05	2024-01-08 00:00:22.623	"12 - Quincy"	3
+104	"20 - Noah Mesfin"	-2	St. Patrick / St. Vincent	false	00:21:05	2024-01-08 00:00:22.623	"12 - Quincy"	3
+105	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:21:05	2024-01-08 00:00:22.623	"12 - Quincy"	3
+106	"2 - Luca Potts"	2	Campolindo	true	00:22:12	2024-01-08 00:00:22.623	""	3
+107	"3 - Owen Ludwig"	2	Campolindo	false	00:22:12	2024-01-08 00:00:22.623	""	3
+108	"12 - Lucas Katz"	2	Campolindo	false	00:22:12	2024-01-08 00:00:22.623	""	3
+109	"20 - Noah Mesfin"	2	Campolindo	false	00:22:12	2024-01-08 00:00:22.623	""	3
+110	"40 - Thatcher Grenby"	2	Campolindo	false	00:22:12	2024-01-08 00:00:22.623	""	3
+111	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:22:22	2024-01-08 00:00:22.623	"1 - Mateo"	3
+112	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:22:22	2024-01-08 00:00:22.623	"1 - Mateo"	3
+113	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:22:22	2024-01-08 00:00:22.623	"1 - Mateo"	3
+114	"20 - Noah Mesfin"	-2	St. Patrick / St. Vincent	false	00:22:22	2024-01-08 00:00:22.623	"1 - Mateo"	3
+115	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:22:22	2024-01-08 00:00:22.623	"1 - Mateo"	3
+116	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:23:00	2024-01-08 00:00:22.623	"5 - Sergio"	3
+117	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:23:00	2024-01-08 00:00:22.623	"5 - Sergio"	3
+118	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:23:00	2024-01-08 00:00:22.623	"5 - Sergio"	3
+119	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:23:00	2024-01-08 00:00:22.623	"5 - Sergio"	3
+120	"44 - Crosby Kelly"	-2	St. Patrick / St. Vincent	false	00:23:00	2024-01-08 00:00:22.623	"5 - Sergio"	3
+121	"2 - Luca Potts"	2	Campolindo	false	00:25:13	2024-01-08 00:00:22.623	""	3
+122	"3 - Owen Ludwig"	2	Campolindo	false	00:25:13	2024-01-08 00:00:22.623	""	3
+123	"12 - Lucas Katz"	2	Campolindo	false	00:25:13	2024-01-08 00:00:22.623	""	3
+124	"40 - Thatcher Grenby"	2	Campolindo	true	00:25:13	2024-01-08 00:00:22.623	""	3
+125	"44 - Crosby Kelly"	2	Campolindo	false	00:25:13	2024-01-08 00:00:22.623	""	3
+126	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:26:17	2024-01-08 00:00:22.623	"20 - Jaden"	3
+127	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:26:17	2024-01-08 00:00:22.623	"20 - Jaden"	3
+128	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:26:17	2024-01-08 00:00:22.623	"20 - Jaden"	3
+129	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:26:17	2024-01-08 00:00:22.623	"20 - Jaden"	3
+130	"25 - Noah Henry"	-2	St. Patrick / St. Vincent	false	00:26:17	2024-01-08 00:00:22.623	"20 - Jaden"	3
+131	"5 - Luke Hickey"	2	Campolindo	false	00:27:29	2024-01-08 00:00:22.623	""	3
+132	"11 - Micah Kaufman"	2	Campolindo	false	00:27:29	2024-01-08 00:00:22.623	""	3
+133	"15 - Thomas Berg III"	2	Campolindo	false	00:27:29	2024-01-08 00:00:22.623	""	3
+134	"24 - Sean Parker"	2	Campolindo	false	00:27:29	2024-01-08 00:00:22.623	""	3
+135	"25 - Noah Henry"	2	Campolindo	true	00:27:29	2024-01-08 00:00:22.623	""	3
+136	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:27:41	2024-01-08 00:00:22.623	"20 - Jaden"	3
+137	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:27:41	2024-01-08 00:00:22.623	"20 - Jaden"	3
+138	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:27:41	2024-01-08 00:00:22.623	"20 - Jaden"	3
+139	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:27:41	2024-01-08 00:00:22.623	"20 - Jaden"	3
+140	"25 - Noah Henry"	-2	St. Patrick / St. Vincent	false	00:27:41	2024-01-08 00:00:22.623	"20 - Jaden"	3
+141	"5 - Luke Hickey"	2	Campolindo	false	00:28:17	2024-01-08 00:00:22.623	""	3
+142	"11 - Micah Kaufman"	2	Campolindo	false	00:28:17	2024-01-08 00:00:22.623	""	3
+143	"15 - Thomas Berg III"	2	Campolindo	true	00:28:17	2024-01-08 00:00:22.623	""	3
+144	"24 - Sean Parker"	2	Campolindo	false	00:28:17	2024-01-08 00:00:22.623	""	3
+145	"25 - Noah Henry"	2	Campolindo	false	00:28:17	2024-01-08 00:00:22.623	""	3
+146	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:28:31	2024-01-08 00:00:22.623	"3 - Amelio"	3
+147	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:28:31	2024-01-08 00:00:22.623	"3 - Amelio"	3
+148	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:28:31	2024-01-08 00:00:22.623	"3 - Amelio"	3
+149	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:28:31	2024-01-08 00:00:22.623	"3 - Amelio"	3
+150	"25 - Noah Henry"	-2	St. Patrick / St. Vincent	false	00:28:31	2024-01-08 00:00:22.623	"3 - Amelio"	3
+151	"5 - Luke Hickey"	2	Campolindo	false	00:29:20	2024-01-08 00:00:22.623	""	3
+152	"11 - Micah Kaufman"	2	Campolindo	false	00:29:20	2024-01-08 00:00:22.623	""	3
+153	"15 - Thomas Berg III"	2	Campolindo	false	00:29:20	2024-01-08 00:00:22.623	""	3
+154	"24 - Sean Parker"	2	Campolindo	false	00:29:20	2024-01-08 00:00:22.623	""	3
+155	"44 - Crosby Kelly"	2	Campolindo	true	00:29:20	2024-01-08 00:00:22.623	""	3
+156	"5 - Luke Hickey"	2	Campolindo	false	00:30:21	2024-01-08 00:00:22.623	""	3
+157	"11 - Micah Kaufman"	2	Campolindo	true	00:30:21	2024-01-08 00:00:22.623	""	3
+158	"15 - Thomas Berg III"	2	Campolindo	false	00:30:21	2024-01-08 00:00:22.623	""	3
+159	"24 - Sean Parker"	2	Campolindo	false	00:30:21	2024-01-08 00:00:22.623	""	3
+160	"44 - Crosby Kelly"	2	Campolindo	false	00:30:21	2024-01-08 00:00:22.623	""	3
+161	"5 - Luke Hickey"	1	Campolindo	false	00:31:42	2024-01-08 00:00:22.623	""	3
+162	"11 - Micah Kaufman"	1	Campolindo	false	00:31:42	2024-01-08 00:00:22.623	""	3
+163	"15 - Thomas Berg III"	1	Campolindo	false	00:31:42	2024-01-08 00:00:22.623	""	3
+164	"24 - Sean Parker"	1	Campolindo	false	00:31:42	2024-01-08 00:00:22.623	""	3
+165	"44 - Crosby Kelly"	1	Campolindo	true	00:31:42	2024-01-08 00:00:22.623	""	3
+166	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:32:07	2024-01-08 00:00:22.623	"1 - Mateo"	3
+167	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:32:07	2024-01-08 00:00:22.623	"1 - Mateo"	3
+168	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:32:07	2024-01-08 00:00:22.623	"1 - Mateo"	3
+169	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:32:07	2024-01-08 00:00:22.623	"1 - Mateo"	3
+170	"44 - Crosby Kelly"	-2	St. Patrick / St. Vincent	false	00:32:07	2024-01-08 00:00:22.623	"1 - Mateo"	3
+171	"2 - Luca Potts"	-1	St. Patrick / St. Vincent	false	00:34:00	2024-01-08 00:00:22.623	"21 - Etrawl"	3
+172	"3 - Owen Ludwig"	-1	St. Patrick / St. Vincent	false	00:34:00	2024-01-08 00:00:22.623	"21 - Etrawl"	3
+173	"12 - Lucas Katz"	-1	St. Patrick / St. Vincent	false	00:34:00	2024-01-08 00:00:22.623	"21 - Etrawl"	3
+174	"40 - Thatcher Grenby"	-1	St. Patrick / St. Vincent	false	00:34:00	2024-01-08 00:00:22.623	"21 - Etrawl"	3
+175	"44 - Crosby Kelly"	-1	St. Patrick / St. Vincent	false	00:34:00	2024-01-08 00:00:22.623	"21 - Etrawl"	3
+176	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:36:51	2024-01-08 00:00:22.623	"3 - Amelio"	3
+177	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:36:51	2024-01-08 00:00:22.623	"3 - Amelio"	3
+178	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:36:51	2024-01-08 00:00:22.623	"3 - Amelio"	3
+179	"20 - Noah Mesfin"	-2	St. Patrick / St. Vincent	false	00:36:51	2024-01-08 00:00:22.623	"3 - Amelio"	3
+180	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:36:51	2024-01-08 00:00:22.623	"3 - Amelio"	3
+181	"2 - Luca Potts"	1	Campolindo	false	00:37:48	2024-01-08 00:00:22.623	""	3
+182	"3 - Owen Ludwig"	1	Campolindo	false	00:37:48	2024-01-08 00:00:22.623	""	3
+183	"12 - Lucas Katz"	1	Campolindo	false	00:37:48	2024-01-08 00:00:22.623	""	3
+184	"20 - Noah Mesfin"	1	Campolindo	false	00:37:48	2024-01-08 00:00:22.623	""	3
+185	"40 - Thatcher Grenby"	1	Campolindo	false	00:37:48	2024-01-08 00:00:22.623	""	3
+186	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:38:21	2024-01-08 00:00:22.623	"1 - Mateo"	3
+187	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:38:21	2024-01-08 00:00:22.623	"1 - Mateo"	3
+188	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:38:21	2024-01-08 00:00:22.623	"1 - Mateo"	3
+189	"20 - Noah Mesfin"	-2	St. Patrick / St. Vincent	false	00:38:21	2024-01-08 00:00:22.623	"1 - Mateo"	3
+190	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:38:21	2024-01-08 00:00:22.623	"1 - Mateo"	3
+191	"2 - Luca Potts"	2	Campolindo	false	00:38:40	2024-01-08 00:00:22.623	""	3
+192	"3 - Owen Ludwig"	2	Campolindo	true	00:38:40	2024-01-08 00:00:22.623	""	3
+193	"12 - Lucas Katz"	2	Campolindo	false	00:38:40	2024-01-08 00:00:22.623	""	3
+194	"20 - Noah Mesfin"	2	Campolindo	false	00:38:40	2024-01-08 00:00:22.623	""	3
+195	"40 - Thatcher Grenby"	2	Campolindo	false	00:38:40	2024-01-08 00:00:22.623	""	3
+196	"2 - Luca Potts"	-3	St. Patrick / St. Vincent	false	00:39:17	2024-01-08 00:00:22.623	"24 - Darius"	3
+197	"3 - Owen Ludwig"	-3	St. Patrick / St. Vincent	false	00:39:17	2024-01-08 00:00:22.623	"24 - Darius"	3
+198	"12 - Lucas Katz"	-3	St. Patrick / St. Vincent	false	00:39:17	2024-01-08 00:00:22.623	"24 - Darius"	3
+199	"20 - Noah Mesfin"	-3	St. Patrick / St. Vincent	false	00:39:17	2024-01-08 00:00:22.623	"24 - Darius"	3
+200	"40 - Thatcher Grenby"	-3	St. Patrick / St. Vincent	false	00:39:17	2024-01-08 00:00:22.623	"24 - Darius"	3
+201	"5 - Luke Hickey"	2	Campolindo	false	00:40:30	2024-01-08 00:00:22.623	""	3
+202	"11 - Micah Kaufman"	2	Campolindo	true	00:40:30	2024-01-08 00:00:22.623	""	3
+203	"15 - Thomas Berg III"	2	Campolindo	false	00:40:30	2024-01-08 00:00:22.623	""	3
+204	"24 - Sean Parker"	2	Campolindo	false	00:40:30	2024-01-08 00:00:22.623	""	3
+205	"25 - Noah Henry"	2	Campolindo	false	00:40:30	2024-01-08 00:00:22.623	""	3
+206	"5 - Luke Hickey"	2	Campolindo	false	00:42:03	2024-01-08 00:00:22.623	""	3
+207	"11 - Micah Kaufman"	2	Campolindo	false	00:42:03	2024-01-08 00:00:22.623	""	3
+208	"15 - Thomas Berg III"	2	Campolindo	true	00:42:03	2024-01-08 00:00:22.623	""	3
+209	"24 - Sean Parker"	2	Campolindo	false	00:42:03	2024-01-08 00:00:22.623	""	3
+210	"25 - Noah Henry"	2	Campolindo	false	00:42:03	2024-01-08 00:00:22.623	""	3
+211	"5 - Luke Hickey"	2	Campolindo	false	00:42:16	2024-01-08 00:00:22.623	""	3
+212	"11 - Micah Kaufman"	2	Campolindo	false	00:42:16	2024-01-08 00:00:22.623	""	3
+213	"15 - Thomas Berg III"	2	Campolindo	false	00:42:16	2024-01-08 00:00:22.623	""	3
+214	"24 - Sean Parker"	2	Campolindo	true	00:42:16	2024-01-08 00:00:22.623	""	3
+215	"25 - Noah Henry"	2	Campolindo	false	00:42:16	2024-01-08 00:00:22.623	""	3
+216	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:43:39	2024-01-08 00:00:22.623	"5 - Sergio"	3
+217	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:43:39	2024-01-08 00:00:22.623	"5 - Sergio"	3
+218	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:43:39	2024-01-08 00:00:22.623	"5 - Sergio"	3
+219	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:43:39	2024-01-08 00:00:22.623	"5 - Sergio"	3
+220	"25 - Noah Henry"	-2	St. Patrick / St. Vincent	false	00:43:39	2024-01-08 00:00:22.623	"5 - Sergio"	3
+221	"5 - Luke Hickey"	2	Campolindo	false	00:43:52	2024-01-08 00:00:22.623	""	3
+222	"11 - Micah Kaufman"	2	Campolindo	false	00:43:52	2024-01-08 00:00:22.623	""	3
+223	"15 - Thomas Berg III"	2	Campolindo	false	00:43:52	2024-01-08 00:00:22.623	""	3
+224	"24 - Sean Parker"	2	Campolindo	false	00:43:52	2024-01-08 00:00:22.623	""	3
+225	"25 - Noah Henry"	2	Campolindo	true	00:43:52	2024-01-08 00:00:22.623	""	3
+226	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:44:01	2024-01-08 00:00:22.623	"20 - Jaden"	3
+227	"11 - Micah Kaufman"	-2	St. Patrick / St. Vincent	false	00:44:01	2024-01-08 00:00:22.623	"20 - Jaden"	3
+228	"15 - Thomas Berg III"	-2	St. Patrick / St. Vincent	false	00:44:01	2024-01-08 00:00:22.623	"20 - Jaden"	3
+229	"24 - Sean Parker"	-2	St. Patrick / St. Vincent	false	00:44:01	2024-01-08 00:00:22.623	"20 - Jaden"	3
+230	"25 - Noah Henry"	-2	St. Patrick / St. Vincent	false	00:44:01	2024-01-08 00:00:22.623	"20 - Jaden"	3
+231	"5 - Luke Hickey"	2	Campolindo	false	00:44:27	2024-01-08 00:00:22.623	""	3
+232	"15 - Thomas Berg III"	2	Campolindo	false	00:44:27	2024-01-08 00:00:22.623	""	3
+233	"24 - Sean Parker"	2	Campolindo	false	00:44:27	2024-01-08 00:00:22.623	""	3
+234	"25 - Noah Henry"	2	Campolindo	true	00:44:27	2024-01-08 00:00:22.623	""	3
+235	"40 - Thatcher Grenby"	2	Campolindo	false	00:44:27	2024-01-08 00:00:22.623	""	3
+236	"5 - Luke Hickey"	2	Campolindo	false	00:44:49	2024-01-08 00:00:22.623	""	3
+237	"15 - Thomas Berg III"	2	Campolindo	false	00:44:49	2024-01-08 00:00:22.623	""	3
+238	"24 - Sean Parker"	2	Campolindo	false	00:44:49	2024-01-08 00:00:22.623	""	3
+239	"25 - Noah Henry"	2	Campolindo	true	00:44:49	2024-01-08 00:00:22.623	""	3
+240	"40 - Thatcher Grenby"	2	Campolindo	false	00:44:49	2024-01-08 00:00:22.623	""	3
+241	"5 - Luke Hickey"	2	Campolindo	true	00:45:30	2024-01-08 00:00:22.623	""	3
+242	"15 - Thomas Berg III"	2	Campolindo	false	00:45:30	2024-01-08 00:00:22.623	""	3
+243	"24 - Sean Parker"	2	Campolindo	false	00:45:30	2024-01-08 00:00:22.623	""	3
+244	"25 - Noah Henry"	2	Campolindo	false	00:45:30	2024-01-08 00:00:22.623	""	3
+245	"40 - Thatcher Grenby"	2	Campolindo	false	00:45:30	2024-01-08 00:00:22.623	""	3
+246	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:46:32	2024-01-08 00:00:22.623	"1 - Mateo"	3
+247	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:46:32	2024-01-08 00:00:22.623	"1 - Mateo"	3
+248	"5 - Luke Hickey"	-2	St. Patrick / St. Vincent	false	00:46:32	2024-01-08 00:00:22.623	"1 - Mateo"	3
+249	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:46:32	2024-01-08 00:00:22.623	"1 - Mateo"	3
+250	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:46:32	2024-01-08 00:00:22.623	"1 - Mateo"	3
+251	"2 - Luca Potts"	2	Campolindo	false	00:47:30	2024-01-08 00:00:22.623	""	3
+252	"3 - Owen Ludwig"	2	Campolindo	false	00:47:30	2024-01-08 00:00:22.623	""	3
+253	"12 - Lucas Katz"	2	Campolindo	false	00:47:30	2024-01-08 00:00:22.623	""	3
+254	"40 - Thatcher Grenby"	2	Campolindo	false	00:47:30	2024-01-08 00:00:22.623	""	3
+255	"44 - Crosby Kelly"	2	Campolindo	true	00:47:30	2024-01-08 00:00:22.623	""	3
+256	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:49:42	2024-01-08 00:00:22.623	"3 - Amelio"	3
+257	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:49:42	2024-01-08 00:00:22.623	"3 - Amelio"	3
+258	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:49:42	2024-01-08 00:00:22.623	"3 - Amelio"	3
+259	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:49:42	2024-01-08 00:00:22.623	"3 - Amelio"	3
+260	"44 - Crosby Kelly"	-2	St. Patrick / St. Vincent	false	00:49:42	2024-01-08 00:00:22.623	"3 - Amelio"	3
+261	"2 - Luca Potts"	-2	St. Patrick / St. Vincent	false	00:50:09	2024-01-08 00:00:22.623	"3 - Amelio"	3
+262	"3 - Owen Ludwig"	-2	St. Patrick / St. Vincent	false	00:50:09	2024-01-08 00:00:22.623	"3 - Amelio"	3
+263	"12 - Lucas Katz"	-2	St. Patrick / St. Vincent	false	00:50:09	2024-01-08 00:00:22.623	"3 - Amelio"	3
+264	"40 - Thatcher Grenby"	-2	St. Patrick / St. Vincent	false	00:50:09	2024-01-08 00:00:22.623	"3 - Amelio"	3
+265	"44 - Crosby Kelly"	-2	St. Patrick / St. Vincent	false	00:50:09	2024-01-08 00:00:22.623	"3 - Amelio"	3
+266	"2 - Luca Potts"	-1	St. Patrick / St. Vincent	false	00:50:58	2024-01-08 00:00:22.623	"20 - Jaden"	3
+267	"3 - Owen Ludwig"	-1	St. Patrick / St. Vincent	false	00:50:58	2024-01-08 00:00:22.623	"20 - Jaden"	3
+268	"12 - Lucas Katz"	-1	St. Patrick / St. Vincent	false	00:50:58	2024-01-08 00:00:22.623	"20 - Jaden"	3
+269	"40 - Thatcher Grenby"	-1	St. Patrick / St. Vincent	false	00:50:58	2024-01-08 00:00:22.623	"20 - Jaden"	3
+270	"44 - Crosby Kelly"	-1	St. Patrick / St. Vincent	false	00:50:58	2024-01-08 00:00:22.623	"20 - Jaden"	3
+271	"2 - Luca Potts"	-1	St. Patrick / St. Vincent	false	00:51:11	2024-01-08 00:00:22.623	"20 - Jaden"	3
+272	"3 - Owen Ludwig"	-1	St. Patrick / St. Vincent	false	00:51:11	2024-01-08 00:00:22.623	"20 - Jaden"	3
+273	"12 - Lucas Katz"	-1	St. Patrick / St. Vincent	false	00:51:11	2024-01-08 00:00:22.623	"20 - Jaden"	3
+274	"40 - Thatcher Grenby"	-1	St. Patrick / St. Vincent	false	00:51:11	2024-01-08 00:00:22.623	"20 - Jaden"	3
+275	"44 - Crosby Kelly"	-1	St. Patrick / St. Vincent	false	00:51:11	2024-01-08 00:00:22.623	"20 - Jaden"	3
+286	"5 - Luke Hickey"	3	Campolindo	false	00:03:58	2024-01-08 16:54:34.485	""	13
+287	"10 - Rex Pastore"	3	Campolindo	true	00:03:58	2024-01-08 16:54:34.485	""	13
+288	"11 - Micah Kaufman"	3	Campolindo	false	00:03:58	2024-01-08 16:54:34.485	""	13
+289	"24 - Sean Parker"	3	Campolindo	false	00:03:58	2024-01-08 16:54:34.485	""	13
+290	"44 - Crosby Kelly"	3	Campolindo	false	00:03:58	2024-01-08 16:54:34.485	""	13
+291	"5 - Luke Hickey"	2	Campolindo	true	00:04:39	2024-01-08 16:55:56.527	""	13
+292	"10 - Rex Pastore"	2	Campolindo	false	00:04:39	2024-01-08 16:55:56.527	""	13
+293	"11 - Micah Kaufman"	2	Campolindo	false	00:04:39	2024-01-08 16:55:56.527	""	13
+294	"24 - Sean Parker"	2	Campolindo	false	00:04:39	2024-01-08 16:55:56.527	""	13
+295	"44 - Crosby Kelly"	2	Campolindo	false	00:04:39	2024-01-08 16:55:56.527	""	13
+296	"5 - Luke Hickey"	2	Campolindo	false	00:05:25	2024-01-08 16:56:54.211	""	13
+297	"10 - Rex Pastore"	2	Campolindo	false	00:05:25	2024-01-08 16:56:54.211	""	13
+298	"24 - Sean Parker"	2	Campolindo	true	00:05:25	2024-01-08 16:56:54.211	""	13
+299	"40 - Thatcher Grenby"	2	Campolindo	false	00:05:25	2024-01-08 16:56:54.211	""	13
+300	"44 - Crosby Kelly"	2	Campolindo	false	00:05:25	2024-01-08 16:56:54.211	""	13
+301	"5 - Luke Hickey"	1	Campolindo	false	00:05:46	2024-01-08 17:57:33.010	""	13
+302	"10 - Rex Pastore"	1	Campolindo	false	00:05:46	2024-01-08 17:57:33.010	""	13
+303	"24 - Sean Parker"	1	Campolindo	true	00:05:46	2024-01-08 17:57:33.010	""	13
+304	"40 - Thatcher Grenby"	1	Campolindo	false	00:05:46	2024-01-08 17:57:33.010	""	13
+305	"44 - Crosby Kelly"	1	Campolindo	false	00:05:46	2024-01-08 17:57:33.010	""	13
+316	"2 - Luca Potts"	2	Campolindo	false	00:08:05	2024-01-08 19:18:03.033	""	13
+317	"3 - Owen Ludwig"	2	Campolindo	false	00:08:05	2024-01-08 19:18:03.033	""	13
+306	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:06:46	2024-01-08 19:12:04.035	"14 - Casqueiro"	13
+318	"25 - Noah Henry"	2	Campolindo	true	00:08:05	2024-01-08 19:18:03.033	""	13
+319	"40 - Thatcher Grenby"	2	Campolindo	false	00:08:05	2024-01-08 19:18:03.033	""	13
+320	"44 - Crosby Kelly"	2	Campolindo	false	00:08:05	2024-01-08 19:18:03.033	""	13
+321	"2 - Luca Potts"	1	Campolindo	false	00:09:35	2024-01-08 19:20:37.146	""	13
+322	"3 - Owen Ludwig"	1	Campolindo	false	00:09:35	2024-01-08 19:20:37.146	""	13
+323	"11 - Micah Kaufman"	1	Campolindo	true	00:09:35	2024-01-08 19:20:37.146	""	13
+324	"25 - Noah Henry"	1	Campolindo	false	00:09:35	2024-01-08 19:20:37.146	""	13
+325	"40 - Thatcher Grenby"	1	Campolindo	false	00:09:35	2024-01-08 19:20:37.146	""	13
+326	"2 - Luca Potts"	1	Campolindo	false	00:09:49	2024-01-08 19:21:02.279	""	13
+327	"3 - Owen Ludwig"	1	Campolindo	false	00:09:49	2024-01-08 19:21:02.279	""	13
+328	"11 - Micah Kaufman"	1	Campolindo	true	00:09:49	2024-01-08 19:21:02.279	""	13
+329	"25 - Noah Henry"	1	Campolindo	false	00:09:49	2024-01-08 19:21:02.279	""	13
+330	"40 - Thatcher Grenby"	1	Campolindo	false	00:09:49	2024-01-08 19:21:02.279	""	13
+331	"2 - Luca Potts"	3	Campolindo	false	00:10:02	2024-01-08 19:22:11.294	""	13
+332	"3 - Owen Ludwig"	3	Campolindo	true	00:10:02	2024-01-08 19:22:11.294	""	13
+333	"11 - Micah Kaufman"	3	Campolindo	false	00:10:02	2024-01-08 19:22:11.294	""	13
+334	"25 - Noah Henry"	3	Campolindo	false	00:10:02	2024-01-08 19:22:11.294	""	13
+335	"40 - Thatcher Grenby"	3	Campolindo	false	00:10:02	2024-01-08 19:22:11.294	""	13
+336	"2 - Luca Potts"	3	Campolindo	false	00:10:22	2024-01-08 19:22:45.778	""	13
+337	"3 - Owen Ludwig"	3	Campolindo	false	00:10:22	2024-01-08 19:22:45.778	""	13
+338	"11 - Micah Kaufman"	3	Campolindo	true	00:10:22	2024-01-08 19:22:45.778	""	13
+339	"25 - Noah Henry"	3	Campolindo	false	00:10:22	2024-01-08 19:22:45.778	""	13
+340	"40 - Thatcher Grenby"	3	Campolindo	false	00:10:22	2024-01-08 19:22:45.778	""	13
+371	"5 - Luke Hickey"	3	Campolindo	false	00:15:26	2024-01-08 21:09:50.228	""	13
+372	"10 - Rex Pastore"	3	Campolindo	true	00:15:26	2024-01-08 21:09:50.228	""	13
+373	"11 - Micah Kaufman"	3	Campolindo	false	00:15:26	2024-01-08 21:09:50.228	""	13
+374	"24 - Sean Parker"	3	Campolindo	false	00:15:26	2024-01-08 21:09:50.228	""	13
+375	"44 - Crosby Kelly"	3	Campolindo	false	00:15:26	2024-01-08 21:09:50.228	""	13
+376	"5 - Luke Hickey"	2	Campolindo	false	00:15:55	2024-01-08 21:10:34.829	""	13
+377	"10 - Rex Pastore"	2	Campolindo	true	00:15:55	2024-01-08 21:10:34.829	""	13
+378	"11 - Micah Kaufman"	2	Campolindo	false	00:15:55	2024-01-08 21:10:34.829	""	13
+379	"24 - Sean Parker"	2	Campolindo	false	00:15:55	2024-01-08 21:10:34.829	""	13
+380	"44 - Crosby Kelly"	2	Campolindo	false	00:15:55	2024-01-08 21:10:34.829	""	13
+381	"5 - Luke Hickey"	1	Campolindo	false	00:17:32	2024-01-08 21:13:01.896	""	13
+382	"10 - Rex Pastore"	1	Campolindo	false	00:17:32	2024-01-08 21:13:01.896	""	13
+383	"11 - Micah Kaufman"	1	Campolindo	false	00:17:32	2024-01-08 21:13:01.896	""	13
+384	"24 - Sean Parker"	1	Campolindo	false	00:17:32	2024-01-08 21:13:01.896	""	13
+385	"44 - Crosby Kelly"	1	Campolindo	true	00:17:32	2024-01-08 21:13:01.896	""	13
+386	"5 - Luke Hickey"	1	Campolindo	false	00:17:52	2024-01-08 21:13:32.270	""	13
+387	"10 - Rex Pastore"	1	Campolindo	false	00:17:52	2024-01-08 21:13:32.270	""	13
+388	"11 - Micah Kaufman"	1	Campolindo	false	00:17:52	2024-01-08 21:13:32.270	""	13
+389	"24 - Sean Parker"	1	Campolindo	false	00:17:52	2024-01-08 21:13:32.270	""	13
+390	"44 - Crosby Kelly"	1	Campolindo	true	00:17:52	2024-01-08 21:13:32.270	""	13
+391	"5 - Luke Hickey"	2	Campolindo	false	00:18:21	2024-01-08 21:14:24.263	""	13
+392	"10 - Rex Pastore"	2	Campolindo	false	00:18:21	2024-01-08 21:14:24.263	""	13
+393	"11 - Micah Kaufman"	2	Campolindo	true	00:18:21	2024-01-08 21:14:24.263	""	13
+394	"24 - Sean Parker"	2	Campolindo	false	00:18:21	2024-01-08 21:14:24.263	""	13
+395	"44 - Crosby Kelly"	2	Campolindo	false	00:18:21	2024-01-08 21:14:24.263	""	13
+401	"5 - Luke Hickey"	3	Campolindo	false	00:21:45	2024-01-08 21:19:33.497	""	13
+402	"10 - Rex Pastore"	3	Campolindo	true	00:21:45	2024-01-08 21:19:33.497	""	13
+403	"11 - Micah Kaufman"	3	Campolindo	false	00:21:45	2024-01-08 21:19:33.497	""	13
+404	"24 - Sean Parker"	3	Campolindo	false	00:21:45	2024-01-08 21:19:33.497	""	13
+405	"44 - Crosby Kelly"	3	Campolindo	false	00:21:45	2024-01-08 21:19:33.497	""	13
+421	"3 - Owen Ludwig"	2	Campolindo	true	00:23:51	2024-01-08 21:24:39.540	""	13
+422	"11 - Micah Kaufman"	2	Campolindo	false	00:23:51	2024-01-08 21:24:39.540	""	13
+423	"24 - Sean Parker"	2	Campolindo	false	00:23:51	2024-01-08 21:24:39.540	""	13
+424	"25 - Noah Henry"	2	Campolindo	false	00:23:51	2024-01-08 21:24:39.540	""	13
+425	"40 - Thatcher Grenby"	2	Campolindo	false	00:23:51	2024-01-08 21:24:39.540	""	13
+431	"2 - Luca Potts"	2	Campolindo	false	00:25:08	2024-01-08 21:26:41.980	""	13
+432	"3 - Owen Ludwig"	2	Campolindo	false	00:25:08	2024-01-08 21:26:41.980	""	13
+433	"11 - Micah Kaufman"	2	Campolindo	true	00:25:08	2024-01-08 21:26:41.980	""	13
+434	"25 - Noah Henry"	2	Campolindo	false	00:25:08	2024-01-08 21:26:41.980	""	13
+435	"40 - Thatcher Grenby"	2	Campolindo	false	00:25:08	2024-01-08 21:26:41.980	""	13
+451	"5 - Luke Hickey"	2	Campolindo	false	00:28:06	2024-01-08 21:40:30.827	""	13
+452	"10 - Rex Pastore"	2	Campolindo	false	00:28:06	2024-01-08 21:40:30.827	""	13
+453	"11 - Micah Kaufman"	2	Campolindo	false	00:28:06	2024-01-08 21:40:30.827	""	13
+454	"24 - Sean Parker"	2	Campolindo	false	00:28:06	2024-01-08 21:40:30.827	""	13
+455	"44 - Crosby Kelly"	2	Campolindo	true	00:28:06	2024-01-08 21:40:30.827	""	13
+466	"5 - Luke Hickey"	2	Campolindo	false	00:30:39	2024-01-08 21:49:18.476	""	13
+467	"10 - Rex Pastore"	2	Campolindo	false	00:30:39	2024-01-08 21:49:18.476	""	13
+468	"11 - Micah Kaufman"	2	Campolindo	true	00:30:39	2024-01-08 21:49:18.476	""	13
+469	"24 - Sean Parker"	2	Campolindo	false	00:30:39	2024-01-08 21:49:18.476	""	13
+470	"44 - Crosby Kelly"	2	Campolindo	false	00:30:39	2024-01-08 21:49:18.476	""	13
+471	"5 - Luke Hickey"	1	Campolindo	false	00:31:12	2024-01-08 21:49:57.937	""	13
+472	"10 - Rex Pastore"	1	Campolindo	false	00:31:12	2024-01-08 21:49:57.937	""	13
+473	"11 - Micah Kaufman"	1	Campolindo	false	00:31:12	2024-01-08 21:49:57.937	""	13
+474	"24 - Sean Parker"	1	Campolindo	true	00:31:12	2024-01-08 21:49:57.937	""	13
+475	"44 - Crosby Kelly"	1	Campolindo	false	00:31:12	2024-01-08 21:49:57.937	""	13
+476	"5 - Luke Hickey"	1	Campolindo	false	00:31:27	2024-01-08 21:50:15.727	""	13
+477	"10 - Rex Pastore"	1	Campolindo	false	00:31:27	2024-01-08 21:50:15.727	""	13
+478	"11 - Micah Kaufman"	1	Campolindo	false	00:31:27	2024-01-08 21:50:15.727	""	13
+479	"24 - Sean Parker"	1	Campolindo	true	00:31:27	2024-01-08 21:50:15.727	""	13
+480	"44 - Crosby Kelly"	1	Campolindo	false	00:31:27	2024-01-08 21:50:15.727	""	13
+491	"5 - Luke Hickey"	3	Campolindo	false	00:35:52	2024-01-08 21:56:37.608	""	13
+492	"10 - Rex Pastore"	3	Campolindo	false	00:35:52	2024-01-08 21:56:37.608	""	13
+493	"24 - Sean Parker"	3	Campolindo	true	00:35:52	2024-01-08 21:56:37.608	""	13
+494	"25 - Noah Henry"	3	Campolindo	false	00:35:52	2024-01-08 21:56:37.608	""	13
+495	"40 - Thatcher Grenby"	3	Campolindo	false	00:35:52	2024-01-08 21:56:37.608	""	13
+501	"5 - Luke Hickey"	2	Campolindo	false	00:36:38	2024-01-08 21:58:01.467	""	13
+502	"10 - Rex Pastore"	2	Campolindo	true	00:36:38	2024-01-08 21:58:01.467	""	13
+503	"24 - Sean Parker"	2	Campolindo	false	00:36:38	2024-01-08 21:58:01.467	""	13
+504	"25 - Noah Henry"	2	Campolindo	false	00:36:38	2024-01-08 21:58:01.467	""	13
+505	"40 - Thatcher Grenby"	2	Campolindo	false	00:36:38	2024-01-08 21:58:01.467	""	13
+511	"3 - Owen Ludwig"	3	Campolindo	true	00:39:44	2024-01-08 22:04:48.053	""	13
+512	"5 - Luke Hickey"	3	Campolindo	false	00:39:44	2024-01-08 22:04:48.053	""	13
+513	"11 - Micah Kaufman"	3	Campolindo	false	00:39:44	2024-01-08 22:04:48.053	""	13
+514	"40 - Thatcher Grenby"	3	Campolindo	false	00:39:44	2024-01-08 22:04:48.053	""	13
+515	"44 - Crosby Kelly"	3	Campolindo	false	00:39:44	2024-01-08 22:04:48.053	""	13
+526	"3 - Owen Ludwig"	2	Campolindo	false	00:42:01	2024-01-08 22:09:26.210	""	13
+527	"10 - Rex Pastore"	2	Campolindo	false	00:42:01	2024-01-08 22:09:26.210	""	13
+528	"11 - Micah Kaufman"	2	Campolindo	false	00:42:01	2024-01-08 22:09:26.210	""	13
+529	"24 - Sean Parker"	2	Campolindo	false	00:42:01	2024-01-08 22:09:26.210	""	13
+530	"44 - Crosby Kelly"	2	Campolindo	true	00:42:01	2024-01-08 22:09:26.210	""	13
+531	"5 - Luke Hickey"	2	Campolindo	false	00:44:10	2024-01-08 22:12:20.443	""	13
+532	"10 - Rex Pastore"	2	Campolindo	true	00:44:10	2024-01-08 22:12:20.443	""	13
+533	"11 - Micah Kaufman"	2	Campolindo	false	00:44:10	2024-01-08 22:12:20.443	""	13
+534	"24 - Sean Parker"	2	Campolindo	false	00:44:10	2024-01-08 22:12:20.443	""	13
+535	"25 - Noah Henry"	2	Campolindo	false	00:44:10	2024-01-08 22:12:20.443	""	13
+536	"5 - Luke Hickey"	2	Campolindo	false	00:44:50	2024-01-08 22:13:14.072	""	13
+537	"10 - Rex Pastore"	2	Campolindo	false	00:44:50	2024-01-08 22:13:14.072	""	13
+538	"11 - Micah Kaufman"	2	Campolindo	false	00:44:50	2024-01-08 22:13:14.072	""	13
+539	"24 - Sean Parker"	2	Campolindo	false	00:44:50	2024-01-08 22:13:14.072	""	13
+540	"25 - Noah Henry"	2	Campolindo	true	00:44:50	2024-01-08 22:13:14.072	""	13
+546	"5 - Luke Hickey"	2	Campolindo	false	00:46:16	2024-01-08 22:16:28.290	""	13
+547	"10 - Rex Pastore"	2	Campolindo	true	00:46:16	2024-01-08 22:16:28.290	""	13
+548	"11 - Micah Kaufman"	2	Campolindo	false	00:46:16	2024-01-08 22:16:28.290	""	13
+549	"24 - Sean Parker"	2	Campolindo	false	00:46:16	2024-01-08 22:16:28.290	""	13
+550	"44 - Crosby Kelly"	2	Campolindo	false	00:46:16	2024-01-08 22:16:28.290	""	13
+561	"5 - Luke Hickey"	2	Campolindo	false	00:50:02	2024-01-08 22:21:17.009	""	13
+562	"10 - Rex Pastore"	2	Campolindo	false	00:50:02	2024-01-08 22:21:17.009	""	13
+563	"11 - Micah Kaufman"	2	Campolindo	false	00:50:02	2024-01-08 22:21:17.009	""	13
+564	"24 - Sean Parker"	2	Campolindo	false	00:50:02	2024-01-08 22:21:17.009	""	13
+565	"44 - Crosby Kelly"	2	Campolindo	true	00:50:02	2024-01-08 22:21:17.009	""	13
+566	"10 - Rex Pastore"	-2	Foothill	false	00:01:26	2024-01-09 08:08:42.106	"4 - Jagger"	9
+567	"11 - Micah Kaufman"	-2	Foothill	false	00:01:26	2024-01-09 08:08:42.106	"4 - Jagger"	9
+568	"22 - Phin Kofman"	-2	Foothill	false	00:01:26	2024-01-09 08:08:42.106	"4 - Jagger"	9
+569	"24 - Sean Parker"	-2	Foothill	false	00:01:26	2024-01-09 08:08:42.106	"4 - Jagger"	9
+570	"44 - Crosby Kelly"	-2	Foothill	false	00:01:26	2024-01-09 08:08:42.106	"4 - Jagger"	9
+571	"10 - Rex Pastore"	2	Campolindo	true	00:02:30	2024-01-09 08:12:06.938	""	9
+572	"11 - Micah Kaufman"	2	Campolindo	false	00:02:30	2024-01-09 08:12:06.938	""	9
+573	"22 - Phin Kofman"	2	Campolindo	false	00:02:30	2024-01-09 08:12:06.938	""	9
+574	"24 - Sean Parker"	2	Campolindo	false	00:02:30	2024-01-09 08:12:06.938	""	9
+575	"44 - Crosby Kelly"	2	Campolindo	false	00:02:30	2024-01-09 08:12:06.938	""	9
+576	"10 - Rex Pastore"	-3	Foothill	false	00:02:50	2024-01-09 08:12:49.881	"10 - Tyler"	9
+577	"11 - Micah Kaufman"	-3	Foothill	false	00:02:50	2024-01-09 08:12:49.881	"10 - Tyler"	9
+578	"22 - Phin Kofman"	-3	Foothill	false	00:02:50	2024-01-09 08:12:49.881	"10 - Tyler"	9
+579	"24 - Sean Parker"	-3	Foothill	false	00:02:50	2024-01-09 08:12:49.881	"10 - Tyler"	9
+580	"44 - Crosby Kelly"	-3	Foothill	false	00:02:50	2024-01-09 08:12:49.881	"10 - Tyler"	9
+581	"10 - Rex Pastore"	2	Campolindo	false	00:03:08	2024-01-09 08:13:34.711	""	9
+582	"11 - Micah Kaufman"	2	Campolindo	true	00:03:08	2024-01-09 08:13:34.711	""	9
+583	"22 - Phin Kofman"	2	Campolindo	false	00:03:08	2024-01-09 08:13:34.711	""	9
+584	"24 - Sean Parker"	2	Campolindo	false	00:03:08	2024-01-09 08:13:34.711	""	9
+585	"44 - Crosby Kelly"	2	Campolindo	false	00:03:08	2024-01-09 08:13:34.711	""	9
+586	"10 - Rex Pastore"	1	Campolindo	false	00:03:49	2024-01-09 08:14:28.351	""	9
+587	"11 - Micah Kaufman"	1	Campolindo	true	00:03:49	2024-01-09 08:14:28.351	""	9
+588	"22 - Phin Kofman"	1	Campolindo	false	00:03:49	2024-01-09 08:14:28.351	""	9
+589	"24 - Sean Parker"	1	Campolindo	false	00:03:49	2024-01-09 08:14:28.351	""	9
+590	"44 - Crosby Kelly"	1	Campolindo	false	00:03:49	2024-01-09 08:14:28.351	""	9
+591	"10 - Rex Pastore"	1	Campolindo	false	00:06:16	2024-01-09 08:17:56.072	""	9
+592	"11 - Micah Kaufman"	1	Campolindo	false	00:06:16	2024-01-09 08:17:56.072	""	9
+593	"22 - Phin Kofman"	1	Campolindo	true	00:06:16	2024-01-09 08:17:56.072	""	9
+594	"24 - Sean Parker"	1	Campolindo	false	00:06:16	2024-01-09 08:17:56.072	""	9
+595	"44 - Crosby Kelly"	1	Campolindo	false	00:06:16	2024-01-09 08:17:56.072	""	9
+596	"10 - Rex Pastore"	-3	Foothill	false	00:07:17	2024-01-09 08:22:19.294	"5 - Vidit"	9
+597	"11 - Micah Kaufman"	-3	Foothill	false	00:07:17	2024-01-09 08:22:19.294	"5 - Vidit"	9
+598	"22 - Phin Kofman"	-3	Foothill	false	00:07:17	2024-01-09 08:22:19.294	"5 - Vidit"	9
+599	"24 - Sean Parker"	-3	Foothill	false	00:07:17	2024-01-09 08:22:19.294	"5 - Vidit"	9
+600	"44 - Crosby Kelly"	-3	Foothill	false	00:07:17	2024-01-09 08:22:19.294	"5 - Vidit"	9
+601	"10 - Rex Pastore"	1	Campolindo	false	00:08:49	2024-01-09 08:24:13.352	""	9
+602	"11 - Micah Kaufman"	1	Campolindo	false	00:08:49	2024-01-09 08:24:13.352	""	9
+603	"22 - Phin Kofman"	1	Campolindo	false	00:08:49	2024-01-09 08:24:13.352	""	9
+604	"24 - Sean Parker"	1	Campolindo	false	00:08:49	2024-01-09 08:24:13.352	""	9
+605	"44 - Crosby Kelly"	1	Campolindo	true	00:08:49	2024-01-09 08:24:13.352	""	9
+606	"10 - Rex Pastore"	2	Campolindo	true	00:09:08	2024-01-09 08:25:43.073	""	9
+607	"15 - Thomas Berg III"	2	Campolindo	false	00:09:08	2024-01-09 08:25:43.073	""	9
+608	"20 - Noah Mesfin"	2	Campolindo	false	00:09:08	2024-01-09 08:25:43.073	""	9
+609	"22 - Phin Kofman"	2	Campolindo	false	00:09:08	2024-01-09 08:25:43.073	""	9
+610	"44 - Crosby Kelly"	2	Campolindo	false	00:09:08	2024-01-09 08:25:43.073	""	9
+611	"10 - Rex Pastore"	3	Campolindo	true	00:09:29	2024-01-09 08:26:23.038	""	9
+612	"15 - Thomas Berg III"	3	Campolindo	false	00:09:29	2024-01-09 08:26:23.038	""	9
+613	"20 - Noah Mesfin"	3	Campolindo	false	00:09:29	2024-01-09 08:26:23.038	""	9
+614	"22 - Phin Kofman"	3	Campolindo	false	00:09:29	2024-01-09 08:26:23.038	""	9
+615	"44 - Crosby Kelly"	3	Campolindo	false	00:09:29	2024-01-09 08:26:23.038	""	9
+616	"10 - Rex Pastore"	2	Campolindo	false	00:10:06	2024-01-09 08:27:21.195	""	9
+617	"15 - Thomas Berg III"	2	Campolindo	false	00:10:06	2024-01-09 08:27:21.195	""	9
+618	"20 - Noah Mesfin"	2	Campolindo	false	00:10:06	2024-01-09 08:27:21.195	""	9
+619	"22 - Phin Kofman"	2	Campolindo	false	00:10:06	2024-01-09 08:27:21.195	""	9
+620	"44 - Crosby Kelly"	2	Campolindo	true	00:10:06	2024-01-09 08:27:21.195	""	9
+621	"5 - Luke Hickey"	-3	Foothill	false	00:11:29	2024-01-09 08:30:16.314	"10 - Tyler"	9
+622	"15 - Thomas Berg III"	-3	Foothill	false	00:11:29	2024-01-09 08:30:16.314	"10 - Tyler"	9
+623	"20 - Noah Mesfin"	-3	Foothill	false	00:11:29	2024-01-09 08:30:16.314	"10 - Tyler"	9
+624	"22 - Phin Kofman"	-3	Foothill	false	00:11:29	2024-01-09 08:30:16.314	"10 - Tyler"	9
+625	"25 - Noah Henry"	-3	Foothill	false	00:11:29	2024-01-09 08:30:16.314	"10 - Tyler"	9
+626	"10 - Rex Pastore"	2	Campolindo	true	00:15:10	2024-01-09 08:37:05.791	""	9
+627	"11 - Micah Kaufman"	2	Campolindo	false	00:15:10	2024-01-09 08:37:05.791	""	9
+628	"15 - Thomas Berg III"	2	Campolindo	false	00:15:10	2024-01-09 08:37:05.791	""	9
+629	"24 - Sean Parker"	2	Campolindo	false	00:15:10	2024-01-09 08:37:05.791	""	9
+630	"25 - Noah Henry"	2	Campolindo	false	00:15:10	2024-01-09 08:37:05.791	""	9
+631	"10 - Rex Pastore"	-1	Foothill	false	00:19:50	2024-01-09 08:42:18.617	"2 - Isaiah"	9
+632	"11 - Micah Kaufman"	-1	Foothill	false	00:19:50	2024-01-09 08:42:18.617	"2 - Isaiah"	9
+633	"15 - Thomas Berg III"	-1	Foothill	false	00:19:50	2024-01-09 08:42:18.617	"2 - Isaiah"	9
+634	"24 - Sean Parker"	-1	Foothill	false	00:19:50	2024-01-09 08:42:18.617	"2 - Isaiah"	9
+635	"44 - Crosby Kelly"	-1	Foothill	false	00:19:50	2024-01-09 08:42:18.617	"2 - Isaiah"	9
+636	"10 - Rex Pastore"	-1	Foothill	false	00:22:27	2024-01-09 08:52:38.392	"2 - Isaiah"	9
+637	"11 - Micah Kaufman"	-1	Foothill	false	00:22:27	2024-01-09 08:52:38.392	"2 - Isaiah"	9
+638	"15 - Thomas Berg III"	-1	Foothill	false	00:22:27	2024-01-09 08:52:38.392	"2 - Isaiah"	9
+639	"24 - Sean Parker"	-1	Foothill	false	00:22:27	2024-01-09 08:52:38.392	"2 - Isaiah"	9
+640	"44 - Crosby Kelly"	-1	Foothill	false	00:22:27	2024-01-09 08:52:38.392	"2 - Isaiah"	9
+641	"10 - Rex Pastore"	-2	Foothill	false	00:23:35	2024-01-09 08:55:50.464	"2 - Isaiah"	9
+642	"11 - Micah Kaufman"	-2	Foothill	false	00:23:35	2024-01-09 08:55:50.464	"2 - Isaiah"	9
+643	"15 - Thomas Berg III"	-2	Foothill	false	00:23:35	2024-01-09 08:55:50.464	"2 - Isaiah"	9
+644	"24 - Sean Parker"	-2	Foothill	false	00:23:35	2024-01-09 08:55:50.464	"2 - Isaiah"	9
+645	"44 - Crosby Kelly"	-2	Foothill	false	00:23:35	2024-01-09 08:55:50.464	"2 - Isaiah"	9
+646	"10 - Rex Pastore"	-3	Foothill	false	00:25:22	2024-01-09 08:57:51.458	"2 - Isaiah"	9
+647	"11 - Micah Kaufman"	-3	Foothill	false	00:25:22	2024-01-09 08:57:51.458	"2 - Isaiah"	9
+648	"15 - Thomas Berg III"	-3	Foothill	false	00:25:22	2024-01-09 08:57:51.458	"2 - Isaiah"	9
+649	"24 - Sean Parker"	-3	Foothill	false	00:25:22	2024-01-09 08:57:51.458	"2 - Isaiah"	9
+650	"44 - Crosby Kelly"	-3	Foothill	false	00:25:22	2024-01-09 08:57:51.458	"2 - Isaiah"	9
+651	"10 - Rex Pastore"	2	Campolindo	true	00:26:17	2024-01-09 09:00:41.268	""	9
+652	"11 - Micah Kaufman"	2	Campolindo	false	00:26:17	2024-01-09 09:00:41.268	""	9
+653	"24 - Sean Parker"	2	Campolindo	false	00:26:17	2024-01-09 09:00:41.268	""	9
+654	"25 - Noah Henry"	2	Campolindo	false	00:26:17	2024-01-09 09:00:41.268	""	9
+655	"20 - Noah Mesfin"	2	Campolindo	false	00:26:17	2024-01-09 09:02:37.089	""	9
+656	"10 - Rex Pastore"	-2	Foothill	false	00:27:24	2024-01-09 09:05:40.477	"1 - Yohan"	9
+657	"11 - Micah Kaufman"	-2	Foothill	false	00:27:24	2024-01-09 09:05:40.477	"1 - Yohan"	9
+658	"20 - Noah Mesfin"	-2	Foothill	false	00:27:24	2024-01-09 09:05:40.477	"1 - Yohan"	9
+659	"24 - Sean Parker"	-2	Foothill	false	00:27:24	2024-01-09 09:05:40.477	"1 - Yohan"	9
+660	"25 - Noah Henry"	-2	Foothill	false	00:27:24	2024-01-09 09:05:40.477	"1 - Yohan"	9
+661	"11 - Micah Kaufman"	-1	Foothill	false	00:28:26	2024-01-09 18:44:33.426	"10 - Tyler"	9
+662	"20 - Noah Mesfin"	-1	Foothill	false	00:28:26	2024-01-09 18:44:33.426	"10 - Tyler"	9
+663	"24 - Sean Parker"	-1	Foothill	false	00:28:26	2024-01-09 18:44:33.426	"10 - Tyler"	9
+664	"25 - Noah Henry"	-1	Foothill	false	00:28:26	2024-01-09 18:44:33.426	"10 - Tyler"	9
+665	"40 - Thatcher Grenby"	-1	Foothill	false	00:28:26	2024-01-09 18:44:33.426	"10 - Tyler"	9
+666	"3 - Owen Ludwig"	-2	Foothill	false	00:28:54	2024-01-09 18:45:25.683	"15 - Anthony"	9
+667	"11 - Micah Kaufman"	-2	Foothill	false	00:28:54	2024-01-09 18:45:25.683	"15 - Anthony"	9
+668	"20 - Noah Mesfin"	-2	Foothill	false	00:28:54	2024-01-09 18:45:25.683	"15 - Anthony"	9
+669	"25 - Noah Henry"	-2	Foothill	false	00:28:54	2024-01-09 18:45:25.683	"15 - Anthony"	9
+670	"40 - Thatcher Grenby"	-2	Foothill	false	00:28:54	2024-01-09 18:45:25.683	"15 - Anthony"	9
+671	"3 - Owen Ludwig"	2	Campolindo	false	00:29:24	2024-01-09 19:17:51.803	""	9
+672	"11 - Micah Kaufman"	2	Campolindo	true	00:29:24	2024-01-09 19:17:51.803	""	9
+673	"20 - Noah Mesfin"	2	Campolindo	false	00:29:24	2024-01-09 19:17:51.803	""	9
+674	"25 - Noah Henry"	2	Campolindo	false	00:29:24	2024-01-09 19:17:51.803	""	9
+675	"40 - Thatcher Grenby"	2	Campolindo	false	00:29:24	2024-01-09 19:17:51.803	""	9
+676	"3 - Owen Ludwig"	1	Campolindo	false	00:29:52	2024-01-09 19:18:54.192	""	9
+677	"11 - Micah Kaufman"	1	Campolindo	true	00:29:52	2024-01-09 19:18:54.192	""	9
+678	"20 - Noah Mesfin"	1	Campolindo	false	00:29:52	2024-01-09 19:18:54.192	""	9
+679	"25 - Noah Henry"	1	Campolindo	false	00:29:52	2024-01-09 19:18:54.192	""	9
+680	"40 - Thatcher Grenby"	1	Campolindo	false	00:29:52	2024-01-09 19:18:54.192	""	9
+681	"3 - Owen Ludwig"	1	Campolindo	false	00:31:14	2024-01-09 19:23:11.813	""	9
+682	"11 - Micah Kaufman"	1	Campolindo	true	00:31:14	2024-01-09 19:23:11.813	""	9
+683	"20 - Noah Mesfin"	1	Campolindo	false	00:31:14	2024-01-09 19:23:11.813	""	9
+684	"25 - Noah Henry"	1	Campolindo	false	00:31:14	2024-01-09 19:23:11.813	""	9
+685	"40 - Thatcher Grenby"	1	Campolindo	false	00:31:14	2024-01-09 19:23:11.813	""	9
+686	"3 - Owen Ludwig"	2	Campolindo	false	00:33:34	2024-01-09 19:27:14.546	""	9
+687	"11 - Micah Kaufman"	2	Campolindo	false	00:33:34	2024-01-09 19:27:14.546	""	9
+688	"20 - Noah Mesfin"	2	Campolindo	false	00:33:34	2024-01-09 19:27:14.546	""	9
+689	"25 - Noah Henry"	2	Campolindo	true	00:33:34	2024-01-09 19:27:14.546	""	9
+690	"40 - Thatcher Grenby"	2	Campolindo	false	00:33:34	2024-01-09 19:27:14.546	""	9
+691	"10 - Rex Pastore"	2	Campolindo	false	00:34:42	2024-01-09 19:30:16.336	""	9
+692	"11 - Micah Kaufman"	2	Campolindo	false	00:34:42	2024-01-09 19:30:16.336	""	9
+693	"22 - Phin Kofman"	2	Campolindo	false	00:34:42	2024-01-09 19:30:16.336	""	9
+694	"24 - Sean Parker"	2	Campolindo	false	00:34:42	2024-01-09 19:30:16.336	""	9
+695	"44 - Crosby Kelly"	2	Campolindo	true	00:34:42	2024-01-09 19:30:16.336	""	9
+696	"10 - Rex Pastore"	-2	Foothill	false	00:35:07	2024-01-09 19:32:01.090	"10 - Tyler"	9
+697	"11 - Micah Kaufman"	-2	Foothill	false	00:35:07	2024-01-09 19:32:01.090	"10 - Tyler"	9
+698	"22 - Phin Kofman"	-2	Foothill	false	00:35:07	2024-01-09 19:32:01.090	"10 - Tyler"	9
+699	"24 - Sean Parker"	-2	Foothill	false	00:35:07	2024-01-09 19:32:01.090	"10 - Tyler"	9
+700	"44 - Crosby Kelly"	-2	Foothill	false	00:35:07	2024-01-09 19:32:01.090	"10 - Tyler"	9
+701	"10 - Rex Pastore"	-2	Foothill	false	00:35:25	2024-01-09 19:32:38.733	"5 - Vidit"	9
+702	"11 - Micah Kaufman"	-2	Foothill	false	00:35:25	2024-01-09 19:32:38.733	"5 - Vidit"	9
+703	"22 - Phin Kofman"	-2	Foothill	false	00:35:25	2024-01-09 19:32:38.733	"5 - Vidit"	9
+704	"24 - Sean Parker"	-2	Foothill	false	00:35:25	2024-01-09 19:32:38.733	"5 - Vidit"	9
+705	"44 - Crosby Kelly"	-2	Foothill	false	00:35:25	2024-01-09 19:32:38.733	"5 - Vidit"	9
+706	"10 - Rex Pastore"	3	Campolindo	false	00:35:46	2024-01-09 19:33:33.609	""	9
+707	"11 - Micah Kaufman"	3	Campolindo	true	00:35:46	2024-01-09 19:33:33.609	""	9
+708	"22 - Phin Kofman"	3	Campolindo	false	00:35:46	2024-01-09 19:33:33.609	""	9
+709	"24 - Sean Parker"	3	Campolindo	false	00:35:46	2024-01-09 19:33:33.609	""	9
+710	"44 - Crosby Kelly"	3	Campolindo	false	00:35:46	2024-01-09 19:33:33.609	""	9
+711	"10 - Rex Pastore"	-1	Foothill	false	00:36:21	2024-01-09 19:34:18.953	"10 - Tyler"	9
+712	"11 - Micah Kaufman"	-1	Foothill	false	00:36:21	2024-01-09 19:34:18.953	"10 - Tyler"	9
+713	"22 - Phin Kofman"	-1	Foothill	false	00:36:21	2024-01-09 19:34:18.953	"10 - Tyler"	9
+714	"24 - Sean Parker"	-1	Foothill	false	00:36:21	2024-01-09 19:34:18.953	"10 - Tyler"	9
+715	"44 - Crosby Kelly"	-1	Foothill	false	00:36:21	2024-01-09 19:34:18.953	"10 - Tyler"	9
+716	"10 - Rex Pastore"	-1	Foothill	false	00:36:32	2024-01-09 19:34:57.569	"10 - Tyler"	9
+717	"11 - Micah Kaufman"	-1	Foothill	false	00:36:32	2024-01-09 19:34:57.569	"10 - Tyler"	9
+718	"22 - Phin Kofman"	-1	Foothill	false	00:36:32	2024-01-09 19:34:57.569	"10 - Tyler"	9
+719	"24 - Sean Parker"	-1	Foothill	false	00:36:32	2024-01-09 19:34:57.569	"10 - Tyler"	9
+720	"44 - Crosby Kelly"	-1	Foothill	false	00:36:32	2024-01-09 19:34:57.569	"10 - Tyler"	9
+721	"10 - Rex Pastore"	2	Campolindo	false	00:36:44	2024-01-09 19:35:20.515	""	9
+722	"11 - Micah Kaufman"	2	Campolindo	false	00:36:44	2024-01-09 19:35:20.515	""	9
+723	"22 - Phin Kofman"	2	Campolindo	false	00:36:44	2024-01-09 19:35:20.515	""	9
+724	"24 - Sean Parker"	2	Campolindo	false	00:36:44	2024-01-09 19:35:20.515	""	9
+725	"44 - Crosby Kelly"	2	Campolindo	true	00:36:44	2024-01-09 19:35:20.515	""	9
+726	"10 - Rex Pastore"	-3	Foothill	false	00:36:57	2024-01-09 19:36:06.412	"2 - Isaiah"	9
+727	"11 - Micah Kaufman"	-3	Foothill	false	00:36:57	2024-01-09 19:36:06.412	"2 - Isaiah"	9
+728	"22 - Phin Kofman"	-3	Foothill	false	00:36:57	2024-01-09 19:36:06.412	"2 - Isaiah"	9
+729	"24 - Sean Parker"	-3	Foothill	false	00:36:57	2024-01-09 19:36:06.412	"2 - Isaiah"	9
+730	"44 - Crosby Kelly"	-3	Foothill	false	00:36:57	2024-01-09 19:36:06.412	"2 - Isaiah"	9
+731	"10 - Rex Pastore"	-3	Foothill	false	00:37:16	2024-01-09 19:37:21.537	"4 - Jagger"	9
+732	"11 - Micah Kaufman"	-3	Foothill	false	00:37:16	2024-01-09 19:37:21.537	"4 - Jagger"	9
+733	"22 - Phin Kofman"	-3	Foothill	false	00:37:16	2024-01-09 19:37:21.537	"4 - Jagger"	9
+734	"24 - Sean Parker"	-3	Foothill	false	00:37:16	2024-01-09 19:37:21.537	"4 - Jagger"	9
+735	"44 - Crosby Kelly"	-3	Foothill	false	00:37:16	2024-01-09 19:37:21.537	"4 - Jagger"	9
+736	"10 - Rex Pastore"	2	Campolindo	true	00:37:36	2024-01-09 19:38:13.840	""	9
+737	"11 - Micah Kaufman"	2	Campolindo	false	00:37:36	2024-01-09 19:38:13.840	""	9
+738	"22 - Phin Kofman"	2	Campolindo	false	00:37:36	2024-01-09 19:38:13.840	""	9
+739	"24 - Sean Parker"	2	Campolindo	false	00:37:36	2024-01-09 19:38:13.840	""	9
+740	"44 - Crosby Kelly"	2	Campolindo	false	00:37:36	2024-01-09 19:38:13.840	""	9
+741	"10 - Rex Pastore"	2	Campolindo	false	00:39:02	2024-01-09 19:40:06.147	""	9
+742	"11 - Micah Kaufman"	2	Campolindo	true	00:39:02	2024-01-09 19:40:06.147	""	9
+743	"15 - Thomas Berg III"	2	Campolindo	false	00:39:02	2024-01-09 19:40:06.147	""	9
+744	"24 - Sean Parker"	2	Campolindo	false	00:39:02	2024-01-09 19:40:06.147	""	9
+745	"44 - Crosby Kelly"	2	Campolindo	false	00:39:02	2024-01-09 19:40:06.147	""	9
+746	"10 - Rex Pastore"	2	Campolindo	false	00:39:17	2024-01-09 19:40:48.664	""	9
+747	"11 - Micah Kaufman"	2	Campolindo	false	00:39:17	2024-01-09 19:40:48.664	""	9
+748	"15 - Thomas Berg III"	2	Campolindo	false	00:39:17	2024-01-09 19:40:48.664	""	9
+749	"24 - Sean Parker"	2	Campolindo	true	00:39:17	2024-01-09 19:40:48.664	""	9
+750	"44 - Crosby Kelly"	2	Campolindo	false	00:39:17	2024-01-09 19:40:48.664	""	9
+751	"10 - Rex Pastore"	3	Campolindo	true	00:39:53	2024-01-09 22:28:06.819	""	9
+752	"11 - Micah Kaufman"	3	Campolindo	false	00:39:53	2024-01-09 22:28:06.819	""	9
+753	"15 - Thomas Berg III"	3	Campolindo	false	00:39:53	2024-01-09 22:28:06.819	""	9
+754	"24 - Sean Parker"	3	Campolindo	false	00:39:53	2024-01-09 22:28:06.819	""	9
+755	"44 - Crosby Kelly"	3	Campolindo	false	00:39:53	2024-01-09 22:28:06.819	""	9
+756	"10 - Rex Pastore"	2	Campolindo	true	00:41:32	2024-01-09 22:30:38.305	""	9
+757	"15 - Thomas Berg III"	2	Campolindo	false	00:41:32	2024-01-09 22:30:38.305	""	9
+758	"20 - Noah Mesfin"	2	Campolindo	false	00:41:32	2024-01-09 22:30:38.305	""	9
+759	"24 - Sean Parker"	2	Campolindo	false	00:41:32	2024-01-09 22:30:38.305	""	9
+760	"25 - Noah Henry"	2	Campolindo	false	00:41:32	2024-01-09 22:30:38.305	""	9
+761	"10 - Rex Pastore"	-3	Foothill	false	00:43:48	2024-01-09 22:34:25.902	"10 - Tyler"	9
+762	"15 - Thomas Berg III"	-3	Foothill	false	00:43:48	2024-01-09 22:34:25.902	"10 - Tyler"	9
+763	"20 - Noah Mesfin"	-3	Foothill	false	00:43:48	2024-01-09 22:34:25.902	"10 - Tyler"	9
+764	"24 - Sean Parker"	-3	Foothill	false	00:43:48	2024-01-09 22:34:25.902	"10 - Tyler"	9
+765	"25 - Noah Henry"	-3	Foothill	false	00:43:48	2024-01-09 22:34:25.902	"10 - Tyler"	9
+766	"10 - Rex Pastore"	-1	Foothill	false	00:44:42	2024-01-09 22:36:00.596	"2 - Isaiah"	9
+767	"15 - Thomas Berg III"	-1	Foothill	false	00:44:42	2024-01-09 22:36:00.596	"2 - Isaiah"	9
+768	"20 - Noah Mesfin"	-1	Foothill	false	00:44:42	2024-01-09 22:36:00.596	"2 - Isaiah"	9
+769	"24 - Sean Parker"	-1	Foothill	false	00:44:42	2024-01-09 22:36:00.596	"2 - Isaiah"	9
+770	"25 - Noah Henry"	-1	Foothill	false	00:44:42	2024-01-09 22:36:00.596	"2 - Isaiah"	9
+771	"3 - Owen Ludwig"	-1	Foothill	false	00:44:59	2024-01-09 22:36:23.543	"2 - Isaiah"	9
+772	"11 - Micah Kaufman"	-1	Foothill	false	00:44:59	2024-01-09 22:36:23.543	"2 - Isaiah"	9
+773	"15 - Thomas Berg III"	-1	Foothill	false	00:44:59	2024-01-09 22:36:23.543	"2 - Isaiah"	9
+774	"20 - Noah Mesfin"	-1	Foothill	false	00:44:59	2024-01-09 22:36:23.543	"2 - Isaiah"	9
+775	"25 - Noah Henry"	-1	Foothill	false	00:44:59	2024-01-09 22:36:23.543	"2 - Isaiah"	9
+776	"3 - Owen Ludwig"	2	Campolindo	false	00:45:28	2024-01-09 22:41:33.832	""	9
+777	"11 - Micah Kaufman"	2	Campolindo	false	00:45:28	2024-01-09 22:41:33.832	""	9
+778	"15 - Thomas Berg III"	2	Campolindo	true	00:45:28	2024-01-09 22:41:33.832	""	9
+779	"20 - Noah Mesfin"	2	Campolindo	false	00:45:28	2024-01-09 22:41:33.832	""	9
+780	"25 - Noah Henry"	2	Campolindo	false	00:45:28	2024-01-09 22:41:33.832	""	9
+781	"3 - Owen Ludwig"	-1	Foothill	false	00:46:13	2024-01-09 22:42:36.946	"10 - Tyler"	9
+782	"11 - Micah Kaufman"	-1	Foothill	false	00:46:13	2024-01-09 22:42:36.946	"10 - Tyler"	9
+783	"15 - Thomas Berg III"	-1	Foothill	false	00:46:13	2024-01-09 22:42:36.946	"10 - Tyler"	9
+784	"20 - Noah Mesfin"	-1	Foothill	false	00:46:13	2024-01-09 22:42:36.946	"10 - Tyler"	9
+785	"25 - Noah Henry"	-1	Foothill	false	00:46:13	2024-01-09 22:42:36.946	"10 - Tyler"	9
+786	"3 - Owen Ludwig"	-1	Foothill	false	00:46:25	2024-01-09 22:43:09.423	"10 - Tyler"	9
+787	"11 - Micah Kaufman"	-1	Foothill	false	00:46:25	2024-01-09 22:43:09.423	"10 - Tyler"	9
+788	"15 - Thomas Berg III"	-1	Foothill	false	00:46:25	2024-01-09 22:43:09.423	"10 - Tyler"	9
+789	"20 - Noah Mesfin"	-1	Foothill	false	00:46:25	2024-01-09 22:43:09.423	"10 - Tyler"	9
+790	"25 - Noah Henry"	-1	Foothill	false	00:46:25	2024-01-09 22:43:09.423	"10 - Tyler"	9
+791	"11 - Micah Kaufman"	1	Campolindo	false	00:04:00	2024-01-09 22:46:52.491	""	9
+792	"15 - Thomas Berg III"	1	Campolindo	false	00:04:00	2024-01-09 22:46:52.491	""	9
+793	"22 - Phin Kofman"	1	Campolindo	false	00:04:00	2024-01-09 22:46:52.491	""	9
+794	"24 - Sean Parker"	1	Campolindo	false	00:04:00	2024-01-09 22:46:52.491	""	9
+795	"25 - Noah Henry"	1	Campolindo	true	00:04:00	2024-01-09 22:46:52.491	""	9
+796	"10 - Rex Pastore"	-2	Foothill	false	00:51:23	2024-01-09 22:52:28.361	"5 - Vidit"	9
+797	"11 - Micah Kaufman"	-2	Foothill	false	00:51:23	2024-01-09 22:52:28.361	"5 - Vidit"	9
+798	"15 - Thomas Berg III"	-2	Foothill	false	00:51:23	2024-01-09 22:52:28.361	"5 - Vidit"	9
+799	"24 - Sean Parker"	-2	Foothill	false	00:51:23	2024-01-09 22:52:28.361	"5 - Vidit"	9
+800	"44 - Crosby Kelly"	-2	Foothill	false	00:51:23	2024-01-09 22:52:28.361	"5 - Vidit"	9
+801	"10 - Rex Pastore"	-2	Foothill	false	00:52:46	2024-01-09 22:54:39.483	"2 - Isaiah"	9
+802	"11 - Micah Kaufman"	-2	Foothill	false	00:52:46	2024-01-09 22:54:39.483	"2 - Isaiah"	9
+803	"15 - Thomas Berg III"	-2	Foothill	false	00:52:46	2024-01-09 22:54:39.483	"2 - Isaiah"	9
+804	"22 - Phin Kofman"	-2	Foothill	false	00:52:46	2024-01-09 22:54:39.483	"2 - Isaiah"	9
+805	"44 - Crosby Kelly"	-2	Foothill	false	00:52:46	2024-01-09 22:54:39.483	"2 - Isaiah"	9
+806	"10 - Rex Pastore"	1	Campolindo	true	00:54:38	2024-01-09 23:20:27.319	""	9
+807	"11 - Micah Kaufman"	1	Campolindo	false	00:54:38	2024-01-09 23:20:27.319	""	9
+808	"15 - Thomas Berg III"	1	Campolindo	false	00:54:38	2024-01-09 23:20:27.319	""	9
+809	"22 - Phin Kofman"	1	Campolindo	false	00:54:38	2024-01-09 23:20:27.319	""	9
+810	"44 - Crosby Kelly"	1	Campolindo	false	00:54:38	2024-01-09 23:20:27.319	""	9
+811	"10 - Rex Pastore"	2	Campolindo	false	00:55:59	2024-01-09 23:41:17.663	""	9
+812	"11 - Micah Kaufman"	2	Campolindo	false	00:55:59	2024-01-09 23:41:17.663	""	9
+813	"15 - Thomas Berg III"	2	Campolindo	false	00:55:59	2024-01-09 23:41:17.663	""	9
+814	"22 - Phin Kofman"	2	Campolindo	false	00:55:59	2024-01-09 23:41:17.663	""	9
+815	"44 - Crosby Kelly"	2	Campolindo	true	00:55:59	2024-01-09 23:41:17.663	""	9
+816	"10 - Rex Pastore"	2	Campolindo	false	00:59:24	2024-01-10 00:08:34.066	""	9
+817	"15 - Thomas Berg III"	2	Campolindo	false	00:59:24	2024-01-10 00:08:34.066	""	9
+818	"22 - Phin Kofman"	2	Campolindo	true	00:59:24	2024-01-10 00:08:34.066	""	9
+819	"24 - Sean Parker"	2	Campolindo	false	00:59:24	2024-01-10 00:08:34.066	""	9
+820	"44 - Crosby Kelly"	2	Campolindo	false	00:59:24	2024-01-10 00:08:34.066	""	9
+821	"10 - Rex Pastore"	-1	Foothill	false	01:00:06	2024-01-10 23:38:51.470	"2 - Isaiah"	9
+822	"11 - Micah Kaufman"	-1	Foothill	false	01:00:06	2024-01-10 23:38:51.470	"2 - Isaiah"	9
+823	"15 - Thomas Berg III"	-1	Foothill	false	01:00:06	2024-01-10 23:38:51.470	"2 - Isaiah"	9
+824	"24 - Sean Parker"	-1	Foothill	false	01:00:06	2024-01-10 23:38:51.470	"2 - Isaiah"	9
+825	"44 - Crosby Kelly"	-1	Foothill	false	01:00:06	2024-01-10 23:38:51.470	"2 - Isaiah"	9
+826	"10 - Rex Pastore"	-1	Foothill	false	01:00:19	2024-01-11 01:23:41.763	"2 - Isaiah"	9
+827	"15 - Thomas Berg III"	-1	Foothill	false	01:00:19	2024-01-11 01:23:41.763	"2 - Isaiah"	9
+828	"22 - Phin Kofman"	-1	Foothill	false	01:00:19	2024-01-11 01:23:41.763	"2 - Isaiah"	9
+829	"24 - Sean Parker"	-1	Foothill	false	01:00:19	2024-01-11 01:23:41.763	"2 - Isaiah"	9
+830	"44 - Crosby Kelly"	-1	Foothill	false	01:00:19	2024-01-11 01:23:41.763	"2 - Isaiah"	9
+831	"10 - Rex Pastore"	-1	Foothill	false	01:01:22	2024-01-11 01:25:05.272	"5 - Vidit"	9
+832	"15 - Thomas Berg III"	-1	Foothill	false	01:01:22	2024-01-11 01:25:05.272	"5 - Vidit"	9
+833	"22 - Phin Kofman"	-1	Foothill	false	01:01:22	2024-01-11 01:25:05.272	"5 - Vidit"	9
+834	"24 - Sean Parker"	-1	Foothill	false	01:01:22	2024-01-11 01:25:05.272	"5 - Vidit"	9
+835	"44 - Crosby Kelly"	-1	Foothill	false	01:01:22	2024-01-11 01:25:05.272	"5 - Vidit"	9
+836	"10 - Rex Pastore"	-1	Foothill	false	01:01:41	2024-01-11 01:25:51.830	"5 - Vidit"	9
+837	"15 - Thomas Berg III"	-1	Foothill	false	01:01:41	2024-01-11 01:25:51.830	"5 - Vidit"	9
+838	"22 - Phin Kofman"	-1	Foothill	false	01:01:41	2024-01-11 01:25:51.830	"5 - Vidit"	9
+839	"24 - Sean Parker"	-1	Foothill	false	01:01:41	2024-01-11 01:25:51.830	"5 - Vidit"	9
+840	"44 - Crosby Kelly"	-1	Foothill	false	01:01:41	2024-01-11 01:25:51.830	"5 - Vidit"	9
+841	"10 - Rex Pastore"	-1	Foothill	false	01:03:29	2024-01-11 01:28:24.044	"10 - Tyler"	9
+842	"15 - Thomas Berg III"	-1	Foothill	false	01:03:29	2024-01-11 01:28:24.044	"10 - Tyler"	9
+843	"22 - Phin Kofman"	-1	Foothill	false	01:03:29	2024-01-11 01:28:24.044	"10 - Tyler"	9
+844	"24 - Sean Parker"	-1	Foothill	false	01:03:29	2024-01-11 01:28:24.044	"10 - Tyler"	9
+845	"44 - Crosby Kelly"	-1	Foothill	false	01:03:29	2024-01-11 01:28:24.044	"10 - Tyler"	9
+846	"10 - Rex Pastore"	-1	Foothill	false	01:03:44	2024-01-11 01:28:56.328	"10 - Tyler"	9
+847	"15 - Thomas Berg III"	-1	Foothill	true	01:03:44	2024-01-11 01:28:56.328	"10 - Tyler"	9
+848	"22 - Phin Kofman"	-1	Foothill	false	01:03:44	2024-01-11 01:28:56.328	"10 - Tyler"	9
+849	"24 - Sean Parker"	-1	Foothill	false	01:03:44	2024-01-11 01:28:56.328	"10 - Tyler"	9
+850	"44 - Crosby Kelly"	-1	Foothill	false	01:03:44	2024-01-11 01:28:56.328	"10 - Tyler"	9
+851	"10 - Rex Pastore"	2	Campolindo	false	01:04:09	2024-01-11 01:29:46.450	""	9
+852	"15 - Thomas Berg III"	2	Campolindo	false	01:04:09	2024-01-11 01:29:46.450	""	9
+853	"22 - Phin Kofman"	2	Campolindo	true	01:04:09	2024-01-11 01:29:46.450	""	9
+854	"24 - Sean Parker"	2	Campolindo	false	01:04:09	2024-01-11 01:29:46.450	""	9
+855	"44 - Crosby Kelly"	2	Campolindo	false	01:04:09	2024-01-11 01:29:46.450	""	9
+856	"10 - Rex Pastore"	-1	Foothill	false	01:08:24	2024-01-11 01:34:52.138	"10 - Tyler"	9
+857	"15 - Thomas Berg III"	-1	Foothill	false	01:08:24	2024-01-11 01:34:52.138	"10 - Tyler"	9
+858	"22 - Phin Kofman"	-1	Foothill	false	01:08:24	2024-01-11 01:34:52.138	"10 - Tyler"	9
+859	"24 - Sean Parker"	-1	Foothill	false	01:08:24	2024-01-11 01:34:52.138	"10 - Tyler"	9
+860	"44 - Crosby Kelly"	-1	Foothill	false	01:08:24	2024-01-11 01:34:52.138	"10 - Tyler"	9
+861	"5 - Luke Hickey"	-2	De La Salle	false	00:02:38	2024-01-11 01:50:32.331	"32 - Davit"	12
+862	"11 - Micah Kaufman"	-2	De La Salle	false	00:02:38	2024-01-11 01:50:32.331	"32 - Davit"	12
+863	"22 - Phin Kofman"	-2	De La Salle	false	00:02:38	2024-01-11 01:50:32.331	"32 - Davit"	12
+864	"20 - Noah Mesfin"	-2	De La Salle	false	00:02:38	2024-01-11 01:50:32.331	"32 - Davit"	12
+865	"25 - Noah Henry"	-2	De La Salle	false	00:02:38	2024-01-11 01:50:32.331	"32 - Davit"	12
+866	"5 - Luke Hickey"	1	Campolindo	false	00:03:14	2024-01-11 01:52:17.588	""	12
+867	"11 - Micah Kaufman"	1	Campolindo	false	00:03:14	2024-01-11 01:52:17.588	""	12
+868	"22 - Phin Kofman"	1	Campolindo	false	00:03:14	2024-01-11 01:52:17.588	""	12
+869	"20 - Noah Mesfin"	1	Campolindo	false	00:03:14	2024-01-11 01:52:17.588	""	12
+870	"25 - Noah Henry"	1	Campolindo	true	00:03:14	2024-01-11 01:52:17.588	""	12
+871	"5 - Luke Hickey"	2	Campolindo	false	00:03:29	2024-01-11 01:53:06.921	""	12
+872	"11 - Micah Kaufman"	2	Campolindo	false	00:03:29	2024-01-11 01:53:06.921	""	12
+873	"22 - Phin Kofman"	2	Campolindo	true	00:03:29	2024-01-11 01:53:06.921	""	12
+874	"20 - Noah Mesfin"	2	Campolindo	false	00:03:29	2024-01-11 01:53:06.921	""	12
+875	"25 - Noah Henry"	2	Campolindo	false	00:03:29	2024-01-11 01:53:06.921	""	12
+876	"5 - Luke Hickey"	2	Campolindo	false	00:05:42	2024-01-11 01:55:41.965	""	12
+877	"11 - Micah Kaufman"	2	Campolindo	false	00:05:42	2024-01-11 01:55:41.965	""	12
+878	"22 - Phin Kofman"	2	Campolindo	true	00:05:42	2024-01-11 01:55:41.965	""	12
+879	"20 - Noah Mesfin"	2	Campolindo	false	00:05:42	2024-01-11 01:55:41.965	""	12
+880	"25 - Noah Henry"	2	Campolindo	false	00:05:42	2024-01-11 01:55:41.965	""	12
+307	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:06:46	2024-01-08 19:12:04.035	"14 - Casqueiro"	13
+308	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:06:46	2024-01-08 19:12:04.035	"14 - Casqueiro"	13
+309	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:06:46	2024-01-08 19:12:04.035	"14 - Casqueiro"	13
+310	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:06:46	2024-01-08 19:12:04.035	"14 - Casqueiro"	13
+311	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:07:55	2024-01-08 19:17:33.858	"11 - Baldwin"	13
+312	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:07:55	2024-01-08 19:17:33.858	"11 - Baldwin"	13
+313	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:07:55	2024-01-08 19:17:33.858	"11 - Baldwin"	13
+314	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:07:55	2024-01-08 19:17:33.858	"11 - Baldwin"	13
+315	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:07:55	2024-01-08 19:17:33.858	"11 - Baldwin"	13
+277	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:01:35	2024-01-08 16:50:32.792	"33 - Wang"	13
+278	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:01:35	2024-01-08 16:50:32.792	"33 - Wang"	13
+279	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:01:35	2024-01-08 16:50:32.792	"33 - Wang"	13
+280	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:01:35	2024-01-08 16:50:32.792	"33 - Wang"	13
+281	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:02:43	2024-01-08 16:52:15.884	"11 - Baldwin"	13
+282	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:02:43	2024-01-08 16:52:15.884	"11 - Baldwin"	13
+283	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:02:43	2024-01-08 16:52:15.884	"11 - Baldwin"	13
+285	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:02:43	2024-01-08 16:52:15.884	"11 - Baldwin"	13
+341	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:08:23	2024-01-08 20:03:00.009	"14 - Casqueiro"	13
+342	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:08:23	2024-01-08 20:03:00.009	"14 - Casqueiro"	13
+343	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:08:23	2024-01-08 20:03:00.009	"14 - Casqueiro"	13
+344	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:08:23	2024-01-08 20:03:00.009	"14 - Casqueiro"	13
+345	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:08:23	2024-01-08 20:03:00.009	"14 - Casqueiro"	13
+346	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:12:00	2024-01-08 20:10:06.684	"33 - Wang"	13
+347	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:12:00	2024-01-08 20:10:06.684	"33 - Wang"	13
+348	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:12:00	2024-01-08 20:10:06.684	"33 - Wang"	13
+349	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:12:00	2024-01-08 20:10:06.684	"33 - Wang"	13
+350	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:12:00	2024-01-08 20:10:06.684	"33 - Wang"	13
+351	"2 - Luca Potts"	-1	Bishop O'Dowd	false	00:13:39	2024-01-08 20:13:04.244	"10 - Lacsamana"	13
+352	"11 - Micah Kaufman"	-1	Bishop O'Dowd	false	00:13:39	2024-01-08 20:13:04.244	"10 - Lacsamana"	13
+353	"24 - Sean Parker"	-1	Bishop O'Dowd	false	00:13:39	2024-01-08 20:13:04.244	"10 - Lacsamana"	13
+354	"25 - Noah Henry"	-1	Bishop O'Dowd	false	00:13:39	2024-01-08 20:13:04.244	"10 - Lacsamana"	13
+355	"40 - Thatcher Grenby"	-1	Bishop O'Dowd	false	00:13:39	2024-01-08 20:13:04.244	"10 - Lacsamana"	13
+356	"2 - Luca Potts"	-1	Bishop O'Dowd	false	00:13:55	2024-01-08 20:13:30.179	"10 - Lacsamana"	13
+357	"11 - Micah Kaufman"	-1	Bishop O'Dowd	false	00:13:55	2024-01-08 20:13:30.179	"10 - Lacsamana"	13
+358	"24 - Sean Parker"	-1	Bishop O'Dowd	false	00:13:55	2024-01-08 20:13:30.179	"10 - Lacsamana"	13
+359	"25 - Noah Henry"	-1	Bishop O'Dowd	false	00:13:55	2024-01-08 20:13:30.179	"10 - Lacsamana"	13
+360	"40 - Thatcher Grenby"	-1	Bishop O'Dowd	false	00:13:55	2024-01-08 20:13:30.179	"10 - Lacsamana"	13
+361	"5 - Luke Hickey"	-3	Bishop O'Dowd	false	00:14:27	2024-01-08 21:07:44.104	"3 - Oke"	13
+362	"10 - Rex Pastore"	-3	Bishop O'Dowd	false	00:14:27	2024-01-08 21:07:44.104	"3 - Oke"	13
+363	"11 - Micah Kaufman"	-3	Bishop O'Dowd	false	00:14:27	2024-01-08 21:07:44.104	"3 - Oke"	13
+364	"24 - Sean Parker"	-3	Bishop O'Dowd	false	00:14:27	2024-01-08 21:07:44.104	"3 - Oke"	13
+365	"44 - Crosby Kelly"	-3	Bishop O'Dowd	false	00:14:27	2024-01-08 21:07:44.104	"3 - Oke"	13
+366	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:14:59	2024-01-08 21:09:07.077	"24 - Montez"	13
+367	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:14:59	2024-01-08 21:09:07.077	"24 - Montez"	13
+368	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:14:59	2024-01-08 21:09:07.077	"24 - Montez"	13
+369	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:14:59	2024-01-08 21:09:07.077	"24 - Montez"	13
+370	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:14:59	2024-01-08 21:09:07.077	"24 - Montez"	13
+396	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:21:25	2024-01-08 21:18:53.849	"24 - Montez"	13
+397	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:21:25	2024-01-08 21:18:53.849	"24 - Montez"	13
+398	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:21:25	2024-01-08 21:18:53.849	"24 - Montez"	13
+399	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:21:25	2024-01-08 21:18:53.849	"24 - Montez"	13
+400	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:21:25	2024-01-08 21:18:53.849	"24 - Montez"	13
+406	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:22:22	2024-01-08 21:20:49.118	"30 - Eddy"	13
+407	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:22:22	2024-01-08 21:20:49.118	"30 - Eddy"	13
+408	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:22:22	2024-01-08 21:20:49.118	"30 - Eddy"	13
+409	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:22:22	2024-01-08 21:20:49.118	"30 - Eddy"	13
+410	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:22:22	2024-01-08 21:20:49.118	"30 - Eddy"	13
+411	"3 - Owen Ludwig"	-1	Bishop O'Dowd	false	00:22:55	2024-01-08 21:22:20.941	"30 - Eddy"	13
+412	"11 - Micah Kaufman"	-1	Bishop O'Dowd	false	00:22:55	2024-01-08 21:22:20.941	"30 - Eddy"	13
+413	"24 - Sean Parker"	-1	Bishop O'Dowd	false	00:22:55	2024-01-08 21:22:20.941	"30 - Eddy"	13
+414	"25 - Noah Henry"	-1	Bishop O'Dowd	false	00:22:55	2024-01-08 21:22:20.941	"30 - Eddy"	13
+415	"40 - Thatcher Grenby"	-1	Bishop O'Dowd	false	00:22:55	2024-01-08 21:22:20.941	"30 - Eddy"	13
+416	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:23:39	2024-01-08 21:23:55.529	"1 - Thome"	13
+417	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:23:39	2024-01-08 21:23:55.529	"1 - Thome"	13
+418	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:23:39	2024-01-08 21:23:55.529	"1 - Thome"	13
+419	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:23:39	2024-01-08 21:23:55.529	"1 - Thome"	13
+420	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:23:39	2024-01-08 21:23:55.529	"1 - Thome"	13
+426	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:24:42	2024-01-08 21:26:05.395	"24 - Montez"	13
+427	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:24:42	2024-01-08 21:26:05.395	"24 - Montez"	13
+428	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:24:42	2024-01-08 21:26:05.395	"24 - Montez"	13
+429	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:24:42	2024-01-08 21:26:05.395	"24 - Montez"	13
+430	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:24:42	2024-01-08 21:26:05.395	"24 - Montez"	13
+436	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:25:28	2024-01-08 21:27:31.777	"33 - Wang"	13
+437	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:25:28	2024-01-08 21:27:31.777	"33 - Wang"	13
+438	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:25:28	2024-01-08 21:27:31.777	"33 - Wang"	13
+439	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:25:28	2024-01-08 21:27:31.777	"33 - Wang"	13
+440	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:25:28	2024-01-08 21:27:31.777	"33 - Wang"	13
+441	"2 - Luca Potts"	-2	Bishop O'Dowd	false	00:26:47	2024-01-08 21:29:48.697	"10 - Lacsamana"	13
+442	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:26:47	2024-01-08 21:29:48.697	"10 - Lacsamana"	13
+443	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:26:47	2024-01-08 21:29:48.697	"10 - Lacsamana"	13
+444	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:26:47	2024-01-08 21:29:48.697	"10 - Lacsamana"	13
+445	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:26:47	2024-01-08 21:29:48.697	"10 - Lacsamana"	13
+446	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:27:47	2024-01-08 21:39:45.738	"33 - Wang"	13
+447	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:27:47	2024-01-08 21:39:45.738	"33 - Wang"	13
+448	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:27:47	2024-01-08 21:39:45.738	"33 - Wang"	13
+449	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:27:47	2024-01-08 21:39:45.738	"33 - Wang"	13
+450	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:27:47	2024-01-08 21:39:45.738	"33 - Wang"	13
+456	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:28:28	2024-01-08 21:46:20.804	"33 - Wang"	13
+457	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:28:28	2024-01-08 21:46:20.804	"33 - Wang"	13
+458	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:28:28	2024-01-08 21:46:20.804	"33 - Wang"	13
+459	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:28:28	2024-01-08 21:46:20.804	"33 - Wang"	13
+460	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:28:28	2024-01-08 21:46:20.804	"33 - Wang"	13
+461	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:29:30	2024-01-08 21:47:49.383	"1 - Thome"	13
+462	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:29:30	2024-01-08 21:47:49.383	"1 - Thome"	13
+463	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:29:30	2024-01-08 21:47:49.383	"1 - Thome"	13
+464	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:29:30	2024-01-08 21:47:49.383	"1 - Thome"	13
+465	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:29:30	2024-01-08 21:47:49.383	"1 - Thome"	13
+481	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:34:40	2024-01-08 21:54:33.758	"1 - Thome"	13
+482	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:34:40	2024-01-08 21:54:33.758	"1 - Thome"	13
+483	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:34:40	2024-01-08 21:54:33.758	"1 - Thome"	13
+484	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:34:40	2024-01-08 21:54:33.758	"1 - Thome"	13
+485	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:34:40	2024-01-08 21:54:33.758	"1 - Thome"	13
+486	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:35:31	2024-01-08 21:55:59.610	"3 - Oke"	13
+487	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:35:31	2024-01-08 21:55:59.610	"3 - Oke"	13
+488	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:35:31	2024-01-08 21:55:59.610	"3 - Oke"	13
+489	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:35:31	2024-01-08 21:55:59.610	"3 - Oke"	13
+490	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:35:31	2024-01-08 21:55:59.610	"3 - Oke"	13
+496	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:36:17	2024-01-08 21:57:24.405	"1 - Thome"	13
+497	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:36:17	2024-01-08 21:57:24.405	"1 - Thome"	13
+498	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:36:17	2024-01-08 21:57:24.405	"1 - Thome"	13
+499	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:36:17	2024-01-08 21:57:24.405	"1 - Thome"	13
+500	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:36:17	2024-01-08 21:57:24.405	"1 - Thome"	13
+506	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:37:28	2024-01-08 22:01:29.219	"30 - Eddy"	13
+507	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:37:28	2024-01-08 22:01:29.219	"30 - Eddy"	13
+508	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:37:28	2024-01-08 22:01:29.219	"30 - Eddy"	13
+509	"25 - Noah Henry"	-2	Bishop O'Dowd	false	00:37:28	2024-01-08 22:01:29.219	"30 - Eddy"	13
+510	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:37:28	2024-01-08 22:01:29.219	"30 - Eddy"	13
+516	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:40:32	2024-01-08 22:06:26.523	"30 - Eddy"	13
+517	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:40:32	2024-01-08 22:06:26.523	"30 - Eddy"	13
+518	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:40:32	2024-01-08 22:06:26.523	"30 - Eddy"	13
+519	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:40:32	2024-01-08 22:06:26.523	"30 - Eddy"	13
+520	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:40:32	2024-01-08 22:06:26.523	"30 - Eddy"	13
+521	"3 - Owen Ludwig"	-2	Bishop O'Dowd	false	00:40:46	2024-01-08 22:07:29.402	"10 - Lacsamana"	13
+522	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:40:46	2024-01-08 22:07:29.402	"10 - Lacsamana"	13
+523	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:40:46	2024-01-08 22:07:29.402	"10 - Lacsamana"	13
+524	"40 - Thatcher Grenby"	-2	Bishop O'Dowd	false	00:40:46	2024-01-08 22:07:29.402	"10 - Lacsamana"	13
+525	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:40:46	2024-01-08 22:07:29.402	"10 - Lacsamana"	13
+541	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:45:58	2024-01-08 22:15:57.406	"30 - Eddy"	13
+542	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:45:58	2024-01-08 22:15:57.406	"30 - Eddy"	13
+543	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:45:58	2024-01-08 22:15:57.406	"30 - Eddy"	13
+544	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:45:58	2024-01-08 22:15:57.406	"30 - Eddy"	13
+545	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:45:58	2024-01-08 22:15:57.406	"30 - Eddy"	13
+551	"5 - Luke Hickey"	-1	Bishop O'Dowd	false	00:48:57	2024-01-08 22:19:23.850	"33 - Wang"	13
+552	"10 - Rex Pastore"	-1	Bishop O'Dowd	false	00:48:57	2024-01-08 22:19:23.850	"33 - Wang"	13
+553	"11 - Micah Kaufman"	-1	Bishop O'Dowd	false	00:48:57	2024-01-08 22:19:23.850	"33 - Wang"	13
+554	"24 - Sean Parker"	-1	Bishop O'Dowd	false	00:48:57	2024-01-08 22:19:23.850	"33 - Wang"	13
+555	"44 - Crosby Kelly"	-1	Bishop O'Dowd	false	00:48:57	2024-01-08 22:19:23.850	"33 - Wang"	13
+556	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:49:37	2024-01-08 22:20:34.511	"11 - Baldwin"	13
+557	"10 - Rex Pastore"	-2	Bishop O'Dowd	false	00:49:37	2024-01-08 22:20:34.511	"11 - Baldwin"	13
+558	"11 - Micah Kaufman"	-2	Bishop O'Dowd	false	00:49:37	2024-01-08 22:20:34.511	"11 - Baldwin"	13
+559	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:49:37	2024-01-08 22:20:34.511	"11 - Baldwin"	13
+560	"44 - Crosby Kelly"	-2	Bishop O'Dowd	false	00:49:37	2024-01-08 22:20:34.511	"11 - Baldwin"	13
+276	"5 - Luke Hickey"	-2	Bishop O'Dowd	false	00:01:35	2024-01-08 16:50:32.792	"33 - Wang"	13
+284	"24 - Sean Parker"	-2	Bishop O'Dowd	false	00:02:43	2024-01-08 16:52:15.884	"11 - Baldwin"	13
+981	"3 - Owen Ludwig"	1	Campolindo	false	00:00:08	2024-09-07 16:32:17.660	""	1
+982	"5 - Luke Hickey"	1	Campolindo	false	00:00:08	2024-09-07 16:32:17.660	""	1
+983	"10 - Rex Pastore"	1	Campolindo	false	00:00:08	2024-09-07 16:32:17.660	""	1
+984	"11 - Micah Kaufman"	1	Campolindo	true	00:00:08	2024-09-07 16:32:17.660	""	1
+985	"2 - Luca Potts"	1	Campolindo	false	00:00:08	2024-09-07 16:32:17.660	""	1
+942	"2 - Luca Potts"	1	Campolindo	false	00:00:01	2024-09-07 16:25:07.538	""	1
+943	"2 - Luca Potts"	1	Campolindo	false	00:00:01	2024-09-07 16:25:07.538	""	1
+944	"2 - Luca Potts"	1	Campolindo	false	00:00:01	2024-09-07 16:25:07.538	""	1
+945	"2 - Luca Potts"	1	Campolindo	false	00:00:01	2024-09-07 16:25:07.538	""	1
+946	"2 - Luca Potts"	2	Campolindo	false	00:00:01	2024-09-07 16:25:17.171	""	1
+947	"2 - Luca Potts"	2	Campolindo	false	00:00:01	2024-09-07 16:25:17.171	""	1
+948	"2 - Luca Potts"	2	Campolindo	false	00:00:01	2024-09-07 16:25:17.171	""	1
+949	"2 - Luca Potts"	2	Campolindo	true	00:00:01	2024-09-07 16:25:17.171	""	1
+950	"2 - Luca Potts"	2	Campolindo	false	00:00:01	2024-09-07 16:25:17.171	""	1
+951	"2 - Luca Potts"	3	Campolindo	false	00:00:01	2024-09-07 16:25:24.872	""	1
+952	"2 - Luca Potts"	3	Campolindo	true	00:00:01	2024-09-07 16:25:24.872	""	1
+953	"2 - Luca Potts"	3	Campolindo	false	00:00:01	2024-09-07 16:25:24.872	""	1
+954	"2 - Luca Potts"	3	Campolindo	false	00:00:01	2024-09-07 16:25:24.872	""	1
+955	"2 - Luca Potts"	3	Campolindo	false	00:00:01	2024-09-07 16:25:24.872	""	1
+956	"3 - Owen Ludwig"	2	Campolindo	false	00:00:00	2024-09-07 16:28:46.709	""	1
+957	"5 - Luke Hickey"	2	Campolindo	false	00:00:00	2024-09-07 16:28:46.709	""	1
+958	"10 - Rex Pastore"	2	Campolindo	true	00:00:00	2024-09-07 16:28:46.709	""	1
+959	"11 - Micah Kaufman"	2	Campolindo	false	00:00:00	2024-09-07 16:28:46.709	""	1
+960	"2 - Luca Potts"	2	Campolindo	false	00:00:00	2024-09-07 16:28:46.709	""	1
+961	"3 - Owen Ludwig"	1	Campolindo	true	00:00:05	2024-09-07 16:28:56.854	""	1
+962	"5 - Luke Hickey"	1	Campolindo	false	00:00:05	2024-09-07 16:28:56.854	""	1
+963	"10 - Rex Pastore"	1	Campolindo	false	00:00:05	2024-09-07 16:28:56.854	""	1
+964	"11 - Micah Kaufman"	1	Campolindo	false	00:00:05	2024-09-07 16:28:56.854	""	1
+965	"2 - Luca Potts"	1	Campolindo	false	00:00:05	2024-09-07 16:28:56.854	""	1
+966	"3 - Owen Ludwig"	-1	Lincoln Stockton Scrimmage	false	00:00:06	2024-09-07 16:29:06.527	"0 - UNKNOWN"	1
+967	"5 - Luke Hickey"	-1	Lincoln Stockton Scrimmage	false	00:00:06	2024-09-07 16:29:06.527	"0 - UNKNOWN"	1
+968	"10 - Rex Pastore"	-1	Lincoln Stockton Scrimmage	false	00:00:06	2024-09-07 16:29:06.527	"0 - UNKNOWN"	1
+969	"11 - Micah Kaufman"	-1	Lincoln Stockton Scrimmage	false	00:00:06	2024-09-07 16:29:06.527	"0 - UNKNOWN"	1
+970	"2 - Luca Potts"	-1	Lincoln Stockton Scrimmage	false	00:00:06	2024-09-07 16:29:06.527	"0 - UNKNOWN"	1
+971	"3 - Owen Ludwig"	-3	Lincoln Stockton Scrimmage	false	00:00:07	2024-09-07 16:31:37.531	"0 - UNKNOWN"	1
+972	"5 - Luke Hickey"	-3	Lincoln Stockton Scrimmage	false	00:00:07	2024-09-07 16:31:37.531	"0 - UNKNOWN"	1
+973	"10 - Rex Pastore"	-3	Lincoln Stockton Scrimmage	false	00:00:07	2024-09-07 16:31:37.531	"0 - UNKNOWN"	1
+974	"11 - Micah Kaufman"	-3	Lincoln Stockton Scrimmage	false	00:00:07	2024-09-07 16:31:37.531	"0 - UNKNOWN"	1
+975	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:07	2024-09-07 16:31:37.531	"0 - UNKNOWN"	1
+976	"3 - Owen Ludwig"	3	Campolindo	false	00:00:07	2024-09-07 16:32:09.007	""	1
+977	"5 - Luke Hickey"	3	Campolindo	false	00:00:07	2024-09-07 16:32:09.007	""	1
+978	"10 - Rex Pastore"	3	Campolindo	false	00:00:07	2024-09-07 16:32:09.007	""	1
+979	"11 - Micah Kaufman"	3	Campolindo	true	00:00:07	2024-09-07 16:32:09.007	""	1
+980	"2 - Luca Potts"	3	Campolindo	false	00:00:07	2024-09-07 16:32:09.007	""	1
+986	"3 - Owen Ludwig"	1	Campolindo	false	00:00:10	2024-09-07 16:32:26.177	""	1
+987	"5 - Luke Hickey"	1	Campolindo	false	00:00:10	2024-09-07 16:32:26.177	""	1
+988	"10 - Rex Pastore"	1	Campolindo	false	00:00:10	2024-09-07 16:32:26.177	""	1
+989	"11 - Micah Kaufman"	1	Campolindo	true	00:00:10	2024-09-07 16:32:26.177	""	1
+990	"2 - Luca Potts"	1	Campolindo	false	00:00:10	2024-09-07 16:32:26.177	""	1
+991	"3 - Owen Ludwig"	-2	Lincoln Stockton Scrimmage	false	00:00:11	2024-09-07 16:32:34.708	"0 - UNKNOWN"	1
+992	"5 - Luke Hickey"	-2	Lincoln Stockton Scrimmage	false	00:00:11	2024-09-07 16:32:34.708	"0 - UNKNOWN"	1
+993	"10 - Rex Pastore"	-2	Lincoln Stockton Scrimmage	false	00:00:11	2024-09-07 16:32:34.708	"0 - UNKNOWN"	1
+994	"11 - Micah Kaufman"	-2	Lincoln Stockton Scrimmage	false	00:00:11	2024-09-07 16:32:34.708	"0 - UNKNOWN"	1
+995	"2 - Luca Potts"	-2	Lincoln Stockton Scrimmage	false	00:00:11	2024-09-07 16:32:34.708	"0 - UNKNOWN"	1
+996	"3 - Owen Ludwig"	2	Campolindo	true	00:00:12	2024-09-07 16:32:42.408	""	1
+997	"5 - Luke Hickey"	2	Campolindo	false	00:00:12	2024-09-07 16:32:42.408	""	1
+998	"10 - Rex Pastore"	2	Campolindo	false	00:00:12	2024-09-07 16:32:42.408	""	1
+999	"11 - Micah Kaufman"	2	Campolindo	false	00:00:12	2024-09-07 16:32:42.408	""	1
+1000	"2 - Luca Potts"	2	Campolindo	false	00:00:12	2024-09-07 16:32:42.408	""	1
+1001	"44 - Crosby Kelly"	2	Campolindo	false	00:00:20	2024-09-07 16:35:48.194	""	1
+1002	"40 - Thatcher Grenby"	2	Campolindo	false	00:00:20	2024-09-07 16:35:48.194	""	1
+1003	"25 - Noah Henry"	2	Campolindo	true	00:00:20	2024-09-07 16:35:48.194	""	1
+1004	"24 - Sean Parker"	2	Campolindo	false	00:00:20	2024-09-07 16:35:48.194	""	1
+1005	"11 - Micah Kaufman"	2	Campolindo	false	00:00:20	2024-09-07 16:35:48.194	""	1
+1006	"44 - Crosby Kelly"	-3	Lincoln Stockton Scrimmage	false	00:00:21	2024-09-07 16:35:59.714	"0 - UNKNOWN"	1
+1007	"40 - Thatcher Grenby"	-3	Lincoln Stockton Scrimmage	false	00:00:21	2024-09-07 16:35:59.714	"0 - UNKNOWN"	1
+1008	"25 - Noah Henry"	-3	Lincoln Stockton Scrimmage	false	00:00:21	2024-09-07 16:35:59.714	"0 - UNKNOWN"	1
+1009	"24 - Sean Parker"	-3	Lincoln Stockton Scrimmage	false	00:00:21	2024-09-07 16:35:59.714	"0 - UNKNOWN"	1
+1010	"11 - Micah Kaufman"	-3	Lincoln Stockton Scrimmage	false	00:00:21	2024-09-07 16:35:59.714	"0 - UNKNOWN"	1
+1011	"2 - Luca Potts"	2	Campolindo	false	00:00:00	2024-09-07 19:56:27.472	""	1
+1012	"3 - Owen Ludwig"	2	Campolindo	true	00:00:00	2024-09-07 19:56:27.472	""	1
+1013	"5 - Luke Hickey"	2	Campolindo	false	00:00:00	2024-09-07 19:56:27.472	""	1
+1014	"10 - Rex Pastore"	2	Campolindo	false	00:00:00	2024-09-07 19:56:27.472	""	1
+1015	"11 - Micah Kaufman"	2	Campolindo	false	00:00:00	2024-09-07 19:56:27.472	""	1
+1016	"2 - Luca Potts"	1	Campolindo	true	00:00:22	2024-09-07 19:56:52.908	""	1
+1017	"3 - Owen Ludwig"	1	Campolindo	false	00:00:22	2024-09-07 19:56:52.908	""	1
+1018	"5 - Luke Hickey"	1	Campolindo	false	00:00:22	2024-09-07 19:56:52.908	""	1
+1019	"10 - Rex Pastore"	1	Campolindo	false	00:00:22	2024-09-07 19:56:52.908	""	1
+1020	"11 - Micah Kaufman"	1	Campolindo	false	00:00:22	2024-09-07 19:56:52.908	""	1
+1021	"2 - Luca Potts"	3	Campolindo	false	00:00:25	2024-09-07 19:56:59.803	""	1
+1022	"3 - Owen Ludwig"	3	Campolindo	false	00:00:25	2024-09-07 19:56:59.803	""	1
+1023	"5 - Luke Hickey"	3	Campolindo	false	00:00:25	2024-09-07 19:56:59.803	""	1
+1024	"10 - Rex Pastore"	3	Campolindo	true	00:00:25	2024-09-07 19:56:59.803	""	1
+1025	"11 - Micah Kaufman"	3	Campolindo	false	00:00:25	2024-09-07 19:56:59.803	""	1
+1026	"2 - Luca Potts"	-2	Lincoln Stockton Scrimmage	false	00:00:27	2024-09-07 19:57:06.957	"0 - UNKNOWN"	1
+1027	"3 - Owen Ludwig"	-2	Lincoln Stockton Scrimmage	false	00:00:27	2024-09-07 19:57:06.957	"0 - UNKNOWN"	1
+1028	"5 - Luke Hickey"	-2	Lincoln Stockton Scrimmage	false	00:00:27	2024-09-07 19:57:06.957	"0 - UNKNOWN"	1
+1029	"10 - Rex Pastore"	-2	Lincoln Stockton Scrimmage	false	00:00:27	2024-09-07 19:57:06.957	"0 - UNKNOWN"	1
+1030	"11 - Micah Kaufman"	-2	Lincoln Stockton Scrimmage	false	00:00:27	2024-09-07 19:57:06.957	"0 - UNKNOWN"	1
+1036	"2 - Luca Potts"	1	Campolindo	false	00:00:00	2024-09-07 20:00:01.813	""	1
+1037	"2 - Luca Potts"	1	Campolindo	false	00:00:00	2024-09-07 20:00:01.813	""	1
+1038	"2 - Luca Potts"	1	Campolindo	true	00:00:00	2024-09-07 20:00:01.813	""	1
+1039	"2 - Luca Potts"	1	Campolindo	false	00:00:00	2024-09-07 20:00:01.813	""	1
+1040	"2 - Luca Potts"	1	Campolindo	false	00:00:00	2024-09-07 20:00:01.813	""	1
+1061	"2 - Luca Potts"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:30.703	"0 - UNKNOWN"	1
+1062	"3 - Owen Ludwig"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:30.703	"0 - UNKNOWN"	1
+1063	"5 - Luke Hickey"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:30.703	"0 - UNKNOWN"	1
+1064	"10 - Rex Pastore"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:30.703	"0 - UNKNOWN"	1
+1065	"11 - Micah Kaufman"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:30.703	"0 - UNKNOWN"	1
+1031	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:00	2024-09-07 19:59:56.584	"0 - UNKNOWN"	1
+1032	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:00	2024-09-07 19:59:56.584	"0 - UNKNOWN"	1
+1033	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:00	2024-09-07 19:59:56.584	"0 - UNKNOWN"	1
+1034	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:00	2024-09-07 19:59:56.584	"0 - UNKNOWN"	1
+1035	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:00	2024-09-07 19:59:56.584	"0 - UNKNOWN"	1
+1041	"2 - Luca Potts"	2	Campolindo	false	00:00:30	2024-09-07 20:02:25.613	""	1
+1042	"3 - Owen Ludwig"	2	Campolindo	true	00:00:30	2024-09-07 20:02:25.613	""	1
+1043	"5 - Luke Hickey"	2	Campolindo	false	00:00:30	2024-09-07 20:02:25.613	""	1
+1044	"10 - Rex Pastore"	2	Campolindo	false	00:00:30	2024-09-07 20:02:25.613	""	1
+1045	"11 - Micah Kaufman"	2	Campolindo	false	00:00:30	2024-09-07 20:02:25.613	""	1
+1046	"2 - Luca Potts"	1	Campolindo	true	00:00:30	2024-09-07 20:02:48.500	""	1
+1047	"3 - Owen Ludwig"	1	Campolindo	false	00:00:30	2024-09-07 20:02:48.500	""	1
+1048	"5 - Luke Hickey"	1	Campolindo	false	00:00:30	2024-09-07 20:02:48.500	""	1
+1049	"10 - Rex Pastore"	1	Campolindo	false	00:00:30	2024-09-07 20:02:48.500	""	1
+1050	"11 - Micah Kaufman"	1	Campolindo	false	00:00:30	2024-09-07 20:02:48.500	""	1
+1051	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:31	2024-09-07 20:03:00.879	"0 - UNKNOWN"	1
+1052	"3 - Owen Ludwig"	-3	Lincoln Stockton Scrimmage	false	00:00:31	2024-09-07 20:03:00.879	"0 - UNKNOWN"	1
+1053	"5 - Luke Hickey"	-3	Lincoln Stockton Scrimmage	false	00:00:31	2024-09-07 20:03:00.879	"0 - UNKNOWN"	1
+1054	"10 - Rex Pastore"	-3	Lincoln Stockton Scrimmage	false	00:00:31	2024-09-07 20:03:00.879	"0 - UNKNOWN"	1
+1055	"11 - Micah Kaufman"	-3	Lincoln Stockton Scrimmage	false	00:00:31	2024-09-07 20:03:00.879	"0 - UNKNOWN"	1
+1056	"2 - Luca Potts"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:27.505	"0 - UNKNOWN"	1
+1057	"3 - Owen Ludwig"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:27.505	"0 - UNKNOWN"	1
+1058	"5 - Luke Hickey"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:27.505	"0 - UNKNOWN"	1
+1059	"10 - Rex Pastore"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:27.505	"0 - UNKNOWN"	1
+1060	"11 - Micah Kaufman"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:27.505	"0 - UNKNOWN"	1
+1071	"2 - Luca Potts"	-1	Lincoln Stockton Scrimmage	false	00:00:33	2024-09-07 20:03:45.081	"0 - UNKNOWN"	1
+1072	"3 - Owen Ludwig"	-1	Lincoln Stockton Scrimmage	false	00:00:33	2024-09-07 20:03:45.081	"0 - UNKNOWN"	1
+1073	"5 - Luke Hickey"	-1	Lincoln Stockton Scrimmage	false	00:00:33	2024-09-07 20:03:45.081	"0 - UNKNOWN"	1
+1074	"10 - Rex Pastore"	-1	Lincoln Stockton Scrimmage	false	00:00:33	2024-09-07 20:03:45.081	"0 - UNKNOWN"	1
+1075	"11 - Micah Kaufman"	-1	Lincoln Stockton Scrimmage	false	00:00:33	2024-09-07 20:03:45.081	"0 - UNKNOWN"	1
+1066	"2 - Luca Potts"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:36.468	"0 - UNKNOWN"	1
+1067	"3 - Owen Ludwig"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:36.468	"0 - UNKNOWN"	1
+1068	"5 - Luke Hickey"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:36.468	"0 - UNKNOWN"	1
+1069	"10 - Rex Pastore"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:36.468	"0 - UNKNOWN"	1
+1070	"11 - Micah Kaufman"	-1	Lincoln Stockton Scrimmage	false	00:00:32	2024-09-07 20:03:36.468	"0 - UNKNOWN"	1
+1076	"2 - Luca Potts"	1	Campolindo	false	00:00:40	2024-09-07 20:32:00.848	""	1
+1077	"3 - Owen Ludwig"	1	Campolindo	false	00:00:40	2024-09-07 20:32:00.848	""	1
+1078	"5 - Luke Hickey"	1	Campolindo	false	00:00:40	2024-09-07 20:32:00.848	""	1
+1079	"11 - Micah Kaufman"	1	Campolindo	true	00:00:40	2024-09-07 20:32:00.848	""	1
+1080	"10 - Rex Pastore"	1	Campolindo	false	00:00:40	2024-09-07 20:32:00.848	""	1
+941	"2 - Luca Potts"	1	Campolindo	false	00:00:01	2024-09-07 16:25:07.538	""	1
+1081	"2 - Luca Potts"	-3	Lincoln Stockton Scrimmage	false	00:00:41	2024-09-07 20:37:15.688	"0 - UNKNOWN"	1
+1082	"3 - Owen Ludwig"	-3	Lincoln Stockton Scrimmage	false	00:00:41	2024-09-07 20:37:15.688	"0 - UNKNOWN"	1
+1083	"5 - Luke Hickey"	-3	Lincoln Stockton Scrimmage	false	00:00:41	2024-09-07 20:37:15.688	"0 - UNKNOWN"	1
+1084	"11 - Micah Kaufman"	-3	Lincoln Stockton Scrimmage	false	00:00:41	2024-09-07 20:37:15.688	"0 - UNKNOWN"	1
+1085	"10 - Rex Pastore"	-3	Lincoln Stockton Scrimmage	false	00:00:41	2024-09-07 20:37:15.688	"0 - UNKNOWN"	1
+1086	"2 - Luca Potts"	-2	Lincoln Stockton Scrimmage	false	00:00:43	2024-09-07 20:37:57.787	"0 - UNKNOWN"	1
+1087	"3 - Owen Ludwig"	-2	Lincoln Stockton Scrimmage	false	00:00:43	2024-09-07 20:37:57.787	"0 - UNKNOWN"	1
+1088	"5 - Luke Hickey"	-2	Lincoln Stockton Scrimmage	false	00:00:43	2024-09-07 20:37:57.787	"0 - UNKNOWN"	1
+1089	"10 - Rex Pastore"	-2	Lincoln Stockton Scrimmage	false	00:00:43	2024-09-07 20:37:57.787	"0 - UNKNOWN"	1
+1090	"11 - Micah Kaufman"	-2	Lincoln Stockton Scrimmage	false	00:00:43	2024-09-07 20:37:57.787	"0 - UNKNOWN"	1

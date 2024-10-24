@@ -1,0 +1,30 @@
+"schedule_id"	"game_num"	"opponent"	"game_date"	"day_of_week"	"game_time"	"tournament"	"game_location"	"team_score"	"opp_score"	"win_loss"	"league_game"	"season"	"team_level"	"team_win"	"team_id"
+1	1	Lincoln Stockton Scrimmage	2023-11-11	Saturday	12:00:00	""	Campolindo				false	"23-24"	JV	false	1
+2	2	Redwood Scrimmage	2023-11-18	Saturday	11:00:00	""	Campolindo				false	"23-24"	JV	false	1
+4	4	Vanden	2023-11-28	Tuesday	18:00:00	""	Vanden	46	64		false	"23-24"	JV	false	1
+5	5	Dublin	2023-11-30	Thursday	16:00:00	John Rhodes	Acalanes	46	54		false	"23-24"	JV	false	1
+6	6	Berkeley	2023-12-01	Friday	16:00:00	John Rhodes	Acalanes	55	61		false	"23-24"	JV	false	1
+7	7	Piedmont	2023-12-02	Saturday	10:00:00	John Rhodes	Acalanes	72	32		false	"23-24"	JV	true	1
+8	8	Piedmont	2023-12-05	Tuesday	18:00:00	""	Campolindo	76	34		false	"23-24"	JV	true	1
+9	9	Foothill	2023-12-07	Thursday	15:30:00	Stonebarger	Liberty HS	52	54		false	"23-24"	JV	false	1
+10	10	Cornerstone	2023-12-08	Friday	15:30:00	Stonebarger	Liberty HS	63	18		false	"23-24"	JV	true	1
+11	11	Enochs	2023-12-09	Saturday	11:30:00	Stonebarger	Liberty HS	58	26		false	"23-24"	JV	true	1
+12	12	De La Salle	2023-12-16	Saturday	14:30:00	""	De La Salle	47	53		false	"23-24"	JV	false	1
+14	14	St. Ignatius	2023-12-29	Friday	18:00:00	JV Gold Holiday	Dougherty Valley	51	58		false	"23-24"	JV	false	1
+15	15	Las Lomas	2023-12-30	Saturday	18:00:00	JV Gold Holiday	Dougherty Valley	62	55		false	"23-24"	JV	true	1
+17	17	Palo Alto	2024-01-06	Saturday 	13:30:00	""	Campolindo				false	"23-24"	JV	false	1
+18	18	Berean Christian	2023-12-12	Tuesday	18:00:00	""	Campolindo	73	26		true	"23-24"	JV	true	1
+19	19	College Park	2023-12-21	Thursday	18:00:00	""	College Park	49	51		true	"23-24"	JV	false	1
+20	20	Concord	2024-01-09	Tuesday	18:00:00	""	Campolindo				true	"23-24"	JV	false	1
+21	21	Clayton Valley	2024-01-11	Thursday	18:00:00	""	Clayton Valley				true	"23-24"	JV	false	1
+22	22	Mt. Diablo	2024-01-13	Saturday	17:30:00	""	Mt. Diablo				true	"23-24"	JV	false	1
+23	23	Acalanes	2024-01-19	Friday	18:00:00	""	Campolindo				true	"23-24"	JV	false	1
+24	24	Benicia	2024-01-22	Monday	18:00:00	""	Campolindo				true	"23-24"	JV	false	1
+25	25	Alhambra	2024-01-24	Wednesday	18:00:00	""	Alhambra				true	"23-24"	JV	false	1
+26	26	Miramonte	2024-01-26	Friday	18:00:00	""	Miramonte				true	"23-24"	JV	false	1
+27	27	Las Lomas	2024-01-29	Monday	18:00:00	""	Campolindo				true	"23-24"	JV	false	1
+28	28	Ygnacio Valley 	2024-01-31	Wednesday	17:30:00	""	Ygnacio Valley				true	"23-24"	JV	false	1
+29	29	Northgate	2024-02-02	Friday	18:00:00	""	Campolindo				true	"23-24"	JV	false	1
+13	13	Bishop O'Dowd	2023-12-28	Thursday	15:00:00	JV Gold Holiday	Dougherty Valley	58	55		false	"23-24"	JV	true	1
+16	16	St. Mary's	2024-01-04	Thursday	18:00:00	""	St. Mary's Stockton				false	"23-24"	JV	false	1
+3	3	St. Patrick / St. Vincent	2023-11-21	Tuesday	17:30:00	""	Campolindo				false	"23-24"	JV	true	1
